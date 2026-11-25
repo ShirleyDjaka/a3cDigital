@@ -1,0 +1,179 @@
+# Plan de refonte — a3cdigital.com
+
+> Version du 25/11/2026. Données : crawl du site, API WordPress, SE Ranking (base FR).
+
+## 0. Cadre
+
+- **Nature du site** : média éditorial national, monétisé par des articles sponsorisés. La société A3C Digital n'existe plus ; le domaine est conservé pour son ancienneté (liens depuis 2018).
+- **Cibles** : entrepreneurs, professionnels de santé, professions juridiques.
+- **Pas de SEO local** pour le média. Le local reste un argument de vente pour les annonceurs (articles géolocalisés).
+- **Partenariats** : liens en `rel="sponsored"` et mention « Partenariat » (conformité Google et obligation légale d'identifier la publicité). Conséquence : on vend de la visibilité et du trafic qualifié, pas du « jus SEO ». Il faut donc d'abord du trafic : monétisation réaliste à 4–6 mois.
+- **Éditeur légal** : à nommer dans les mentions légales (personne physique ou agence actuelle). C'est aussi l'entité qui facture les partenariats, avec des CGV.
+
+## 1. État des lieux (25/11/2026)
+
+| Indicateur | Valeur |
+|---|---|
+| Trafic organique FR | ~20 visites/mois, dont ~75 % sur le sous-domaine client drdanvelea.a3cdigital.com ; ~2 visites/mois sur le blog |
+| Mots-clés positionnés | 138 |
+| Contenus | 25 articles et 4 pages ; dernière publication le 10/06/2025 |
+| Stack | WordPress, thème « outdoor », Elementor Pro, Redux, Rank Math, era-magazine, top-10 |
+| Poids de la home | 30 scripts, 22 CSS, Lato en 10 graisses plus Poppins ; temps de réponse ~1,1 s |
+| Backlinks | 286 domaines référents, dont ~210 de spam apparus entre le 27/10 et le 15/11/2026 |
+| Pages légales | `/mentions-legales/` et `/contact/` en 404 |
+| Comptes WP | `shirleydjaka` et `SupportYoozeo` (auteur de 17 articles). Les identifiants sont exposés publiquement par `/wp-json/wp/v2/users` |
+
+### Liens sortants commerciaux (tous en dofollow, aucun signalé)
+
+| Article | Lien | À qualifier |
+|---|---|---|
+| succession-…-debarras-immobilier | m-p-debarras.fr | Payant ? Si oui : sponsored + mention |
+| dentiste-a-montpellier-… | dr-sandor-lucas.chirurgiens-dentistes.fr | Client ? |
+| creer-un-site-web-…-montpellier | djaka.fr | Votre agence : lien de réseau |
+| choisir-une-agence-web-…-wordpress | djaka.fr | Votre agence : lien de réseau |
+| comment-les-vignobles-… / domaine-viticole-… | tbweb.fr | Payant ? |
+| communication-digitale-sante-… / choisir-une-agence-de-communication-sante-… | site-web-medecins.fr (Doctoweb) | Payant ou réseau ? |
+| allier-communication-…-notariale / les-avantages-…-avocats | site-avocat-notaire.fr (E-Juriste) | Payant ou réseau ? |
+
+Règle : un lien **payé** (argent, échange, service) passe en `sponsored`. Un lien vers vos propres sites peut rester en dofollow s'il est éditorialement justifié et peu fréquent. Sinon, `nofollow`.
+
+### Backlinks à protéger (anciens sites clients, thématiquement parfaits)
+
+Ces liens sont des crédits en pied de page d'anciens sites clients : ancres du type « a3cdigital, agence de création de sites web ».
+
+| Domaine | Liens | Thème |
+|---|---|---|
+| lair-marchais-noisy-le-grand.notaires.fr | 278 (crédit sur toutes les pages) | Juridique |
+| investir-expatrie.com / investirpatrimoine.fr | 51 / 51 | Patrimoine |
+| pma-avignon.fr / inovie-fertilite.fr | 24 / 1 | Santé |
+| realpromotion.fr, projetude.fr, aef-montpellier.fr, asmillenaire.com, vols-montgolfieres.fr | 1–17 | Divers |
+| trustburn.com (DIR 84), yoozeo.fr, dr-dan-velea.fr | — | — |
+
+Ces liens pointent vers la home (http et https) : **les redirections http→https doivent rester en un seul saut.** Option : contacter ces clients pour transformer le crédit « agence » en lien éditorial vers le média.
+
+## 2. Diagnostic priorisé
+
+| Priorité | Problème | Action |
+|---|---|---|
+| P0 | Liens commerciaux non signalés (cf. tableau) | Qualifier, puis `sponsored` + mention |
+| P0 | Mentions légales et contact en 404 | Créer |
+| P0 | « Entreprenriat » dans la meta description de la home, « Read More » en anglais | Corriger |
+| P0 | Comptes WP exposés, compte prestataire `SupportYoozeo` actif | Désactiver ou réattribuer ; bloquer l'énumération des utilisateurs |
+| P1 | Promesse floue, menu de 10 catégories | 3 rubriques par audience |
+| P1 | Aucun parcours annonceur | Page `/partenariats/` et media kit |
+| P1 | Pas de publication depuis juin 2025 | 2 articles/semaine |
+| P1 | Pas d'auteurs, sujets santé et juridique sensibles pour Google | Pages auteur, bio, date de mise à jour |
+| P2 | 12 articles sur 25 sans aucun H2 (intertitres en gras) | Restructurer |
+| P2 | URLs `/business-N/`, `/entrepreneuriat-N/` | Renommer (cf. `seo/redirections.csv`) |
+| P2 | Doublons de sujets (soft skills / compétences ; travailler avant / se former avant) | Fusionner |
+| P2 | Vague de spam en backlinks | `seo/disavow.txt` |
+| P2 | Lourdeur Elementor | Reconstruction légère |
+| P3 | Pages `/business/`, `/marketing/`, `/entreprenariat/` en doublon des catégories | Supprimer + 301 |
+
+## 3. Arborescence cible
+
+```
+Accueil  /
+├── Entrepreneurs                /entrepreneurs/
+│   ├── Créer son entreprise           /entrepreneurs/creer-son-entreprise/
+│   ├── Financer & investir            /entrepreneurs/financer-investir/
+│   ├── Obligations & juridique        /entrepreneurs/obligations-juridique/
+│   └── Marketing & visibilité         /entrepreneurs/marketing-visibilite/
+├── Professionnels de santé      /sante/
+│   ├── Installation & gestion du cabinet
+│   ├── Communication & déontologie
+│   ├── Visibilité en ligne
+│   └── Outils numériques
+├── Professions juridiques       /juridique/
+│   ├── Développer son cabinet
+│   ├── Communication & déontologie
+│   └── Legaltech & outils
+├── Guides                       /guides/
+├── Publier sur A3C Digital      /partenariats/  (+ /partenariats/media-kit/)
+├── Charte éditoriale            /charte-editoriale/
+├── À propos                     /a-propos/  (+ /auteur/<prenom-nom>/)
+├── Newsletter                   /newsletter/
+├── Contact                      /contact/
+└── Légal                        /mentions-legales/ /confidentialite/ /cgv-partenariats/ /cookies/
+```
+
+Règles :
+- Les articles restent à la racine (`/slug/`).
+- Pas de préfixe `/category/`.
+- Étiquettes en noindex.
+- Pages auteur indexées seulement si la bio est complète.
+- Santé : gestion et communication du cabinet uniquement, jamais de conseil médical.
+
+Menu : `Entrepreneurs · Santé · Juridique · Guides · Recherche · [Publier un article]`.
+
+## 4. Page d'accueil (wireframe)
+
+- **Title** : « A3C Digital – Média business : entrepreneurs, santé & juridique »
+- **Meta description** : « Guides pratiques pour entrepreneurs, professionnels de santé et juristes : création, obligations légales, marketing et visibilité en ligne. »
+
+1. **Header** compact et fixe : logo, menu, bouton à contour « Publier un article ».
+2. **Hero**
+   - H1 : « Le média qui aide entrepreneurs, soignants et juristes à développer leur activité »
+   - Sous-titre : « Guides pratiques, obligations légales décryptées, marketing compatible avec votre déontologie. Gratuit, sans jargon, mis à jour régulièrement. »
+   - 3 tuiles : « Je suis entrepreneur → », « Je suis professionnel de santé → », « Je suis avocat, notaire ou juriste → »
+   - Recherche : « Ex. : statut juridique, avis Google, communication avocat… »
+3. **À la une** : 1 grand article et 3 petits. Chaque carte affiche badge d'audience, titre, temps de lecture et date de mise à jour ; elle est entièrement cliquable.
+4. **3 blocs audience**
+   - « Entrepreneurs : créer, financer, se faire connaître »
+   - « Santé : faire grandir son cabinet dans les règles »
+   - « Juridique : attirer des clients sans enfreindre sa déontologie »
+5. **Guides essentiels** : statut juridique 2026, SEO santé autorisé, communication avocats (RIN), obligations légales d'un site pro.
+6. **Pourquoi nous lire** : « Rédigé par des praticiens », « Sources citées, dates de mise à jour affichées », « Partenariats toujours signalés ». Chiffres d'audience réels uniquement, au-delà de 1 000.
+7. **Newsletter** : « Un e-mail tous les 15 jours. 3 articles utiles. Zéro spam. » Choix de l'audience.
+8. **Annonceurs** : « Vous voulez toucher entrepreneurs, soignants et juristes ? » Boutons « Découvrir les offres » et « Télécharger le media kit ».
+9. **FAQ** (balisage FAQPage) : qui écrit, partenariats, proposer un article, fréquence.
+10. **Footer** : à propos, charte, media kit, contact, pages légales.
+
+**Page `/partenariats/`**
+- Hero : « Faites connaître votre marque auprès de pros qui décident »
+- Audience : chiffres réels.
+- 3 formats : article rédigé par la rédaction, article fourni puis relu, mention dans un article existant.
+- Règles : sponsored, mention, 2 liens maximum ; thématiques refusées (médicaments, jeux d'argent, crypto, CBD, adulte).
+- Processus en 4 étapes, tarifs « à partir de », formulaire avec paiement, FAQ.
+- Maximum 1 article sponsorisé sur 4 publications.
+
+## 5. Direction artistique
+
+- **Ambiance** : média éditorial professionnel, sobre et chaleureux.
+- **Couleurs** : encre `#1B2333`, fond `#FAF8F4`, filets `#E6E2DA`. Par audience : Entrepreneurs `#B5651D`, Santé `#2F7D6D`, Juridique `#7A2E3A`, pour badges et filets uniquement. Contraste AA (4,5:1).
+- **Typographie** : titres en Fraunces ou Source Serif 4, texte en Inter 18–19 px, interligne 1,6, 65–75 caractères par ligne. Polices hébergées sur le site, 2 familles maximum.
+- **Visuels** : pas de photos de banque d'images génériques. Photos en bichromie ou illustrations cohérentes, format 16:9, moins de 120 Ko.
+- **Gabarit d'article** : fil d'Ariane → H1 → auteur, date de mise à jour, temps de lecture → bandeau « Partenariat » si besoin → « L'essentiel en 30 secondes » → sommaire → H2 tous les ~300 mots → newsletter à mi-article → sources → bio → 3 articles liés → « Vous êtes une marque ? ».
+- **Mobile** : menu à tuiles, barre de progression, sommaire repliable, zones tactiles de 48 px, aucune pop-up à l'arrivée. LCP < 2 s, CLS < 0,1, INP < 200 ms.
+- **CTA** : pour le lecteur, la newsletter en principal. Pour l'annonceur, un bouton plein sur `/partenariats/` et un bouton à contour dans le header.
+
+## 6. Migration SEO
+
+- **Redirections** : `seo/redirections.csv`. Une seule 301 par adresse, vers l'équivalent le plus proche, jamais tout vers la home. Liens internes mis à jour en base.
+- **Sous-domaines** :
+  - drdanvelea.a3cdigital.com et drdanvelea2 : **301 page par page vers dr-dan-velea.fr**, qui existe (il fait déjà des liens vers vous depuis mars 2026), à maintenir au moins 12 mois. Jamais vers a3cdigital.com.
+  - Retirer ensuite les propriétés de Search Console.
+  - Une baisse d'environ 75 % des métriques SE Ranking est attendue et normale.
+- **Désaveu** : `seo/disavow.txt` (vague de spam d'octobre-novembre 2026). C'est une assurance : Google ignore déjà l'essentiel de ces liens.
+- **On-page** : title ≤ 60 caractères, meta 140–155 caractères, un H1, des H2 structurés. Données structurées : Organization, WebSite, Article + Person, BreadcrumbList, FAQPage sur les guides.
+- **Maillage** : article → rubrique + 1 guide pilier + 2 articles proches, et ponts entre rubriques.
+- **Jour J** :
+  - retirer le noindex ;
+  - tester toutes les anciennes adresses (301 → 200) ;
+  - vérifier `http://` et `http://www` → `https://a3cdigital.com/` en un seul saut ;
+  - soumettre le sitemap.
+- **J+1 à J+60** : suivi hebdomadaire des 404 dans Search Console, des positions et des Core Web Vitals.
+
+## 7. Planning
+
+| Période | Livrables |
+|---|---|
+| Semaine 0 | P0 sur le site actuel |
+| S1–S2 | Mots-clés par rubrique (30–50 sujets), charte, offres, CGV |
+| S3–S5 | Maquettes et intégration en préproduction |
+| S6 | Migration, réécritures, fusions, pages légales |
+| S7 | Mise en ligne |
+| M2–M6 | 2 articles/semaine (dont 4–6 guides piliers d'abord), newsletter |
+| M4–M6 | Ouverture de l'offre partenaires, inscription sur Getfluence, Paper Club et RocketLinks |
+
+**Indicateurs** : trafic organique, mots-clés en top 10, abonnés à la newsletter, demandes de partenariat.
