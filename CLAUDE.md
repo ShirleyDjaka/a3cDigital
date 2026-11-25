@@ -25,6 +25,16 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
   - des liens vers sa rubrique, un guide pilier et 2 articles proches.
 - **Partenariats** : étiquette `partenariat`, bandeau « Partenariat », `rel="sponsored"` sur les liens de l'annonceur, 2 liens maximum, au plus 1 article sponsorisé sur 4 publications.
 - Thématiques refusées en partenariat : médicaments et dispositifs médicaux, jeux d'argent, crypto, CBD, adulte.
+- **Liens vers les marques de l'éditrice** (djaka.fr, site-web-medecins.fr / Doctoweb, site-avocat-notaire.fr / E-Juriste) :
+  - en dofollow, au plus 1 par article, et seulement si le sujet s'y prête ;
+  - ancre de marque ou d'URL de préférence ;
+  - mention « X est une marque de l'éditrice du site » ;
+  - jamais dans le menu, le pied de page ou la barre latérale.
+- **Liens clients** :
+  - client interviewé ou cité comme expert sans paiement lié : dofollow ;
+  - article inclus dans une prestation payée : `sponsored` et étiquette `partenariat`.
+- Au moins 50 % des articles ne contiennent aucun lien commercial. Consigner chaque lien commercial dans `seo/liens-commerciaux.csv`.
+- Ne jamais donner à un lien partenaire le statut de seul lien sortant d'un article : citer aussi des sources neutres.
 - Ne jamais inventer de chiffres d'audience, de témoignages ou de logos clients.
 
 ## Conventions d'URL

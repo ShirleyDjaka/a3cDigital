@@ -170,7 +170,30 @@ Menu : `Entrepreneurs · Santé · Juridique · Guides · Recherche · [Publier 
   - soumettre le sitemap.
 - **J+1 à J+60** : suivi hebdomadaire des 404 dans Search Console, des positions et des Core Web Vitals.
 
-## 7. Planning
+## 7. Liens vers les marques de l'éditrice et ses clients
+
+Objectif : servir **Djaka** (djaka.fr), **Doctoweb** (site-web-medecins.fr), **E-Juriste** (site-avocat-notaire.fr) et les clients de l'agence, sans que le média ressemble à un réseau de sites satellites. Si Google le classait ainsi, il dévaluerait tous les liens sortants, y compris ceux vendus aux annonceurs.
+
+### Ce que dit Google (règles sur le spam de liens)
+- Un lien vers ses **propres marques** est acceptable s'il est éditorialement justifié et occasionnel. Doctoweb et E-Juriste sont parfaitement dans la thématique : c'est un atout.
+- Un lien donné **en contrepartie d'un paiement**, y compris s'il est inclus dans une prestation SEO facturée au client, est un lien payant. Il doit être en `rel="sponsored"`. Le passer en dofollow est un risque assumé par l'éditrice : en cas de détection, sanction manuelle possible sur a3cdigital.com et liens sortants dévalués.
+
+### Règles retenues
+| Type de lien | Attribut | Conditions |
+|---|---|---|
+| Marques de l'éditrice (Djaka, Doctoweb, E-Juriste) | dofollow | 1 lien par article au plus ; uniquement si le sujet s'y prête ; ancre de marque ou d'URL dans au moins 70 % des cas ; jamais dans le menu, le pied de page ou la barre latérale |
+| Client interviewé ou cité comme expert, sans paiement lié à l'article | dofollow | Vraie interview ou tribune signée ; lien dans la bio de l'expert ou dans le texte |
+| Client dont l'article est inclus dans une prestation payée | `sponsored` (recommandé) | Même traitement qu'un annonceur : étiquette `partenariat` |
+| Annonceur tiers | `sponsored` | Cf. charte partenariats |
+
+### Garde-fous
+- **Au moins 50 % des articles ne contiennent aucun lien commercial** (ni marque, ni client, ni annonceur). C'est ce qui fait de a3cdigital.com un média et non un réseau de liens.
+- Varier les pages cibles chez les marques : articles de blog, guides, pages services. Ne pas pointer toujours vers la même page commerciale.
+- Pas d'échange de liens systématique entre a3cdigital.com et les sites des marques.
+- **Transparence** : page « À propos » indiquant que l'éditrice dirige Djaka, Doctoweb et E-Juriste. Mention courte dans les articles concernés : « Doctoweb est une marque de l'éditrice du site. » Cela vous protège aussi juridiquement : un contenu promotionnel présenté comme neutre peut être qualifié de pratique commerciale trompeuse (article L121-1 du code de la consommation).
+- Suivi dans `seo/liens-commerciaux.csv` (article, cible, type, attribut, date) pour contrôler les ratios.
+
+## 8. Planning
 
 | Période | Livrables |
 |---|---|
