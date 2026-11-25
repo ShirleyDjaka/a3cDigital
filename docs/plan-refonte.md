@@ -31,6 +31,9 @@
 - Home : title Rank Math « Média pour entrepreneurs, santé & juridique | A3C Digital » et meta description réécrite.
 - Contact Form 7 installé ; pages publiées : `/mentions-legales/` (éditeur Djaka), `/politique-de-confidentialite/`, `/contact/` (sources dans `contenus/pages/`, publication via `scripts/wp_publish_page.py`).
 - Pied de page Elementor (modèle 144) : liens Mentions légales · Confidentialité · Contact (sauvegarde : `backups/2026-11-25-pied-de-page-elementor-data.json`).
+- Compte `SupportYoozeo` (e-mail support@djaka.fr) supprimé, ses 17 articles réattribués à `shirleyDjaka`. One Click Demo Import désactivé.
+- Commentaires conservés (ouverts). Antispam Bee 2.11.13 installé. Pings et trackbacks fermés (réglage par défaut et 25 articles existants).
+- Les réglages de SG Security ne se pilotent pas par l'API (erreurs 500 sur disable-xml-rpc et hide-wp-version, sans impact sur le site) : à faire dans l'interface.
 - **Reste à faire à la main** : coller le formulaire de `contenus/formulaires/contact-cf7.md` dans Contact Form 7, car son API ne sauvegarde pas.
 - Point à vérifier : les polices Google sont chargées depuis fonts.googleapis.com (transfert d'IP vers Google). À héberger sur le site lors de la refonte.
 
