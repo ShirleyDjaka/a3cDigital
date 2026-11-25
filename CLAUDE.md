@@ -30,9 +30,13 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
   - ancre de marque ou d'URL de préférence ;
   - mention « X est une marque de l'éditrice du site » ;
   - jamais dans le menu, le pied de page ou la barre latérale.
-- **Liens clients** :
-  - client interviewé ou cité comme expert sans paiement lié : dofollow ;
-  - article inclus dans une prestation payée : `sponsored` et étiquette `partenariat`.
+- **Liens clients de l'agence** : dofollow, sans mention (décision de l'éditrice du 25/11/2026). Pour que l'article reste réellement éditorial :
+  - l'article doit être utile sans le lien : guide, cas pratique ou interview d'expert, jamais une présentation commerciale du client ;
+  - pas de ton promotionnel ni de formule « nous vous recommandons X » ;
+  - le lien client est l'une des sources de l'article, à côté de sources neutres ou officielles ;
+  - ancres variées : nom, marque, URL ou ancre descriptive ; jamais deux fois la même ancre optimisée pour un même client ;
+  - au plus 1 client par article ;
+  - ces articles ne sont jamais proposés sur des plateformes de vente de liens.
 - Au moins 50 % des articles ne contiennent aucun lien commercial. Consigner chaque lien commercial dans `seo/liens-commerciaux.csv`.
 - Ne jamais donner à un lien partenaire le statut de seul lien sortant d'un article : citer aussi des sources neutres.
 - Ne jamais inventer de chiffres d'audience, de témoignages ou de logos clients.

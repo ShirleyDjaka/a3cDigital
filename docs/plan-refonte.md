@@ -182,8 +182,7 @@ Objectif : servir **Djaka** (djaka.fr), **Doctoweb** (site-web-medecins.fr), **E
 | Type de lien | Attribut | Conditions |
 |---|---|---|
 | Marques de l'éditrice (Djaka, Doctoweb, E-Juriste) | dofollow | 1 lien par article au plus ; uniquement si le sujet s'y prête ; ancre de marque ou d'URL dans au moins 70 % des cas ; jamais dans le menu, le pied de page ou la barre latérale |
-| Client interviewé ou cité comme expert, sans paiement lié à l'article | dofollow | Vraie interview ou tribune signée ; lien dans la bio de l'expert ou dans le texte |
-| Client dont l'article est inclus dans une prestation payée | `sponsored` (recommandé) | Même traitement qu'un annonceur : étiquette `partenariat` |
+| Client de l'agence (interview, cas pratique, citation d'expert, y compris dans une prestation SEO) | dofollow, sans mention | **Décision de l'éditrice du 25/11/2026.** L'article doit rester éditorial : utile sans le lien, pas de ton promotionnel, 1 client par article, sources neutres à côté, ancres variées, jamais proposé sur une plateforme |
 | Annonceur tiers | `sponsored` | Cf. charte partenariats |
 
 ### Garde-fous
