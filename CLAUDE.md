@@ -23,7 +23,11 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
   - une date de mise à jour et un auteur réel ;
   - un title ≤ 60 caractères et une meta description de 140–155 caractères ;
   - des liens vers sa rubrique, un guide pilier et 2 articles proches.
-- **Partenariats** : étiquette `partenariat`, bandeau « Partenariat », `rel="sponsored"` sur les liens de l'annonceur, 2 liens maximum, au plus 1 article sponsorisé sur 4 publications.
+- **Annonceurs extérieurs (articles vendus)** : liens en **dofollow** (décision de l'éditrice du 25/11/2026).
+  - Étiquette `partenariat` et mention discrète « Contenu partenaire » en haut de l'article : c'est l'obligation légale d'identifier la publicité (LCEN art. 20), indépendante de l'attribut du lien.
+  - 2 liens maximum, ancres naturelles (marque, URL, descriptive ; pas d'ancre exacte commerciale répétée).
+  - Annonceur et sujet en rapport avec les 3 audiences : refuser les sujets hors thématique.
+  - Au plus 1 article partenaire sur 4 publications.
 - Thématiques refusées en partenariat : médicaments et dispositifs médicaux, jeux d'argent, crypto, CBD, adulte.
 - **Liens vers les marques de l'éditrice** (djaka.fr, site-web-medecins.fr / Doctoweb, site-avocat-notaire.fr / E-Juriste) :
   - en dofollow, au plus 1 par article, et seulement si le sujet s'y prête ;

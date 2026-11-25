@@ -7,7 +7,7 @@
 - **Nature du site** : média éditorial national, monétisé par des articles sponsorisés. La société A3C Digital n'existe plus ; le domaine est conservé pour son ancienneté (liens depuis 2018).
 - **Cibles** : entrepreneurs, professionnels de santé, professions juridiques.
 - **Pas de SEO local** pour le média. Le local reste un argument de vente pour les annonceurs (articles géolocalisés).
-- **Partenariats** : liens en `rel="sponsored"` et mention « Partenariat » (conformité Google et obligation légale d'identifier la publicité). Conséquence : on vend de la visibilité et du trafic qualifié, pas du « jus SEO ». Il faut donc d'abord du trafic : monétisation réaliste à 4–6 mois.
+- **Partenariats** : liens vendus en **dofollow** (décision de l'éditrice du 25/11/2026), avec une mention discrète « Contenu partenaire » pour l'obligation légale d'identifier la publicité. Risque Google accepté par l'éditrice, limité par les garde-fous du §7. La valeur d'un lien dépend du trafic et de l'autorité du site : monétisation réaliste à 4–6 mois.
 - **Éditeur légal** : à nommer dans les mentions légales (personne physique ou agence actuelle). C'est aussi l'entité qui facture les partenariats, avec des CGV.
 
 ## 1. État des lieux (25/11/2026)
@@ -139,7 +139,7 @@ Menu : `Entrepreneurs · Santé · Juridique · Guides · Recherche · [Publier 
 - Hero : « Faites connaître votre marque auprès de pros qui décident »
 - Audience : chiffres réels.
 - 3 formats : article rédigé par la rédaction, article fourni puis relu, mention dans un article existant.
-- Règles : sponsored, mention, 2 liens maximum ; thématiques refusées (médicaments, jeux d'argent, crypto, CBD, adulte).
+- Règles : dofollow, mention « Contenu partenaire », 2 liens maximum, ancres naturelles ; thématiques refusées (médicaments, jeux d'argent, crypto, CBD, adulte).
 - Processus en 4 étapes, tarifs « à partir de », formulaire avec paiement, FAQ.
 - Maximum 1 article sponsorisé sur 4 publications.
 
@@ -176,14 +176,14 @@ Objectif : servir **Djaka** (djaka.fr), **Doctoweb** (site-web-medecins.fr), **E
 
 ### Ce que dit Google (règles sur le spam de liens)
 - Un lien vers ses **propres marques** est acceptable s'il est éditorialement justifié et occasionnel. Doctoweb et E-Juriste sont parfaitement dans la thématique : c'est un atout.
-- Un lien donné **en contrepartie d'un paiement**, y compris s'il est inclus dans une prestation SEO facturée au client, est un lien payant. Il doit être en `rel="sponsored"`. Le passer en dofollow est un risque assumé par l'éditrice : en cas de détection, sanction manuelle possible sur a3cdigital.com et liens sortants dévalués.
+- Un lien donné **en contrepartie d'un paiement**, y compris s'il est inclus dans une prestation SEO facturée au client, est un lien payant. Google demande `rel="sponsored"`. **L'éditrice a choisi le dofollow (25/11/2026)** et assume le risque : en cas de détection, action manuelle possible sur a3cdigital.com, avec dévaluation de tous les liens sortants. Les garde-fous ci-dessous réduisent ce risque.
 
 ### Règles retenues
 | Type de lien | Attribut | Conditions |
 |---|---|---|
 | Marques de l'éditrice (Djaka, Doctoweb, E-Juriste) | dofollow | 1 lien par article au plus ; uniquement si le sujet s'y prête ; ancre de marque ou d'URL dans au moins 70 % des cas ; jamais dans le menu, le pied de page ou la barre latérale |
 | Client de l'agence (interview, cas pratique, citation d'expert, y compris dans une prestation SEO) | dofollow, sans mention | **Décision de l'éditrice du 25/11/2026.** L'article doit rester éditorial : utile sans le lien, pas de ton promotionnel, 1 client par article, sources neutres à côté, ancres variées, jamais proposé sur une plateforme |
-| Annonceur tiers | `sponsored` | Cf. charte partenariats |
+| Annonceur extérieur (article vendu) | dofollow + mention « Contenu partenaire » | **Décision de l'éditrice du 25/11/2026.** 2 liens maximum, sujet dans la thématique, au plus 1 article partenaire sur 4 |
 
 ### Garde-fous
 - **Au moins 50 % des articles ne contiennent aucun lien commercial** (ni marque, ni client, ni annonceur). C'est ce qui fait de a3cdigital.com un média et non un réseau de liens.
