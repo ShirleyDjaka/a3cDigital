@@ -25,17 +25,23 @@
 
 ### Liens sortants commerciaux (tous en dofollow, aucun signalé)
 
-| Article | Lien | À qualifier |
-|---|---|---|
-| succession-…-debarras-immobilier | m-p-debarras.fr | Payant ? Si oui : sponsored + mention |
-| dentiste-a-montpellier-… | dr-sandor-lucas.chirurgiens-dentistes.fr | Client ? |
-| creer-un-site-web-…-montpellier | djaka.fr | Votre agence : lien de réseau |
-| choisir-une-agence-web-…-wordpress | djaka.fr | Votre agence : lien de réseau |
-| comment-les-vignobles-… / domaine-viticole-… | tbweb.fr | Payant ? |
-| communication-digitale-sante-… / choisir-une-agence-de-communication-sante-… | site-web-medecins.fr (Doctoweb) | Payant ou réseau ? |
-| allier-communication-…-notariale / les-avantages-…-avocats | site-avocat-notaire.fr (E-Juriste) | Payant ou réseau ? |
+**Confirmé le 25/11/2026 : aucun de ces liens n'a été payé.** Pas de `sponsored` à poser. Ces liens restent en dofollow, sous conditions (cf. dernière colonne).
 
-Règle : un lien **payé** (argent, échange, service) passe en `sponsored`. Un lien vers vos propres sites peut rester en dofollow s'il est éditorialement justifié et peu fréquent. Sinon, `nofollow`.
+| Article | Lien | Traitement lors de la réécriture |
+|---|---|---|
+| succession-…-debarras-immobilier | m-p-debarras.fr | Garder le lien. Réécrire la meta description, qui est aujourd'hui une publicité. |
+| dentiste-a-montpellier-… | dr-sandor-lucas.chirurgiens-dentistes.fr | Garder comme exemple concret dans le guide national `/seo-dentiste/` |
+| creer-un-site-web-…-montpellier / choisir-une-agence-web-…-wordpress | djaka.fr | Garder, avec une mention de transparence (« agence de l'éditrice ») |
+| comment-les-vignobles-… / domaine-viticole-… | tbweb.fr | Garder 1 seul lien dans l'article fusionné |
+| communication-digitale-sante-… / choisir-une-agence-de-communication-sante-… | site-web-medecins.fr (Doctoweb) | Garder 1 seul lien dans le guide fusionné, parmi d'autres ressources |
+| allier-communication-…-notariale / les-avantages-…-avocats | site-avocat-notaire.fr (E-Juriste) | Garder, au milieu d'autres ressources (pas en lien unique) |
+
+Règles pour les liens non payés :
+- au plus 1 lien par site partenaire et par article ;
+- ancre descriptive mais pas sur-optimisée ;
+- jamais le seul lien sortant de l'article : citer aussi des sources neutres ou officielles.
+
+Si un lien est un jour payé ou échangé contre un service, il passe en `sponsored`.
 
 ### Backlinks à protéger (anciens sites clients, thématiquement parfaits)
 
@@ -55,7 +61,7 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 
 | Priorité | Problème | Action |
 |---|---|---|
-| P0 | Liens commerciaux non signalés (cf. tableau) | Qualifier, puis `sponsored` + mention |
+| P2 | 10 liens sortants vers des sites partenaires (non payés, confirmé) | Rééquilibrer lors des réécritures (cf. tableau) |
 | P0 | Mentions légales et contact en 404 | Créer |
 | P0 | « Entreprenriat » dans la meta description de la home, « Read More » en anglais | Corriger |
 | P0 | Comptes WP exposés, compte prestataire `SupportYoozeo` actif | Désactiver ou réattribuer ; bloquer l'énumération des utilisateurs |
