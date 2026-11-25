@@ -21,7 +21,14 @@
 | Poids de la home | 30 scripts, 22 CSS, Lato en 10 graisses plus Poppins ; temps de réponse ~1,1 s |
 | Backlinks | 286 domaines référents, dont ~210 de spam apparus entre le 27/10 et le 15/11/2026 |
 | Pages légales | `/mentions-legales/` et `/contact/` en 404 |
-| Comptes WP | `shirleydjaka` et `SupportYoozeo` (auteur de 17 articles). Les identifiants sont exposés publiquement par `/wp-json/wp/v2/users` |
+| Comptes WP | `shirleyDjaka` (admin) et **`SupportYoozeo` (administrateur, auteur de 17 articles)**. Les identifiants sont exposés publiquement par `/wp-json/wp/v2/users` |
+| Hébergement | **SiteGround** (Speed Optimizer, Security Optimizer, SiteGround Central) : hébergeur de qualité, pas de migration nécessaire |
+| Extensions actives | Elementor 4.4.1 + Pro 3.28.4, Era Magazine, Redux, Rank Math 1.0.282, Top 10, Duplicate Page, **One Click Demo Import (inutile)**, SG Security, SG Speed Optimizer, SiteGround Central |
+| Réglages | Adresse WordPress en `http://a3cdigital.com` (https forcé par SiteGround) ; commentaires et pings ouverts par défaut ; fuseau horaire non défini ; slogan « L'actualité du business » ; e-mail admin contact@djaka.fr |
+
+**Corrections faites le 25/11/2026 via l'API** (sauvegarde : `backups/2026-11-25-accueil-elementor-data.json`) :
+- Home : « Entreprenriat » → « Entrepreneuriat ».
+- Home : title Rank Math « Média pour entrepreneurs, santé & juridique | A3C Digital » et meta description réécrite.
 
 ### Liens sortants commerciaux (tous en dofollow, aucun signalé)
 
