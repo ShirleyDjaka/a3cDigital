@@ -23,7 +23,10 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
 
 - Français, vouvoiement, ton expert mais accessible, sans jargon inutile.
 - Santé : gestion et communication du cabinet uniquement, **jamais de conseil médical**.
-- Juridique et santé : citer les sources officielles (Légifrance, CNOM, CNB/RIN, service-public.fr) avec date de vérification.
+- **Sources (exigence de l'éditrice, 26/11/2026)** : tout article s'appuie sur de vraies données vérifiées sur des sites officiels (Légifrance, service-public.fr, Urssaf, impots.gouv.fr, economie.gouv.fr, HAS, CNIL, CNB, Ordres professionnels, ANS, Insee, Bpifrance).
+  - Chaque chiffre, date ou règle est vérifié à la source avant publication ; en cas de contradiction entre sources officielles, ne pas donner le chiffre et renvoyer vers la source la plus récente.
+  - Section « Sources » en fin d'article : **liens cliquables vers les pages exactes**, avec la date de consultation.
+  - Ne jamais publier un chiffre qui n'a pas été vérifié.
 - Chaque article contient :
   - un H1 unique et des H2 environ tous les 300 mots (jamais d'intertitres en simple gras) ;
   - un encadré « L'essentiel en 30 secondes » ;

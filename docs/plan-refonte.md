@@ -91,6 +91,18 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - **Corrigé le 26/11/2026** (accord de l'éditrice) : thème 1.2.4 déployé en ligne. Sitemap rétabli (index, 25 articles, 4 pages, 10 rubriques). 9 anciennes adresses redirigées en 301 vers des pages en 200. Pages vides `/business/`, `/marketing/` et `/entreprenariat/` (id 111, 113, 115) à la corbeille. Reste : `/ouvrir-cabinet-dentaire-plan-communication/` absent du sitemap (cache Rank Math), alors qu'il est indexable.
 - **Thème 1.3.0 (26/11/2026, en ligne)** : sur l'accueil, la section « À la une » est remplacée par « Les derniers articles », qui affiche les 3 derniers articles publiés en cartes, dans la même grille que les rubriques (3 colonnes, 2 sous 960 px, 1 sur mobile ; thème 1.3.1).
 - **Consentement (26/11/2026)** : assistant Complianz terminé, bandeau affiché (Accepter, Refuser, Préférences). Mais le gtag de Rank Math (G-2HJN0W2MD3) se chargeait avant consentement, car Complianz ne le reconnaît pas. Correctif dans le thème 1.3.2 (`inc/consentement.php`, scripts passés en `text/plain` avec `data-category="statistics"`), en attente de l’accord de l’éditrice pour le déploiement.
+- **Consentement corrigé (26/11/2026)** : thème 1.3.2 déployé avec l'accord de l'éditrice. Testé : 0 requête Google Analytics avant le choix et après un refus ; chargement après acceptation ; bandeau masqué après le choix.
+- **Calendrier éditorial, premier mois** (programmé le 26/11/2026, mardi et jeudi à 6 h, sources officielles en lien) :
+  - 03/12 `/previsionnel-financier/` ;
+  - 08/12 `/legaltech-outils-avocats/` (E-Juriste) ;
+  - 10/12 `/secretariat-medical-a-distance/` ;
+  - 15/12 `/micro-entreprise-ou-sasu/` ;
+  - 17/12 `/ia-medecins-usages-limites/` (Doctoweb) ;
+  - 22/12 `/publicite-avocats-regles/` ;
+  - 29/12 `/repondre-avis-google/` (Djaka) ;
+  - 05/01/2027 `/logiciel-avocat-criteres/`.
+
+  Sources des articles : `contenus/articles/*.md` (conversion `scripts/md_vers_blocs.py`).
 - Détail des problèmes constatés juste après la mise en ligne :
   - `/sitemap_index.xml` en 404 : règles de réécriture non régénérées après le transfert ;
   - anciennes adresses de catégories en 404 et pages vides `/business/`, `/marketing/`, `/entreprenariat/` (redirections 301 dans `inc/redirections.php`).

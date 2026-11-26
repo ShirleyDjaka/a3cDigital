@@ -57,6 +57,23 @@ def main(path):
     raw = Path(path).read_text(encoding="utf-8")
     meta = dict(re.findall(r"<!--\s*(\w+):\s*(.*?)\s*-->", raw.split("\n\n", 1)[0]))
     contenu = re.sub(r"^(<!--\s*\w+:.*?-->\s*)+", "", raw, flags=re.S).strip()
+    if path.endswith(".md"):
+        sys.path.insert(0, str(Path(__file__).parent))
+        from md_vers_blocs import convertir
+        contenu = convertir(contenu)
+
+    # Contrôles éditoriaux (règles du CLAUDE.md)
+    alertes = []
+    if len(meta.get("seo_title", "")) > 60:
+        alertes.append(f"title SEO de {len(meta['seo_title'])} caractères (60 max)")
+    if not 140 <= len(meta.get("seo_description", "")) <= 155:
+        alertes.append(f"meta description de {len(meta.get('seo_description', ''))} caractères (140 à 155)")
+    if "essentiel-titre" not in contenu:
+        alertes.append("pas d'encadré « L'essentiel en 30 secondes »")
+    if contenu.count("<h2") < 3:
+        alertes.append("moins de 3 intertitres H2")
+    if alertes and "--forcer" not in sys.argv:
+        sys.exit("Publication refusée : " + " ; ".join(alertes))
 
     donnees = {
         "title": meta["title"],
