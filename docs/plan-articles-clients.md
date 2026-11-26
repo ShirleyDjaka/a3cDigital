@@ -17,7 +17,7 @@
 | 5 | Clients : CIMMS (22/03), Berardi & Maurin Notaires (25/03), Dr Allart (29/03), Millénaire Avocats (01/04). Utiles : assistant médical (23/03), expert-comptable (26/03, sans sources), gestion du temps avocat (30/03, sans sources), assurances obligatoires (02/04). Ids 488 à 495. Tous les clients E-Juriste sont traités ; restent 20 clients Doctoweb. | Programmé |
 | 6 | Clients : Inovie Fertilité (05/04), Centre AMP Avignon (08/04), Centre d'AMP CERES (12/04), Centre de Gynécologie et Fertilité Toulouse (15/04). Utiles : domiciliation (06/04), prise de rendez-vous en ligne (09/04, sans sources), assistant juridique (13/04, sans sources), marque INPI (16/04). Ids 496 à 503. Restent 16 clients Doctoweb. | Programmé |
 | 7 | Clients : Parc Anesthésie (19/04), Dr Perruisseau-Carrier (22/04), Dr Pauline Marche (26/04), Dr Lucas Sandor (29/04). Utiles : tiers payant (20/04), newsletter et RGPD (23/04), signature électronique (27/04), trésorerie (30/04, sans sources). Ids 504 à 511. Restent 12 clients Doctoweb. | Programmé |
-| 8 | Clients : Société Médicale d'Anesthésie Réanimation (03/05), Chirurgien Vasculaire Montpellier (06/05), Dr Stéphane Delage (10/05), Dr Dan Véléa (13/05). Utiles : entrepreneur individuel (04/05), réclamations de patients (07/05, sans sources), courrier juridique lisible (11/05, sans sources), céder son entreprise (14/05). Ids 512 à 519. Restent 8 clients Doctoweb. | Programmé |
+| 8 | Clients : Société Médicale d'Anesthésie Réanimation (03/05), Chirurgien Vasculaire Montpellier (06/05), Dr Stéphane Delage (10/05), Dr Dan Véléa (13/05). Utiles : entrepreneur individuel (04/05), réclamations de patients (07/05, sans sources), courrier juridique lisible (11/05, sans sources), céder son entreprise (14/05). Ids 512 à 519. Restent 6 clients Doctoweb (Dr Richard et la naturopathe retirées : plus clientes). | Programmé |
 
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune
@@ -58,9 +58,9 @@ H2/H3, paragraphes courts, listes, **gras**, conseils concrets, FAQ de 3 à 4 qu
 | 26 | Dr Laurent Chen Chi Song (La Réunion) | drchen-acupuncture-reunion.re | Médecin acupuncteur : formation, exercice et communication | acupuncture médecin | 110 · 24 | Communication & déontologie |
 | 27 | Dr Pauline Marche, endocrinologue (Angers) | endocrinologue-angers.fr | Télésurveillance du diabète : ce qui a changé pour les médecins | télésurveillance diabète | 30 · 15 | Outils numériques |
 | 28 | Dr Dan Véléa, psychiatre addictologue | dr-dan-velea.fr | Addictions : travailler en réseau avec un addictologue | addictologue | 6 600 · 88 | Installation & gestion |
-| 29 | Dr Sandra Richard, pédopsychiatre (Suisse) | drsandrarichard.ch | Pédopsychiatre : rôle, parcours et adressage | pédopsychiatre | 140 · 13 | Communication & déontologie |
+| 29 | Dr Sandra Richard, pédopsychiatre (Suisse) | drsandrarichard.ch | Pédopsychiatre : rôle, parcours et adressage | pédopsychiatre | 140 · 13 | Communication & déontologie | **Retiré le 26/11/2026 : n'est plus cliente, pas d'article.**
 | 30 | Dr Lucas Sandor, chirurgien-dentiste (La Cavalerie) | dr-sandor-lucas.chirurgiens-dentistes.fr | S'installer comme dentiste en zone rurale | installation dentiste | à vérifier | Installation & gestion |
-| 31 | Charlotte Régnier-Vigouroux, naturopathe | naturopathefertilite.fr | Naturopathe : statut, cadre légal et allégations à éviter | naturopathe fertilité | 260 · 10 | Entrepreneurs > Obligations & juridique |
+| 31 | Charlotte Régnier-Vigouroux, naturopathe | naturopathefertilite.fr | Naturopathe : statut, cadre légal et allégations à éviter | naturopathe fertilité | 260 · 10 | Entrepreneurs > Obligations & juridique | **Retiré le 26/11/2026 : n'est plus cliente, pas d'article.**
 
 ## Juridique (9)
 
