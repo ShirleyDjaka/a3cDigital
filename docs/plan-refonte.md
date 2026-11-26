@@ -88,7 +88,8 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
   - toutes les pages en 200, sans erreur PHP, sans trace de `staging6`, aucun noindex parasite ;
   - favicon, fuseau Europe/Paris, article programmé (09/12) et formulaire « Publier un article » en place ;
   - accueil : 32 Ko et 0,5 s, contre 126 Ko et 1,1 s avant.
-- **À corriger après la mise en ligne** (thème 1.2.4 prêt dans le dépôt, déploiement à valider par l'éditrice) :
+- **Corrigé le 26/11/2026** (accord de l'éditrice) : thème 1.2.4 déployé en ligne. Sitemap rétabli (index, 25 articles, 4 pages, 10 rubriques). 9 anciennes adresses redirigées en 301 vers des pages en 200. Pages vides `/business/`, `/marketing/` et `/entreprenariat/` (id 111, 113, 115) à la corbeille. Reste : `/ouvrir-cabinet-dentaire-plan-communication/` absent du sitemap (cache Rank Math), alors qu'il est indexable.
+- Détail des problèmes constatés juste après la mise en ligne :
   - `/sitemap_index.xml` en 404 : règles de réécriture non régénérées après le transfert ;
   - anciennes adresses de catégories en 404 et pages vides `/business/`, `/marketing/`, `/entreprenariat/` (redirections 301 dans `inc/redirections.php`).
 - **Points ouverts** :
