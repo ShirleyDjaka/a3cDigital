@@ -5,7 +5,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'A3C_VERSION', '1.0.0' );
+define( 'A3C_VERSION', '1.0.1' );
 
 require get_template_directory() . '/inc/audience.php';
 require get_template_directory() . '/inc/article.php';
@@ -120,3 +120,36 @@ function a3c_fil_ariane() {
 	}
 	echo '</ol></nav>';
 }
+
+/* Champ « Fonction » dans le profil des auteurs (affiché sous le titre des articles). */
+add_action(
+	'init',
+	function () {
+		register_meta(
+			'user',
+			'a3c_fonction',
+			array(
+				'type'              => 'string',
+				'single'            => true,
+				'show_in_rest'      => true,
+				'sanitize_callback' => 'sanitize_text_field',
+				'auth_callback'     => fn( $autorise, $cle, $user_id ) => current_user_can( 'edit_user', $user_id ),
+			)
+		);
+	}
+);
+$a3c_champ_fonction = function ( $user ) {
+	printf(
+		'<h2>A3C Digital</h2><table class="form-table"><tr><th><label for="a3c_fonction">Fonction affichée sous les articles</label></th><td><input type="text" class="regular-text" id="a3c_fonction" name="a3c_fonction" value="%s"><p class="description">Ex. : fondatrice de Djaka et directrice de la publication</p></td></tr></table>',
+		esc_attr( get_user_meta( $user->ID, 'a3c_fonction', true ) )
+	);
+};
+add_action( 'show_user_profile', $a3c_champ_fonction );
+add_action( 'edit_user_profile', $a3c_champ_fonction );
+$a3c_enregistrer_fonction = function ( $user_id ) {
+	if ( current_user_can( 'edit_user', $user_id ) && isset( $_POST['a3c_fonction'] ) && check_admin_referer( 'update-user_' . $user_id ) ) {
+		update_user_meta( $user_id, 'a3c_fonction', sanitize_text_field( wp_unslash( $_POST['a3c_fonction'] ) ) );
+	}
+};
+add_action( 'personal_options_update', $a3c_enregistrer_fonction );
+add_action( 'edit_user_profile_update', $a3c_enregistrer_fonction );

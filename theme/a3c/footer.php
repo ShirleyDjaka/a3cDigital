@@ -35,21 +35,24 @@ $lien_page = function ( $slug, $libelle ) {
 				?>
 			</ul>
 		</div>
+		<?php
+		ob_start();
+		if ( has_nav_menu( 'pied' ) ) {
+			wp_nav_menu( array( 'theme_location' => 'pied', 'container' => false, 'depth' => 1 ) );
+		} else {
+			$lien_page( 'a-propos', 'À propos' );
+			$lien_page( 'charte-editoriale', 'Charte éditoriale' );
+			$lien_page( 'partenariats', 'Publier sur A3C Digital' );
+			$lien_page( 'newsletter', 'Newsletter' );
+		}
+		$liens_media = trim( ob_get_clean() );
+		if ( $liens_media ) :
+			?>
 		<div>
 			<h2>Le média</h2>
-			<?php if ( has_nav_menu( 'pied' ) ) : ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'pied', 'container' => false, 'depth' => 1 ) ); ?>
-			<?php else : ?>
-				<ul>
-					<?php
-					$lien_page( 'a-propos', 'À propos' );
-					$lien_page( 'charte-editoriale', 'Charte éditoriale' );
-					$lien_page( 'partenariats', 'Publier sur A3C Digital' );
-					$lien_page( 'newsletter', 'Newsletter' );
-					?>
-				</ul>
-			<?php endif; ?>
+			<?php echo has_nav_menu( 'pied' ) ? $liens_media : '<ul>' . $liens_media . '</ul>'; // phpcs:ignore WordPress.Security.EscapeOutput -- liens échappés ci-dessus. ?>
 		</div>
+		<?php endif; ?>
 		<div>
 			<h2>Informations</h2>
 			<ul>

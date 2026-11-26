@@ -71,6 +71,16 @@ Ces liens sont des crédits en pied de page d'anciens sites clients : ancres du 
 
 Ces liens pointent vers la home (http et https) : **les redirections http→https doivent rester en un seul saut.** Option : contacter ces clients pour transformer le crédit « agence » en lien éditorial vers le média.
 
+
+### Copie de test (staging6.a3cdigital.com), 26/11/2026
+
+- Extension `A3C Déploiement` installée (déploiement du thème par l'API, blocage de l'indexation des copies `staging…`).
+- Thème A3C v1.0.1 installé et actif.
+- Rubriques en place (`scripts/restructurer_rubriques.py`) : Entrepreneurs (Créer son entreprise, Financer & investir, Obligations & juridique, Marketing & visibilité), Santé (4 sous-rubriques), Juridique (3 sous-rubriques), Guides. Les 25 articles sont rangés, et les 6 anciennes catégories supprimées.
+- Extensions supprimées sur la copie : Elementor, Elementor Pro, Era Magazine, Redux, Top 10 (One Click Demo Import déjà absent). Conservées : Rank Math, Contact Form 7, Antispam Bee, SG Security, SG Speed Optimizer, SiteGround Central, Duplicate Page, A3C Déploiement.
+- Profil auteur : « Shirley Seywert », fonction et bio. Slogan du site mis à jour.
+- **Constat** : Google Analytics 4 (G-2HJN0W2MD3), injecté par Rank Math, est actif sur le site en ligne. Il dépose des cookies soumis à consentement, alors que la politique de confidentialité affirme le contraire. Décision de l'éditrice attendue.
+
 ## 2. Diagnostic priorisé
 
 | Priorité | Problème | Action |
