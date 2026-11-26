@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-02-23T05:00:00 -->
 <!-- excerpt: Le devis n'est pas obligatoire partout, mais certains secteurs l'imposent et la DGCCRF en précise le contenu. Les cas où il est exigé, les mentions à prévoir, sa valeur une fois signé et les bonnes pratiques pour le rédiger. -->
 <!-- seo_title: Mentions obligatoires d'un devis : le guide 2027 -->
-<!-- seo_description: Mentions obligatoires d'un devis, secteurs où il est imposé, valeur une fois signé, devis gratuit ou payant : les règles officielles et nos conseils pratiques. -->
+<!-- seo_description: Mentions obligatoires d'un devis, secteurs où il est imposé, valeur une fois signé, devis gratuit ou payant : les règles officielles et nos conseils. -->
 
 :::essentiel
 - Le devis n'est **pas obligatoire dans tous les cas** : il l'est dans certains secteurs (travaux et dépannage à domicile, déménagement, services à la personne, obsèques…).
@@ -14,7 +14,7 @@
 - Même quand il n'est pas imposé, un devis précis **évite la plupart des litiges** sur le prix.
 :::
 
-Un client vous demande un prix, vous envoyez un chiffrage rapide par e-mail, il accepte… puis conteste la facture. Ce scénario est fréquent, et il commence presque toujours par un devis incomplet ou absent.
+Un client vous demande un prix, vous envoyez un chiffrage rapide par e-mail, il accepte… puis conteste la facture. Ce scénario commence souvent par un devis incomplet ou absent.
 
 Le devis est pourtant un document simple. Encore faut-il savoir **quand il est imposé**, **ce qu'il doit contenir** et **ce qu'il vaut une fois signé**. Voici les règles officielles, puis nos conseils pour rédiger des devis solides.
 
