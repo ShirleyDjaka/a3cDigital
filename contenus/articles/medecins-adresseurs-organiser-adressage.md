@@ -81,7 +81,7 @@ Si vous exercez à plusieurs, harmonisez ces règles entre praticiens : notre ar
 
 ## Une page dédiée aux médecins adresseurs
 
-Votre site peut comporter une rubrique destinée aux confrères : coordonnées directes, adresse MSSanté, documents attendus, délais habituels, organisation par pathologie. Le site du [Dr Anne Perruisseau-Carrier, chirurgienne de la main et des nerfs périphériques à Grenoble](https://chirurgien-main-nerfs-grenoble.fr/), rend par exemple lisible un exercice hospitalier au CHU Grenoble-Alpes, pour les patients comme pour les médecins adresseurs, avec une organisation par domaine et le détail du parcours de consultation et d'hospitalisation.
+Votre site peut comporter une rubrique destinée aux confrères : coordonnées directes, adresse MSSanté, documents attendus, délais habituels, organisation par pathologie. Le site du [Dr Anne Perruisseau-Carrier, chirurgienne de la main et des nerfs périphériques à Grenoble](https://chirurgien-main-nerfs-grenoble.fr/) rend par exemple lisible un exercice hospitalier au CHU Grenoble-Alpes, pour les patients comme pour les médecins adresseurs, avec une organisation par domaine et le détail du parcours de consultation et d'hospitalisation.
 
 :::attention
 Cette page reste soumise à l'article **R4127-19-1** du code de la santé publique : information loyale et honnête, sans témoignages de tiers ni comparaison avec d'autres médecins ou établissements.
