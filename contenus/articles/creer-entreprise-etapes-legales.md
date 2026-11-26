@@ -31,7 +31,7 @@ Avant de parler statut, posez les bases :
 - **vos besoins de départ** : matériel, local, financement, recrutement ;
 - **le nombre de personnes** qui portent le projet avec vous.
 
-Ces réponses orientent directement le choix du statut. Elles serviront aussi pour votre banque et vos éventuels financeurs.
+Ces réponses orientent directement le choix du statut.
 
 ### Entreprise individuelle ou société ?
 
