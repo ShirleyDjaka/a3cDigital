@@ -15,6 +15,7 @@
 | 3 | Clients : Cabinet de sages-femmes Montpellier (22/02), CHN Notaires (25/02), Dr Abramovici (01/03), Dr Macé (04/03). Utiles : devis (23/02), premier rendez-vous avocat (26/02, sans sources), facture impayée (02/03), premiers clients (05/03, sans sources). Ids 472 à 479. | Programmé |
 | 4 | Clients : Dr Sophie Bartier (08/03), Stéphanie Bacle (11/03), Dr Mickaël Nicol (15/03), Printemps Avocats (18/03). Utiles : rendez-vous non honorés (09/03, sans sources), premier salarié (12/03), cybersécurité du cabinet (16/03), fixer ses prix (19/03, sans sources). Ids 480 à 487. | Programmé |
 | 5 | Clients : CIMMS (22/03), Berardi & Maurin Notaires (25/03), Dr Allart (29/03), Millénaire Avocats (01/04). Utiles : assistant médical (23/03), expert-comptable (26/03, sans sources), gestion du temps avocat (30/03, sans sources), assurances obligatoires (02/04). Ids 488 à 495. Tous les clients E-Juriste sont traités ; restent 20 clients Doctoweb. | Programmé |
+| 6 | Clients : Inovie Fertilité (05/04), Centre AMP Avignon (08/04), Centre d'AMP CERES (12/04), Centre de Gynécologie et Fertilité Toulouse (15/04). Utiles : domiciliation (06/04), prise de rendez-vous en ligne (09/04, sans sources), assistant juridique (13/04, sans sources), marque INPI (16/04). Ids 496 à 503. Restent 16 clients Doctoweb. | Programmé |
 
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune

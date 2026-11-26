@@ -16,7 +16,7 @@
 
 Ouvrir ou faire évoluer un centre d'assistance médicale à la procréation (AMP) ne ressemble à aucune autre installation. Un cabinet de gynécologie s'organise librement ; un centre d'AMP, lui, dépend d'autorisations, d'une agence nationale et de règles de bonnes pratiques opposables.
 
-Pour un médecin, un biologiste ou un gestionnaire, la difficulté tient moins à la complexité des textes qu'à leur dispersion. Voici une lecture organisationnelle du cadre, sans aborder les questions médicales, puis les points à travailler lorsque plusieurs centres se regroupent.
+La difficulté tient surtout à la dispersion des textes. Voici une lecture organisationnelle du cadre, sans aborder les questions médicales, puis les points à travailler lorsque plusieurs centres se regroupent.
 
 ## Ce que dit le code de la santé publique
 
@@ -26,7 +26,7 @@ L'AMP est régie par le **titre IV du livre Ier de la deuxième partie** du code
 - les activités **biologiques** relèvent de **laboratoires de biologie médicale accrédités**, sous réserve d'une exception prévue par le texte ;
 - les activités portant sur les **gamètes destinés au don** sont réservées à des organismes et établissements de santé publics ou privés à but non lucratif, et aucune rémunération à l'acte ne peut être perçue à ce titre.
 
-La liste détaillée des activités cliniques et biologiques figure à l'article **R2142-1**. Elle a été modifiée après la loi de bioéthique de 2021 : vérifiez toujours la version en vigueur sur Légifrance avant de constituer un dossier.
+La liste détaillée des activités cliniques et biologiques figure à l'article **R2142-1**. Elle a évolué depuis la loi de bioéthique de 2021 : vérifiez la version en vigueur sur Légifrance.
 
 ## Les autorisations : le rôle de l'ARS
 
@@ -34,7 +34,7 @@ La liste détaillée des activités cliniques et biologiques figure à l'article
 
 Les activités d'AMP soumises à autorisation relèvent du régime général des **autorisations d'activités de soins**, délivrées par le **directeur général de l'ARS**. Les ARS les intègrent à leur schéma régional de santé, avec une fiche consacrée aux activités cliniques et biologiques d'AMP.
 
-En pratique, le calendrier des dépôts de demande et les besoins identifiés sont propres à chaque région. Avant tout projet, consultez le **schéma régional de santé** en vigueur et les fenêtres de dépôt publiées par votre ARS.
+Avant tout projet, consultez le **schéma régional de santé** en vigueur et les fenêtres de dépôt publiées par votre ARS.
 
 ### Deux autorisations, une seule prise en charge
 
@@ -75,9 +75,9 @@ Ce règlement intérieur est votre outil d'organisation principal. Il doit préc
 
 ## Fonctionner en réseau : ce qui peut être mutualisé
 
-De plus en plus de centres s'organisent en **réseau**, sous une même enseigne. Le site d'[Inovie Fertilité](https://inovie-fertilite.fr/) présente par exemple un regroupement de centres de traitement de la stérilité présent dans plusieurs villes, dont Avignon, Bagnolet, Bayonne et Béziers.
+Certains centres s'organisent en **réseau**, sous une même enseigne. Le site d'[Inovie Fertilité](https://inovie-fertilite.fr/) présente par exemple un regroupement de centres de traitement de la stérilité présent dans plusieurs villes, dont Avignon, Bagnolet, Bayonne et Béziers.
 
-Le regroupement ne fait pas disparaître les obligations locales : chaque autorisation reste attachée à un site et à un titulaire. En revanche, plusieurs fonctions support se prêtent bien à la mutualisation :
+Le regroupement ne fait pas disparaître les obligations locales : les autorisations relèvent de l'ARS de chaque région, et chaque site doit respecter ses propres conditions de fonctionnement. En revanche, plusieurs fonctions support se prêtent bien à la mutualisation :
 
 - le **système qualité** et la veille réglementaire ;
 - la **formation** des équipes et l'harmonisation des protocoles d'organisation ;
@@ -87,7 +87,7 @@ Le regroupement ne fait pas disparaître les obligations locales : chaque autori
 
 ### Garder une identité locale lisible
 
-Un patient doit savoir à quel site il s'adresse, qui le suit et où se déroule chaque étape. Évitez les pages génériques : présentez pour chaque centre l'adresse, l'équipe et l'organisation du parcours. Notre article sur [l'information du patient avant une intervention](/information-patient-avant-intervention/) donne des repères utiles.
+Présentez pour chaque centre l'adresse, l'équipe et l'organisation du parcours, plutôt qu'une page générique. Notre article sur [l'information du patient avant une intervention](/information-patient-avant-intervention/) donne des repères utiles.
 
 :::attention
 La communication d'un réseau de centres d'AMP reste soumise aux règles déontologiques des médecins : pas de comparaison avec d'autres centres, pas de présentation promotionnelle.
