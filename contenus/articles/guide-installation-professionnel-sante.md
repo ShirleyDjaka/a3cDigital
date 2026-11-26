@@ -88,6 +88,10 @@ Les **données de santé** sont des **données sensibles** au sens du RGPD. Un c
 
 **Restez factuel** : pas de superlatifs, pas de comparaison avec vos confrères.
 
+Si vous confiez votre site à un prestataire, choisissez-en un qui connaît les règles de votre profession. Des agences spécialisées dans la santé, comme [Doctoweb](https://site-web-medecins.fr/), prévoient par exemple une relecture déontologique des contenus.
+
+:::marque Doctoweb est une marque de l'éditrice du site. :::
+
 [a3c_articles ids="439,426,191,381" titre="Pour communiquer sereinement"]
 
 ## Questions fréquentes

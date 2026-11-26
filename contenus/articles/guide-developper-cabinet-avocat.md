@@ -62,6 +62,10 @@ Vos futurs clients cherchent un avocat sur internet. Trois éléments suffisent 
 
 Le **référencement naturel** fait ensuite la différence : des pages qui répondent aux questions réelles de vos clients, dans un langage simple.
 
+Pour la création du site, des agences dédiées aux professions du droit connaissent ces règles, par exemple [site-avocat-notaire.fr](https://site-avocat-notaire.fr/).
+
+:::marque E-Juriste (site-avocat-notaire.fr) est une marque de l'éditrice du site. :::
+
 [a3c_articles ids="154,443,439" titre="Pour être trouvé en ligne"]
 
 ## Étape 5 : communiquer dans le respect des règles

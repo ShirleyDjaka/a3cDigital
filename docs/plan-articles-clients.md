@@ -12,11 +12,14 @@
 |---|---|---|
 | 1 | Clients : Noisy-le-Grand Notaires (12/01), ADEO Notaires (19/01), Medicatel (26/01), Saint-Luc Recrutement (02/02). Utiles : facturation électronique TPE (07/01), convention d'honoraires (14/01), CGV obligatoires (21/01), RGPD au cabinet médical (28/01). | Programmé |
 | 2 | Clients : MSP ValSanté (08/02), Les Nouveaux Notaires (11/02), FFMKR 69 (15/02), Office notarial du Fort (18/02). Utiles : compte bancaire professionnel (09/02), fiche Google d'un cabinet (12/02, sans sources), contrat de médecin collaborateur (16/02), page « À propos » (19/02, sans sources). Ids 436 à 443. | Programmé |
+| 3 | Clients : Cabinet de sages-femmes Montpellier (22/02), CHN Notaires (25/02), Dr Abramovici (01/03), Dr Macé (04/03). Utiles : devis (23/02), premier rendez-vous avocat (26/02, sans sources), facture impayée (02/03), premiers clients (05/03, sans sources). Ids 472 à 479. | Programmé |
 
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune
 comparaison, aucun chiffre non vérifiable. Le format suit la consigne de l'éditrice : title, meta, introduction,
 H2/H3, paragraphes courts, listes, **gras**, conseils concrets, FAQ de 3 à 4 questions, conclusion et appel à l'action.
+
+**Décision du 26/11/2026 : liens de marque** : une mention dans chaque guide pilier (Doctoweb dans le guide santé, E-Juriste dans le guide avocats) ; 2 articles de marque par mois à partir du lot 4, sous réserve de rester à 50 % d'articles sans lien commercial au plus (47 % au 26/11/2026).
 
 ## Santé (31)
 

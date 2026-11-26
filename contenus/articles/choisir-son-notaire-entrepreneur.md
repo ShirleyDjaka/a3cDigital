@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-02-25T05:00:00 -->
 <!-- excerpt: Achat des murs, cession, transmission, organisation du patrimoine : un entrepreneur croise souvent la route d'un notaire. Comment fonctionne un office notarial, ce que vous payez vraiment, ce qui se discute et comment choisir le notaire adapté à votre projet. -->
 <!-- seo_title: Choisir son notaire : le guide pour les entrepreneurs -->
-<!-- seo_description: Choisir son notaire : libre choix, deux notaires pour une vente, émoluments réglementés, honoraires libres, remise possible et critères pour l'entrepreneur. -->
+<!-- seo_description: Choisir son notaire : libre choix, deux notaires pour une vente, émoluments réglementés, honoraires libres, remise possible, critères pour l'entrepreneur. -->
 
 :::essentiel
 - Vous êtes **libre de choisir votre notaire**, et chaque partie à une vente peut avoir le sien : selon les chambres des notaires, cela **ne coûte pas plus cher**.
@@ -32,7 +32,7 @@ Le notaire exerce au sein d'un **office notarial**, parfois appelé étude. Un o
 
 ## Le libre choix du notaire
 
-Aucun texte ne vous impose un notaire. Vous pouvez le choisir librement, y compris en dehors de votre ville.
+Aucun texte ne vous impose un notaire. Vous pouvez le choisir librement, y compris en dehors de votre ville : selon le décret du 26 novembre 1971, les notaires exercent leurs fonctions sur l'**ensemble du territoire national**, à l'exception de quelques collectivités d'outre-mer.
 
 ### Un notaire pour chaque partie
 
@@ -46,7 +46,7 @@ Pour un achat de murs professionnels ou une cession, avoir votre propre notaire 
 
 ## Ce que vous payez : émoluments, honoraires et taxes
 
-Les « frais de notaire » ne correspondent pas tous à la rémunération du notaire. Pour un achat immobilier, ils comprennent notamment des **droits et taxes** reversés à l'État et aux collectivités, des **débours** avancés par le notaire, et ses **émoluments**.
+Les « frais de notaire » ne correspondent pas tous à la rémunération du notaire. Pour un achat immobilier, ils comprennent, selon le ministère de l'Économie, des **taxes** (notamment la taxe de publicité foncière), des **frais et débours** avancés par le notaire, et sa **rémunération**.
 
 ### Les émoluments : un tarif réglementé
 
@@ -62,7 +62,7 @@ Pour un entrepreneur, de nombreuses prestations relèvent de cette catégorie, c
 
 ### Ce qui ne se négocie pas
 
-- les **droits et taxes**, fixés par la loi ;
+- les **taxes**, fixées par la loi ;
 - les **émoluments** des actes tarifés, en dehors de la remise encadrée décrite ci-dessous.
 
 ### La remise sur les émoluments
@@ -111,11 +111,11 @@ Oui. Chaque partie peut avoir son notaire. Les deux notaires travaillent sur le 
 
 ### Les frais de notaire sont-ils négociables ?
 
-Les droits et taxes ne le sont pas, et les émoluments des actes tarifés suivent la réglementation. Une remise encadrée est possible sur une partie des émoluments, et les honoraires des prestations hors tarif sont fixés librement par convention.
+Les taxes ne le sont pas, et les émoluments des actes tarifés suivent la réglementation. Une remise encadrée est possible sur une partie des émoluments, et les honoraires des prestations hors tarif sont fixés librement par convention.
 
 ### Le notaire doit-il exercer dans mon département ?
 
-Non. Rien ne vous oblige à choisir un notaire proche de chez vous ou du bien. La signature à distance peut aussi faciliter les choses.
+Non. Les notaires exercent sur l'ensemble du territoire national, hors quelques collectivités d'outre-mer. Rien ne vous oblige à choisir un notaire proche de chez vous ou du bien.
 
 ### Qu'est-ce qu'une convention d'honoraires ?
 
@@ -134,6 +134,6 @@ Pour aller plus loin, lisez notre [guide pour créer son entreprise](/guide-cree
 - [economie.gouv.fr, « Achat d'un bien immobilier : quels frais de notaire devez-vous payer ? »](https://www.economie.gouv.fr/particuliers/frais-notaire-achat-immobilier)
 - [notaires.fr, l'acte authentique du notaire](https://www.notaires.fr/en/notaire/role-notaire-and-his-principal-activities/notarized-document-authentic-deed)
 - [Chambre des notaires de Franche-Comté, « Chacun peut choisir son notaire (et cela ne coûte pas plus cher) »](https://chambre-franchecomte.notaires.fr/actualite/chacun-peut-choisir-son-notaire-et-cela-ne-coute-pas-plus-cher-1)
-- [Notaires du Grand Paris, « Comment rémunère-t-on son notaire ? »](https://paris.notaires.fr/fr/actualites/comment-remunere-t-son-notaire)
+- [Légifrance, décret n° 71-942 du 26 novembre 1971, compétence d'instrumentation et résidence des notaires (articles 8 à 12)](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006113022)
 
 Sources consultées le 26 novembre 2026.

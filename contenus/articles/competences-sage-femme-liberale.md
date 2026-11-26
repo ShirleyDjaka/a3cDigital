@@ -16,7 +16,7 @@
 
 Beaucoup de patientes pensent encore que la sage-femme n'intervient qu'en salle de naissance. Pourtant, la loi lui reconnaît un champ de compétences large, qui s'étend bien au-delà de l'accouchement.
 
-Pour une sage-femme libérale, bien connaître ce cadre est essentiel : il conditionne l'organisation du cabinet, la façon de présenter son activité et les relations avec les autres professionnels. Voici ce qu'il faut savoir, sous l'angle de l'exercice et de la gestion du cabinet.
+Pour une sage-femme libérale, bien connaître ce cadre conditionne l'organisation du cabinet, la présentation de l'activité et les relations avec les autres professionnels. Voici l'essentiel.
 
 ## Ce que dit le code de la santé publique
 
@@ -59,8 +59,6 @@ Au quotidien, l'activité d'un cabinet libéral se répartit souvent entre plusi
 
 Certains cabinets choisissent de se concentrer sur une partie de ces missions. À Montpellier, le [Cabinet de sages-femmes à Montpellier](https://sagefemme-montpellier.com/) présente par exemple son activité autour de la préparation à la naissance, dont une préparation par l'hypnose, du suivi de grossesse et du suivi post-natal.
 
-Ce choix a des conséquences pratiques : agenda, matériel, salle pour les séances collectives, durée des rendez-vous. Définissez-le dès le départ.
-
 ## S'installer en libéral : les étapes
 
 ### 1. L'inscription au tableau de l'Ordre
@@ -102,8 +100,6 @@ Puisque les compétences de la sage-femme restent méconnues, la **communication
 - **indiquez** clairement les cas où vous orientez vers un médecin ;
 - **affichez vos tarifs** et votre situation conventionnelle, conformément aux règles d'affichage.
 
-Restez factuel : la communication d'une sage-femme reste soumise à son code de déontologie.
-
 ## Questions fréquentes
 
 ### Une sage-femme peut-elle assurer le suivi gynécologique ?
@@ -117,10 +113,6 @@ Oui. L'inscription au tableau de l'Ordre est obligatoire avant tout exercice. El
 ### Qu'est-ce qu'une sage-femme référente ?
 
 C'est la sage-femme déclarée par la patiente pour coordonner son parcours pendant la grossesse et après l'accouchement, en lien avec la maternité et le médecin traitant.
-
-### Une sage-femme peut-elle vacciner ?
-
-Oui, dans le cadre fixé par le décret du 8 août 2023 et par les listes de vaccins arrêtées par le ministre chargé de la santé. Vérifiez la liste en vigueur avant toute communication.
 
 ## En résumé
 
