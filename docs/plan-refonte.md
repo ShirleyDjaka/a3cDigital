@@ -79,6 +79,7 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - Rubriques en place (`scripts/restructurer_rubriques.py`) : Entrepreneurs (Créer son entreprise, Financer & investir, Obligations & juridique, Marketing & visibilité), Santé (4 sous-rubriques), Juridique (3 sous-rubriques), Guides. Les 25 articles sont rangés, et les 6 anciennes catégories supprimées.
 - Extensions supprimées sur la copie : Elementor, Elementor Pro, Era Magazine, Redux, Top 10 (One Click Demo Import déjà absent). Conservées : Rank Math, Contact Form 7, Antispam Bee, SG Security, SG Speed Optimizer, SiteGround Central, Duplicate Page, A3C Déploiement.
 - Profil auteur : « Shirley Seywert », fonction et bio. Slogan du site mis à jour.
+- Thème v1.1.1 : rubriques et recherche en **cartes** (onglet d'audience, carte entièrement cliquable), 9 par chargement, bouton **« Charger plus d'articles »** (lien réel vers `/page/N/`, donc toujours lisible par Google), compteur d'articles. Correctif : le texte des articles sans sommaire n'est plus coincé dans la colonne de 240 px.
 - **Constat** : Google Analytics 4 (G-2HJN0W2MD3), injecté par Rank Math, est actif sur le site en ligne. Il dépose des cookies soumis à consentement, alors que la politique de confidentialité affirme le contraire. Décision de l'éditrice attendue.
 
 ## 2. Diagnostic priorisé

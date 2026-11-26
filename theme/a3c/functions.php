@@ -5,7 +5,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'A3C_VERSION', '1.0.1' );
+define( 'A3C_VERSION', '1.1.1' );
 
 require get_template_directory() . '/inc/audience.php';
 require get_template_directory() . '/inc/article.php';
@@ -39,6 +39,10 @@ add_action(
 		if ( is_singular( 'post' ) ) {
 			$js = get_template_directory() . '/assets/js/article.js';
 			wp_enqueue_script( 'a3c-article', get_template_directory_uri() . '/assets/js/article.js', array(), (string) filemtime( $js ), array( 'strategy' => 'defer', 'in_footer' => true ) );
+		}
+		if ( is_archive() || is_search() ) {
+			$js = get_template_directory() . '/assets/js/charger-plus.js';
+			wp_enqueue_script( 'a3c-charger-plus', get_template_directory_uri() . '/assets/js/charger-plus.js', array(), (string) filemtime( $js ), array( 'strategy' => 'defer', 'in_footer' => true ) );
 		}
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
@@ -153,3 +157,16 @@ $a3c_enregistrer_fonction = function ( $user_id ) {
 };
 add_action( 'personal_options_update', $a3c_enregistrer_fonction );
 add_action( 'edit_user_profile_update', $a3c_enregistrer_fonction );
+
+/* Rubriques et recherche : 9 cartes par chargement (grille de 3). */
+add_action(
+	'pre_get_posts',
+	function ( WP_Query $q ) {
+		if ( ! is_admin() && $q->is_main_query() && ( $q->is_archive() || $q->is_search() ) ) {
+			$q->set( 'posts_per_page', 9 );
+			if ( $q->is_search() ) {
+				$q->set( 'post_type', 'post' );
+			}
+		}
+	}
+);

@@ -20,19 +20,7 @@ get_header();
 	<div class="rubrique-liste">
 		<div class="conteneur">
 			<?php if ( have_posts() ) : ?>
-				<ul class="liste-articles">
-					<?php
-					while ( have_posts() ) :
-						the_post();
-						?>
-						<li>
-							<?php a3c_pastille_audience( get_the_ID() ); ?>
-							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p class="extrait"><?php echo esc_html( get_the_excerpt() ); ?></p>
-						</li>
-					<?php endwhile; ?>
-				</ul>
-				<?php the_posts_pagination( array( 'prev_text' => 'Précédent', 'next_text' => 'Suivant' ) ); ?>
+				<?php get_template_part( 'parts/liste-cartes' ); ?>
 			<?php else : ?>
 				<p class="aucun-article">Aucun article ne correspond à « <?php echo esc_html( get_search_query() ); ?> ». Essayez un mot plus général, par exemple « statut », « SEO » ou « déontologie ».</p>
 			<?php endif; ?>
