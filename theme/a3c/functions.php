@@ -5,13 +5,14 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'A3C_VERSION', '1.2.3' );
+define( 'A3C_VERSION', '1.2.4' );
 
 require get_template_directory() . '/inc/audience.php';
 require get_template_directory() . '/inc/article.php';
 require get_template_directory() . '/inc/accueil.php';
 require get_template_directory() . '/inc/patterns.php';
 require get_template_directory() . '/inc/partenariats.php';
+require get_template_directory() . '/inc/redirections.php';
 
 add_action(
 	'after_setup_theme',

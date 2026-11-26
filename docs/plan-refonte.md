@@ -83,6 +83,19 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - Google Analytics 4 (G-2HJN0W2MD3, via Rank Math) **conservé** (décision du 26/11/2026). Complianz 7.5.8 est installé et actif sur le site en ligne. L'assistant de configuration est à faire par l'éditrice, puis la politique de confidentialité (mise à jour : GA4 avec consentement, 13 mois) deviendra exacte.
 - Thème v1.2.2 : page **« Publier un article »** (`/publier-un-article/`, sans vocabulaire « partenariat ») avec formulaire intégré `[a3c_demande_publication]`. Champs : nom, entreprise, e-mail, téléphone, site, rubrique, format, sujet, précisions, consentement. Anti-robots (champ piège et délai de 4 s), page exclue du cache. Chaque demande est envoyée par e-mail à l'adresse admin et enregistrée dans le menu « Demandes de publication ». Testé de bout en bout sur la copie (demande test id 411).
 - Favicon dans la charte (carré nuit, trois onglets, « A » blanc) : `theme/a3c/assets/img/favicon.svg` et `favicon-512.png`, installé sur la copie de test (média 412).
+- **Mise en ligne (26/11/2026)** : la copie de test a été poussée en production par l'éditrice. Vérifié en ligne :
+  - thème A3C 1.2.3 actif, Elementor et extensions obsolètes absents ;
+  - toutes les pages en 200, sans erreur PHP, sans trace de `staging6`, aucun noindex parasite ;
+  - favicon, fuseau Europe/Paris, article programmé (09/12) et formulaire « Publier un article » en place ;
+  - accueil : 32 Ko et 0,5 s, contre 126 Ko et 1,1 s avant.
+- **À corriger après la mise en ligne** (thème 1.2.4 prêt dans le dépôt, déploiement à valider par l'éditrice) :
+  - `/sitemap_index.xml` en 404 : règles de réécriture non régénérées après le transfert ;
+  - anciennes adresses de catégories en 404 et pages vides `/business/`, `/marketing/`, `/entreprenariat/` (redirections 301 dans `inc/redirections.php`).
+- **Points ouverts** :
+  - Google Analytics chargé deux fois (Rank Math G-2HJN0W2MD3 et Site Kit GT-P3J3SK7) et sans consentement : l'assistant Complianz n'est pas fait ;
+  - formulaire Contact Form 7 encore celui par défaut ;
+  - demande test « Test Claude » (id 411) à supprimer ;
+  - la copie de test staging6 ne répond plus (502).
 - **Règle (26/11/2026)** : la copie de test **remplacera le site en ligne** (poussée par SiteGround à la bascule). Tout se fait désormais sur la copie. Report effectué : politique de confidentialité à jour, Complianz installé, fuseau horaire Europe/Paris.
 - **Articles Doctoweb (document de l'éditrice du 25/11)** : `/ouvrir-cabinet-dentaire-plan-communication/` publié (Santé > Installation & gestion du cabinet) ; `/identite-visuelle-cabinet-medical-avant-ouverture/` programmé le 09/12/2026 à 9 h (Santé > Communication & déontologie) ; lien vers `/site-dentiste` ajouté dans l'article dentiste existant. Chaque article reçoit des H2, un encadré « L'essentiel », la mention de marque et des liens officiels. Sources : `contenus/articles/`.
 - **Nettoyage des extensions (26/11/2026)** :
