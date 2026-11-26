@@ -4,7 +4,7 @@
 <!-- status: future -->
 <!-- date_gmt: 2027-03-08T05:00:00 -->
 <!-- excerpt: Suivi d'un patient connu, avis demandé par un confrère, résultats à commenter : la téléconsultation et la téléexpertise font désormais partie de l'exercice du spécialiste. Le cadre de remboursement, les outils à choisir et l'organisation du cabinet pour en tirer parti sans risque. -->
-<!-- seo_title: Téléconsultation : ce que le spécialiste peut faire à distance -->
+<!-- seo_title: Téléconsultation : ce que le spécialiste peut faire -->
 <!-- seo_description: Téléconsultation du médecin spécialiste : parcours de soins, plafond de 20 % d'activité à distance, téléexpertise, vidéo, hébergeur HDS et organisation. -->
 
 :::essentiel
