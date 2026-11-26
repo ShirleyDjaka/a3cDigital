@@ -168,3 +168,13 @@
 @media (max-width: 960px) {
   .article-corps .contenu, .article-corps .sommaire { grid-column: 1; grid-row: auto; }
 }
+
+/* Largeur de lecture élargie sur ordinateur (demande de l'éditrice : environ 900 px) */
+:root { --largeur: 1280px; }
+@media (min-width: 961px) {
+  .article-corps .conteneur { grid-template-columns: 220px minmax(0, 1fr); gap: 48px; }
+  .article-entete .entete-texte { margin-left: 268px; max-width: 900px; }
+  .contenu { max-width: 900px; }
+  .article-corps .contenu { font-size: 20px; line-height: 1.8; }
+  .page-corps .contenu { max-width: 900px; }
+}

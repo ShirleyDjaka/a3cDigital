@@ -188,7 +188,7 @@ Maquettes : `maquettes/` (accueil, article, `styles.css` = source des jetons du 
   - article : bande de la couleur d'audience derrière le titre.
 - **Typographie** :
   - Schibsted Grotesk (titres et interface, 400 à 800) ;
-  - Literata (chapô et corps d'article, 19 px, interligne 1,75, 680 px de large) ;
+  - Literata (chapô et corps d'article : 20 px, interligne 1,8, **900 px de large** sur ordinateur à la demande de l'éditrice ; conteneur du site 1280 px, sommaire 220 px) ;
   - polices à héberger sur le site dans le thème.
 - **Images** : aucune photo de banque d'images. Le design repose sur la typographie et les couleurs d'audience.
 - **Gabarit d'article** : fil d'Ariane → onglet d'audience → H1 → chapô → signature et date → « L'essentiel en 30 secondes » → sommaire (fixe sur ordinateur, repliable sur mobile) → H2 numérotés si étapes → encadrés « À retenir » / « Attention » → newsletter → sources → bio → mention de marque si besoin → « À lire ensuite ».
