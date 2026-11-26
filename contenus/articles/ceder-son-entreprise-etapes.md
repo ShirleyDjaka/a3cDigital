@@ -71,7 +71,7 @@ Dans les entreprises de **moins de 250 salariés**, le code de commerce impose d
 
 ### Ce qui a changé en 2026
 
-La **loi n° 2026-403 du 26 mai 2026 de simplification de la vie économique** a modifié ce dispositif pour les ventes conclues **après le 27 juillet 2026** :
+La **loi n° 2026-403 du 26 mai 2026 de simplification de la vie économique** a modifié ce dispositif pour les ventes conclues **au moins deux mois après sa promulgation, soit à partir de fin juillet 2026** (vérifiez la date exacte sur la fiche officielle) :
 
 - le délai minimal d'information passe de **deux mois à un mois** avant la vente ;
 - dans les entreprises d'**au moins 50 salariés dotées d'un CSE**, l'information directe des salariés est remplacée par l'**information et la consultation du CSE**.
