@@ -80,7 +80,9 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - Extensions supprimées sur la copie : Elementor, Elementor Pro, Era Magazine, Redux, Top 10 (One Click Demo Import déjà absent). Conservées : Rank Math, Contact Form 7, Antispam Bee, SG Security, SG Speed Optimizer, SiteGround Central, Duplicate Page, A3C Déploiement.
 - Profil auteur : « Shirley Seywert », fonction et bio. Slogan du site mis à jour.
 - Thème v1.1.1 : rubriques et recherche en **cartes** (onglet d'audience, carte entièrement cliquable), 9 par chargement, bouton **« Charger plus d'articles »** (lien réel vers `/page/N/`, donc toujours lisible par Google), compteur d'articles. Correctif : le texte des articles sans sommaire n'est plus coincé dans la colonne de 240 px.
-- **Constat** : Google Analytics 4 (G-2HJN0W2MD3), injecté par Rank Math, est actif sur le site en ligne. Il dépose des cookies soumis à consentement, alors que la politique de confidentialité affirme le contraire. Décision de l'éditrice attendue.
+- Google Analytics 4 (G-2HJN0W2MD3, via Rank Math) **conservé** (décision du 26/11/2026). Complianz 7.5.8 est installé et actif sur le site en ligne. L'assistant de configuration est à faire par l'éditrice, puis la politique de confidentialité (mise à jour : GA4 avec consentement, 13 mois) deviendra exacte.
+- Thème v1.2.2 : page **« Publier un article »** (`/publier-un-article/`, sans vocabulaire « partenariat ») avec formulaire intégré `[a3c_demande_publication]`. Champs : nom, entreprise, e-mail, téléphone, site, rubrique, format, sujet, précisions, consentement. Anti-robots (champ piège et délai de 4 s), page exclue du cache. Chaque demande est envoyée par e-mail à l'adresse admin et enregistrée dans le menu « Demandes de publication ». Testé de bout en bout sur la copie (demande test id 411).
+- Favicon dans la charte (carré nuit, trois onglets, « A » blanc) : `theme/a3c/assets/img/favicon.svg` et `favicon-512.png`, installé sur la copie de test (média 412).
 
 ## 2. Diagnostic priorisé
 
@@ -120,7 +122,7 @@ Accueil  /
 │   ├── Communication & déontologie
 │   └── Legaltech & outils
 ├── Guides                       /guides/
-├── Publier sur A3C Digital      /partenariats/  (+ /partenariats/media-kit/)
+├── Publier un article          /publier-un-article/  (formulaire intégré)
 ├── Charte éditoriale            /charte-editoriale/
 ├── À propos                     /a-propos/  (+ /auteur/<prenom-nom>/)
 ├── Newsletter                   /newsletter/

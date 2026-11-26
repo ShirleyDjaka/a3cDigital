@@ -14,7 +14,7 @@ function a3c_reglages_defaut() {
 		'hero_chapo'      => 'Le média des entrepreneurs, des soignants et des juristes : guides pratiques, obligations légales expliquées simplement et marketing compatible avec votre déontologie.',
 		'manifeste'       => 'Un média écrit pour celles et ceux qui ont un métier à exercer, et pas de temps à perdre.',
 		'newsletter_code' => '',
-		'partenariats_url' => '/partenariats/',
+		'partenariats_url' => '/publier-un-article/',
 		'media_kit_url'   => '',
 	);
 }
@@ -39,7 +39,7 @@ add_action(
 			'hero_chapo'       => array( 'Texte sous le titre', 'textarea' ),
 			'manifeste'        => array( 'Phrase « engagements »', 'textarea' ),
 			'newsletter_code'  => array( 'Code court du formulaire newsletter (ex. Brevo). Vide = section masquée.', 'text' ),
-			'partenariats_url' => array( 'Adresse de la page Partenariats', 'text' ),
+			'partenariats_url' => array( 'Adresse de la page « Publier un article »', 'text' ),
 			'media_kit_url'    => array( 'Adresse du media kit (PDF). Vide = bouton masqué.', 'url' ),
 		);
 		foreach ( $champs as $cle => list( $libelle, $type ) ) {

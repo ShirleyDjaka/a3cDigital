@@ -623,3 +623,23 @@ a:hover { text-decoration-thickness: 2px; }
   .article-corps .contenu { font-size: 20px; line-height: 1.8; }
   .page-corps .contenu { max-width: 900px; }
 }
+
+/* Formulaire de demande de publication */
+.form-demande { background: var(--papier); border: 2px solid var(--encre); border-radius: 10px; padding: 28px clamp(18px, 3vw, 32px); margin: 8px 0 32px; font: 400 16px/1.5 var(--titre); }
+.form-demande form > p, .form-demande .grille-2 > p { margin: 0 0 18px; }
+.form-demande .grille-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 20px; }
+.form-demande label { display: block; font-weight: 600; color: var(--encre); margin-bottom: 6px; }
+.form-demande input[type="text"], .form-demande input[type="email"], .form-demande input[type="tel"], .form-demande input[type="url"], .form-demande select, .form-demande textarea {
+  display: block; width: 100%; padding: 12px 14px; border: 1px solid #AEB7C5; border-radius: 6px; background: #fff;
+  font: 400 16px/1.4 var(--titre); color: var(--encre);
+}
+.form-demande input:focus-visible, .form-demande select:focus-visible, .form-demande textarea:focus-visible { outline: 3px solid var(--encre); outline-offset: 1px; }
+.form-demande .case label { font-weight: 400; display: flex; gap: 10px; align-items: flex-start; }
+.form-demande .case input { margin-top: 4px; width: 18px; height: 18px; flex: none; }
+.form-demande .en-erreur input, .form-demande .en-erreur select { border: 2px solid var(--juridique); }
+.form-demande .aide-erreur { display: block; color: var(--juridique); font-size: 14px; margin-top: 6px; }
+.form-demande .champ-piege { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.demande-message { padding: 14px 18px; border-radius: 8px; margin: 0 0 20px; }
+.demande-ok { background: var(--sante-feuille); border-left: 6px solid var(--sante); }
+.demande-erreur { background: var(--juridique-feuille); border-left: 6px solid var(--juridique); }
+@media (max-width: 640px) { .form-demande .grille-2 { grid-template-columns: minmax(0, 1fr); } }

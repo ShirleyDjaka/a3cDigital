@@ -138,7 +138,7 @@ $media_kit       = a3c_reglage( 'media_kit_url' );
 				<p>Publiez un article sur un média spécialisé, lu par votre cible, dans une rubrique qui correspond à votre métier.</p>
 			</div>
 			<div class="actions">
-				<a class="btn btn-plein" href="<?php echo esc_url( home_url( a3c_reglage( 'partenariats_url' ) ) ); ?>">Découvrir les offres</a>
+				<a class="btn btn-plein" href="<?php echo esc_url( home_url( a3c_reglage( 'partenariats_url' ) ) ); ?>">Publier un article</a>
 				<?php if ( $media_kit ) : ?>
 					<a class="btn btn-contour" href="<?php echo esc_url( $media_kit ); ?>">Télécharger le media kit</a>
 				<?php endif; ?>

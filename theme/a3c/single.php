@@ -92,7 +92,7 @@ while ( have_posts() ) :
 					<li><?php a3c_pastille_audience( get_the_ID() ); ?><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></li>
 				<?php endwhile; wp_reset_postdata(); ?>
 			</ul>
-			<p class="meta">Vous êtes une entreprise et souhaitez publier un contenu partenaire ? <a href="<?php echo esc_url( home_url( a3c_reglage( 'partenariats_url' ) ) ); ?>">Voir les offres</a></p>
+			<p class="meta">Vous êtes une entreprise et souhaitez publier un article sur A3C Digital ? <a href="<?php echo esc_url( home_url( a3c_reglage( 'partenariats_url' ) ) ); ?>">Voir comment faire</a></p>
 		</div>
 	</section>
 	<?php endif; ?>

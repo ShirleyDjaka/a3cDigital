@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Crée ou met à jour une page WordPress à partir d'un fichier HTML (blocs Gutenberg).
 
-Usage : python3 scripts/wp_publish_page.py contenus/pages/contact.html
+Usage : python3 scripts/wp_publish_page.py contenus/pages/contact.html [--site https://staging6.a3cdigital.com]
 
 Le fichier commence par un en-tête :
     <!-- title: Contact -->
@@ -19,7 +19,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-SITE = "https://a3cdigital.com"
+SITE = sys.argv[sys.argv.index("--site") + 1].rstrip("/") if "--site" in sys.argv else "https://a3cdigital.com"
 UA = "Mozilla/5.0 (a3cdigital-publisher)"
 
 
@@ -38,7 +38,7 @@ def main(path):
     raw = Path(path).read_text(encoding="utf-8")
     meta = dict(re.findall(r"<!--\s*(\w+):\s*(.*?)\s*-->", raw.split("\n\n", 1)[0]))
     content = re.sub(r"^(<!--\s*\w+:.*?-->\s*)+", "", raw, flags=re.S).strip()
-    payload = {"title": meta["title"], "slug": meta["slug"], "content": content,
+    payload = {"title": meta["title"], "slug": meta["slug"], "content": content, "excerpt": meta.get("excerpt", ""),
                "status": meta.get("status", "draft"), "comment_status": "closed", "ping_status": "closed"}
 
     existing = call("GET", f"wp/v2/pages?slug={meta['slug']}&status=publish,draft,private&_fields=id")

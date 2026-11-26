@@ -45,6 +45,10 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
 - Ne jamais donner à un lien partenaire le statut de seul lien sortant d'un article : citer aussi des sources neutres.
 - Ne jamais inventer de chiffres d'audience, de témoignages ou de logos clients.
 
+## Vocabulaire
+
+- Côté annonceurs, parler de « publier un article » et jamais de « partenariat » (page `/publier-un-article/`). La mention légale en haut des articles vendus reste « Contenu partenaire ».
+
 ## Conventions d'URL
 
 - Articles à la racine : `/slug-court-sans-annee/` (l'année va dans le title, pas dans l'URL).

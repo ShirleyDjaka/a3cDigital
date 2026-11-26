@@ -42,7 +42,7 @@ $lien_page = function ( $slug, $libelle ) {
 		} else {
 			$lien_page( 'a-propos', 'À propos' );
 			$lien_page( 'charte-editoriale', 'Charte éditoriale' );
-			$lien_page( 'partenariats', 'Publier sur A3C Digital' );
+			$lien_page( 'publier-un-article', 'Publier un article' );
 			$lien_page( 'newsletter', 'Newsletter' );
 		}
 		$liens_media = trim( ob_get_clean() );
