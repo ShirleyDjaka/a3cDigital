@@ -92,7 +92,7 @@ Des patients âgés, malvoyants ou peu à l'aise avec l'écrit consultent aussi 
 
 ## Une identité propre, cohérente avec le cadre
 
-Une équipe de plusieurs chirurgiens gagne à présenter une identité commune. Le site [Chirurgien Vasculaire Montpellier](https://chirurgien-vasculaire-montpellier.fr/) présente ainsi une équipe de deux chirurgiens des pathologies vasculaires : il a été conçu pour présenter clairement les pathologies traitées sans sortir du cadre déontologique, avec un logo et une identité propres.
+Une équipe de plusieurs chirurgiens gagne à présenter une identité commune. Le site [Chirurgien Vasculaire Montpellier](https://chirurgien-vasculaire-montpellier.fr/) présente par exemple une équipe de deux chirurgiens des pathologies vasculaires et décrit les pathologies traitées, page par page.
 
 Notre article sur [l'identité commune d'un cabinet de groupe](/cabinet-groupe-identite-commune/) détaille cette démarche.
 
