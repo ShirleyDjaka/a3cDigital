@@ -124,7 +124,8 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - 8 anciens articles réécrits et renommés (redirections 301 vérifiées) : business-1 à 4, entrepreneuriat-4, micro-influenceurs, personal branding, aides financières.
 - Pages publiées : charte éditoriale, à propos ; politique de confidentialité complétée (newsletter).
 - Thème 1.4.0 **déployé le 26/11/2026** (accord de l'éditrice) : newsletter avec double confirmation (abonnés dans l'administration, export CSV), page auteur indexable, code court `[a3c_articles]`.
-- Publiés : 3 guides piliers (ids 464 à 466) et la page `/newsletter/`. Inscription testée (adresse test-newsletter@example.com, en attente, supprimée automatiquement sous 30 jours).
+- Publiés : 3 guides piliers (ids 464 à 466) et la page `/newsletter/`.
+- Thème 1.4.1 déployé le 26/11/2026 (accord de l'éditrice) : checklists PDF offertes à la confirmation (`scripts/checklists.js`, sources dans `contenus/checklists/`), e-mail de bienvenue, encart newsletter avant le 3e intertitre des articles. Modèles d'invitation : `contenus/emails/invitation-newsletter.md`. Inscription testée (adresse test-newsletter@example.com, en attente, supprimée automatiquement sous 30 jours).
 - Reste à faire, avec accord (dépublication) : fusions entrepreneuriat-1 + 2, entrepreneuriat-3 + soft skills, deux articles santé, deux articles viticoles ; réécriture nationale des articles « Montpellier ».
 - À faire par l'éditrice : Search Console (propriété, sitemap, désaveu), Bing Webmaster Tools, biographie détaillée sur le profil auteur.
 
