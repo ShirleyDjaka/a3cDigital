@@ -6,7 +6,7 @@
 defined( 'ABSPATH' ) || exit;
 get_header();
 
-$recents   = new WP_Query( array( 'posts_per_page' => 4, 'ignore_sticky_posts' => true, 'no_found_rows' => true ) );
+$recents   = new WP_Query( array( 'posts_per_page' => 3, 'ignore_sticky_posts' => true, 'no_found_rows' => true ) );
 $cat_guide = get_category_by_slug( 'guides' );
 $guides    = $cat_guide ? new WP_Query( array( 'cat' => $cat_guide->term_id, 'posts_per_page' => 4, 'no_found_rows' => true ) ) : null;
 $newsletter_code = a3c_reglage( 'newsletter_code' );
@@ -51,7 +51,7 @@ $media_kit       = a3c_reglage( 'media_kit_url' );
 	<section class="section section-brume" aria-labelledby="titre-derniers">
 		<div class="conteneur">
 			<h2 class="section-titre" id="titre-derniers">Les derniers articles</h2>
-			<ul class="cartes cartes-4">
+			<ul class="cartes">
 				<?php
 				while ( $recents->have_posts() ) :
 					$recents->the_post();

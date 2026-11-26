@@ -203,8 +203,5 @@
 a.onglet-article { text-decoration: none; }
 a.onglet-article:hover { text-decoration: underline; }
 
-/* Accueil : les 4 derniers articles en cartes */
-.cartes-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+/* Accueil : les 3 derniers articles, même grille que les rubriques */
 .section-brume .section-titre + .cartes { margin-top: 8px; }
-@media (max-width: 1100px) { .cartes-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 640px) { .cartes-4 { grid-template-columns: minmax(0, 1fr); } }
