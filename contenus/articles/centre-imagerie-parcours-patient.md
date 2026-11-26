@@ -46,7 +46,7 @@ Mettez à la disposition des patients et du secrétariat une **information de r�
 3. les **documents à apporter** : ordonnance, carte Vitale, examens antérieurs ;
 4. un **numéro unique** pour les demandes complexes.
 
-Le site de [CIMMS, centres d'imagerie médicale](https://cimms.fr/), oriente par exemple les patients vers le bon site et le bon examen, et explique la préparation avant la prise de rendez-vous.
+Le site de [CIMMS, centres d'imagerie médicale](https://cimms.fr/) oriente par exemple les patients vers le bon site et le bon examen, et explique la préparation avant la prise de rendez-vous.
 
 ## Étape 3 : les consignes de préparation
 

@@ -14,6 +14,7 @@
 | 2 | Clients : MSP ValSanté (08/02), Les Nouveaux Notaires (11/02), FFMKR 69 (15/02), Office notarial du Fort (18/02). Utiles : compte bancaire professionnel (09/02), fiche Google d'un cabinet (12/02, sans sources), contrat de médecin collaborateur (16/02), page « À propos » (19/02, sans sources). Ids 436 à 443. | Programmé |
 | 3 | Clients : Cabinet de sages-femmes Montpellier (22/02), CHN Notaires (25/02), Dr Abramovici (01/03), Dr Macé (04/03). Utiles : devis (23/02), premier rendez-vous avocat (26/02, sans sources), facture impayée (02/03), premiers clients (05/03, sans sources). Ids 472 à 479. | Programmé |
 | 4 | Clients : Dr Sophie Bartier (08/03), Stéphanie Bacle (11/03), Dr Mickaël Nicol (15/03), Printemps Avocats (18/03). Utiles : rendez-vous non honorés (09/03, sans sources), premier salarié (12/03), cybersécurité du cabinet (16/03), fixer ses prix (19/03, sans sources). Ids 480 à 487. | Programmé |
+| 5 | Clients : CIMMS (22/03), Berardi & Maurin Notaires (25/03), Dr Allart (29/03), Millénaire Avocats (01/04). Utiles : assistant médical (23/03), expert-comptable (26/03, sans sources), gestion du temps avocat (30/03, sans sources), assurances obligatoires (02/04). Ids 488 à 495. Tous les clients E-Juriste sont traités ; restent 20 clients Doctoweb. | Programmé |
 
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune
