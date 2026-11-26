@@ -19,7 +19,7 @@ une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers 
 comparaison, aucun chiffre non vérifiable. Le format suit la consigne de l'éditrice : title, meta, introduction,
 H2/H3, paragraphes courts, listes, **gras**, conseils concrets, FAQ de 3 à 4 questions, conclusion et appel à l'action.
 
-**Décision du 26/11/2026 : liens de marque** : une mention dans chaque guide pilier (Doctoweb dans le guide santé, E-Juriste dans le guide avocats) ; 2 articles de marque par mois à partir du lot 4, sous réserve de rester à 50 % d'articles sans lien commercial au plus (47 % au 26/11/2026).
+**Décision du 26/11/2026 : liens de marque** : une mention dans chaque guide pilier (Doctoweb dans le guide santé, E-Juriste dans le guide avocats) ; articles de marque supplémentaires **reportés** (décision du 26/11/2026 : rythme inchangé, 4 articles par semaine en alternance client / utile ; à rediscuter plus tard). Part d'articles avec lien commercial : 47 % au 26/11/2026.
 
 ## Santé (31)
 
