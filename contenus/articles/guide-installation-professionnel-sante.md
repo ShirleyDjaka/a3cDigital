@@ -92,7 +92,7 @@ Si vous confiez votre site à un prestataire, choisissez-en un qui connaît les 
 
 :::marque Doctoweb est une marque de l'éditrice du site. :::
 
-[a3c_articles ids="439,426,191,381" titre="Pour communiquer sereinement"]
+[a3c_articles ids="439,426,191" titre="Pour communiquer sereinement"]
 
 ## Questions fréquentes
 

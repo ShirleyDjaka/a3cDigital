@@ -33,6 +33,8 @@ function a3c_redirections() {
 		'/micro-influenceurs-secret-des-marques-qui-cartonnes-2025/' => '/micro-influenceurs-marketing/',
 		'/le-personal-branding-est-il-entrain-de-remplacer-le-cv/'   => '/personal-branding-vs-cv/',
 		'/les-aides-financieres-et-subventions-pour-les-entrepreneurs-en-2025/' => '/aides-financieres-entrepreneurs/',
+		// Contenus transférés vers un site de marque de l'éditrice (sujet commercial de la marque).
+		'/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/' => 'https://site-web-medecins.fr/site-dentiste',
 	);
 }
 
@@ -45,7 +47,13 @@ add_action(
 		$chemin = preg_replace( '#page/\d+/$#', '', $chemin );
 		$table  = a3c_redirections();
 		if ( isset( $table[ $chemin ] ) ) {
-			wp_safe_redirect( home_url( $table[ $chemin ] ), 301, 'A3C Digital' );
+			$cible = $table[ $chemin ];
+			if ( 0 === strpos( $cible, 'https://' ) ) {
+				// Redirection vers un autre domaine (contenu transféré) : adresse fixe déclarée ci-dessus.
+				wp_redirect( $cible, 301, 'A3C Digital' ); // phpcs:ignore WordPress.Security.SafeRedirect
+			} else {
+				wp_safe_redirect( home_url( $cible ), 301, 'A3C Digital' );
+			}
 			exit;
 		}
 	},

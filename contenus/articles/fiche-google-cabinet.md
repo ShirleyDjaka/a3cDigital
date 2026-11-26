@@ -103,4 +103,4 @@ Ce n'est pas indispensable. Une information ponctuelle utile, comme une fermetur
 
 Une fiche Google bien tenue repose sur des bases simples : **la bonne catégorie, des coordonnées identiques partout, des horaires exacts, des photos réelles et des réponses aux avis**. Prenez une demi-heure cette semaine pour la vérifier point par point, puis quinze minutes chaque mois pour l'entretenir.
 
-Pour aller plus loin, lisez notre article sur [le SEO local d'un dentiste](/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/), notre plan pour [ouvrir son cabinet dentaire](/ouvrir-cabinet-dentaire-plan-communication/), et la rubrique [Visibilité en ligne](/category/sante/visibilite-en-ligne/).
+Pour aller plus loin, lisez notre article sur [l'identité visuelle d'un cabinet médical](/identite-visuelle-cabinet-medical-avant-ouverture/), notre plan pour [ouvrir son cabinet dentaire](/ouvrir-cabinet-dentaire-plan-communication/), et la rubrique [Visibilité en ligne](/category/sante/visibilite-en-ligne/).

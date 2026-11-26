@@ -12,7 +12,7 @@ source,destination,code,action,note
 /le-personal-branding-est-il-entrain-de-remplacer-le-cv/,/personal-branding-vs-cv/,301,renommer,faute fait le 26/11/2026
 /les-aides-financieres-et-subventions-pour-les-entrepreneurs-en-2025/,/aides-financieres-entrepreneurs/,301,renommer,annee dans le title seulement fait le 26/11/2026
 /creer-un-site-web-efficace-pour-votre-entreprise-a-montpellier/,/creer-site-web-entreprise/,301,reecrire,version nationale
-/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/,/seo-dentiste/,301,reecrire,guide national
+/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/,/seo-dentiste/,301,reecrire,guide national ; remplacé le 26/11/2026 : article transféré, 301 vers https://site-web-medecins.fr/site-dentiste (décision de l'éditrice), article mis à la corbeille
 /choisir-une-agence-de-communication-sante-professionnels-du-medical/,/communication-digitale-professionnels-sante/,301,fusionner,guide pilier Sante
 /communication-digitale-sante-une-pratique-incontournable/,/communication-digitale-professionnels-sante/,301,fusionner,guide pilier Sante
 /comment-les-vignobles-peuvent-optimiser-leur-presence-sur-les-reseaux-sociaux/,/marketing-digital-domaine-viticole/,301,fusionner,
@@ -31,3 +31,4 @@ source,destination,code,action,note
 /category/marketing/communication/,/entrepreneurs/marketing-visibilite/,301,categorie,
 /category/marketing/digital/,/entrepreneurs/marketing-visibilite/,301,categorie,
 /category/uncategorized/,/,301,categorie,vide
+/les-avantages-dun-bon-referencement-pour-les-avocats/,https://site-avocat-notaire.fr/ (article « Référencement avocat » à venir),301,transferer,décision du 26/11/2026 : à faire dès la publication de l'article E-Juriste
