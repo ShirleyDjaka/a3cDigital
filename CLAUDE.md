@@ -14,6 +14,7 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
 ## Calendrier éditorial
 
 - Rythme validé le 26/11/2026 : **4 articles par semaine** à partir du lundi 8 février 2027, en alternance **client / utile** : lundi client, mardi utile, jeudi client, vendredi utile, à 6 h (heure de Paris). Avant cette date : mardi client, jeudi utile.
+- `date_gmt` : 6 h à Paris = **05:00 UTC en heure d'hiver**, **04:00 UTC en heure d'été** (du dernier dimanche de mars au dernier dimanche d'octobre ; en 2027 : du 28 mars au 31 octobre).
 - Suivi des articles clients : `docs/plan-articles-clients.md` ; liens commerciaux : `seo/liens-commerciaux.csv`.
 
 ## Contenu du dépôt
