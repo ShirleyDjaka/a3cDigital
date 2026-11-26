@@ -157,15 +157,31 @@ Menu : `Entrepreneurs · Santé · Juridique · Guides · Recherche · [Publier 
 - Processus en 4 étapes, tarifs « à partir de », formulaire avec paiement, FAQ.
 - Maximum 1 article sponsorisé sur 4 publications.
 
-## 5. Direction artistique
+## 5. Direction artistique (validée le 26/11/2026)
 
-- **Ambiance** : média éditorial professionnel, sobre et chaleureux.
-- **Couleurs** : encre `#1B2333`, fond `#FAF8F4`, filets `#E6E2DA`. Par audience : Entrepreneurs `#B5651D`, Santé `#2F7D6D`, Juridique `#7A2E3A`, pour badges et filets uniquement. Contraste AA (4,5:1).
-- **Typographie** : titres en Fraunces ou Source Serif 4, texte en Inter 18–19 px, interligne 1,6, 65–75 caractères par ligne. Polices hébergées sur le site, 2 familles maximum.
-- **Visuels** : pas de photos de banque d'images génériques. Photos en bichromie ou illustrations cohérentes, format 16:9, moins de 120 Ko.
-- **Gabarit d'article** : fil d'Ariane → H1 → auteur, date de mise à jour, temps de lecture → bandeau « Partenariat » si besoin → « L'essentiel en 30 secondes » → sommaire → H2 tous les ~300 mots → newsletter à mi-article → sources → bio → 3 articles liés → « Vous êtes une marque ? ».
-- **Mobile** : menu à tuiles, barre de progression, sommaire repliable, zones tactiles de 48 px, aucune pop-up à l'arrivée. LCP < 2 s, CLS < 0,1, INP < 200 ms.
-- **CTA** : pour le lecteur, la newsletter en principal. Pour l'annonceur, un bouton plein sur `/partenariats/` et un bouton à contour dans le header.
+Maquettes : `maquettes/` (accueil, article, `styles.css` = source des jetons du futur thème).
+
+- **Concept** : les intercalaires de classeur. Chaque audience est un onglet de couleur, motif répété (hero, en-tête d'article, pastilles).
+- **Couleurs** :
+  - encre bleu nuit `#16213B` (en-tête, hero, pied de page, boutons) ; newsletter `#0E1730` ;
+  - texte `#222B3E`, gris `#4C5568`, filets `#CDD3DD`, bandes « brume » `#E6EAF0`, papier `#FFFFFF` ;
+  - Entrepreneurs, jaune surligneur `#E8A817` (feuille `#FDF5DF`, texte `#7A5200`) ;
+  - Santé, vert pharmacie `#1E7A5A` (feuille `#E4F2EC`) ;
+  - Juridique, rouge code `#B0262E` (feuille `#F8E6E6`).
+- **Rythme des contrastes** (demande de l'éditrice : site moins blanc) :
+  - en-tête et hero bleu nuit ;
+  - sections alternant blanc et brume ;
+  - newsletter nuit ;
+  - **bloc annonceurs en jaune surligneur** ;
+  - pied de page nuit ;
+  - article : bande de la couleur d'audience derrière le titre.
+- **Typographie** :
+  - Schibsted Grotesk (titres et interface, 400 à 800) ;
+  - Literata (chapô et corps d'article, 19 px, interligne 1,75, 680 px de large) ;
+  - polices à héberger sur le site dans le thème.
+- **Images** : aucune photo de banque d'images. Le design repose sur la typographie et les couleurs d'audience.
+- **Gabarit d'article** : fil d'Ariane → onglet d'audience → H1 → chapô → signature et date → « L'essentiel en 30 secondes » → sommaire (fixe sur ordinateur, repliable sur mobile) → H2 numérotés si étapes → encadrés « À retenir » / « Attention » → newsletter → sources → bio → mention de marque si besoin → « À lire ensuite ».
+- **Mobile** : menu déroulant sans JavaScript, intercalaires empilés, aucun débordement à 390 px, focus visible, `prefers-reduced-motion` respecté.
 
 ## 6. Migration SEO
 

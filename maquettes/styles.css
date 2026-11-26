@@ -1,12 +1,14 @@
-/* A3C Digital — maquette v1 (26/11/2026)
+/* A3C Digital — maquette v2 (26/11/2026) : contrastes renforcés
    Concept : les intercalaires de classeur. Chaque audience = un onglet de couleur.
    Titres et interface : Schibsted Grotesk. Lecture longue : Literata. */
 
 :root {
   --encre: #16213B;
-  --texte: #2B3448;
-  --gris: #5A6376;
-  --filet: #D8DDE5;
+  --texte: #222B3E;
+  --gris: #4C5568;
+  --filet: #CDD3DD;
+  --brume: #E6EAF0;
+  --sur-nuit: #C8D0DE;
   --surface: #F1F3F6;
   --papier: #FFFFFF;
 
@@ -337,4 +339,77 @@ a:hover { text-decoration-thickness: 2px; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ==========================================================
+   v2 — contrastes : bandes nuit / brume / blanc / surligneur
+   ========================================================== */
+.bandeau-maquette { background: var(--entrepreneurs); color: var(--encre); font-weight: 600; margin: 0; }
+
+/* En-tête bleu nuit */
+.entete { background: var(--encre); border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.entete .logo, .pied .logo { color: #fff; }
+.entete .logo span, .pied .logo span { color: var(--sur-nuit); }
+.entete .nav a { color: #fff; }
+.entete .nav a:hover { background: rgba(255, 255, 255, 0.1); }
+.entete .btn-contour { color: #fff; border-color: #fff; }
+.entete .btn-contour:hover { background: rgba(255, 255, 255, 0.12); }
+.entete :focus-visible, .hero :focus-visible, .newsletter :focus-visible, .pied :focus-visible { outline-color: #fff; }
+
+/* Hero sur fond nuit : les intercalaires ressortent */
+.hero { background: var(--encre); padding-bottom: 88px; }
+.hero h1 { color: #fff; }
+.hero .chapo { color: var(--sur-nuit); }
+.hero .recherche { border-color: #fff; background: #fff; }
+.hero .recherche button { background: var(--entrepreneurs); color: var(--encre); }
+.hero .recherche button:hover { background: #F5BC34; }
+.intercalaire a { border-color: transparent; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22); }
+.onglet { border-color: transparent; }
+
+/* Rythme des sections */
+.section { border-top: 0; }
+.section-brume { background: var(--brume); }
+.section-titre { padding-bottom: 14px; border-bottom: 3px solid var(--encre); display: inline-block; }
+.guides { border-top: 0; background: var(--papier); border-radius: 10px; padding: 0 24px; }
+.guide { border-right-color: var(--filet); }
+.engagements p.manifeste { font-size: 26px; }
+
+/* Annonceurs en jaune surligneur */
+.annonceurs { background: var(--entrepreneurs); color: var(--encre); }
+.annonceurs p { color: var(--encre); }
+.annonceurs .btn-contour:hover { background: rgba(22, 33, 59, 0.08); }
+
+/* Newsletter : un ton plus profond que l'en-tête */
+.newsletter { background: #0E1730; }
+
+/* Pied de page nuit */
+.pied { background: var(--encre); color: var(--sur-nuit); border-top: 0; }
+.pied h2 { color: #fff; }
+.pied p { color: var(--sur-nuit); }
+.pied .legal { border-top-color: rgba(255, 255, 255, 0.14); color: var(--sur-nuit); }
+
+/* Article : bande de couleur d'audience sous le titre */
+.bande-article { background: var(--entrepreneurs-feuille); border-bottom: 1px solid #EED9A4; }
+.article-entete { padding-bottom: 44px; }
+.article-entete .feuille { border-top-width: 8px; }
+.fil-ariane { color: var(--texte); }
+.essentiel { background: var(--papier); border: 2px solid var(--encre); border-left: 10px solid var(--entrepreneurs); }
+.newsletter-inline { background: var(--encre); color: var(--sur-nuit); }
+.newsletter-inline strong { color: #fff; }
+.newsletter-inline input { border-color: #4A5878; }
+.newsletter-inline .btn-plein { background: var(--entrepreneurs); color: var(--encre); border-color: var(--entrepreneurs); }
+.newsletter-inline :focus-visible { outline-color: #fff; }
+.lies { background: var(--brume); border-top: 0; margin-top: 56px; }
+.bio { border-top-width: 3px; }
+
+@media (max-width: 960px) {
+  .guides { padding: 0 20px; }
+  .sommaire { background: var(--brume); }
+}
+@media (max-width: 760px) {
+  .menu-mobile summary { color: #fff; border-color: #fff; }
+  .menu-mobile nav { background: var(--encre); border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
+  .menu-mobile nav a { color: #fff; border-bottom-color: rgba(255, 255, 255, 0.12); }
+  .menu-mobile nav .btn { color: #fff; border-color: #fff; }
+  .hero { padding-bottom: 56px; }
 }
