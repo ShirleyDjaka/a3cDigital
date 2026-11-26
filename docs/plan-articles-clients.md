@@ -4,6 +4,14 @@
 > site-web-medecins.fr (31 clients) et site-avocat-notaire.fr (9 clients). Volumes SE Ranking, France, novembre 2026
 > (recherches/mois · difficulté sur 100).
 
+**Décision du 26/11/2026 : option A** : chaque article client est accompagné d'un article utile sans lien. Rythme : client le mardi, utile le jeudi, à 6 h, après le 05/01/2027.
+
+## Avancement
+
+| Lot | Articles | Statut |
+|---|---|---|
+| 1 | Clients : Noisy-le-Grand Notaires (12/01), ADEO Notaires (19/01), Medicatel (26/01), Saint-Luc Recrutement (02/02). Utiles : facturation électronique TPE (07/01), convention d'honoraires (14/01), CGV obligatoires (21/01), RGPD au cabinet médical (28/01). | Programmé |
+
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune
 comparaison, aucun chiffre non vérifiable. Le format suit la consigne de l'éditrice : title, meta, introduction,
