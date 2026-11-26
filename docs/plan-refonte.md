@@ -83,6 +83,10 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
 - Google Analytics 4 (G-2HJN0W2MD3, via Rank Math) **conservé** (décision du 26/11/2026). Complianz 7.5.8 est installé et actif sur le site en ligne. L'assistant de configuration est à faire par l'éditrice, puis la politique de confidentialité (mise à jour : GA4 avec consentement, 13 mois) deviendra exacte.
 - Thème v1.2.2 : page **« Publier un article »** (`/publier-un-article/`, sans vocabulaire « partenariat ») avec formulaire intégré `[a3c_demande_publication]`. Champs : nom, entreprise, e-mail, téléphone, site, rubrique, format, sujet, précisions, consentement. Anti-robots (champ piège et délai de 4 s), page exclue du cache. Chaque demande est envoyée par e-mail à l'adresse admin et enregistrée dans le menu « Demandes de publication ». Testé de bout en bout sur la copie (demande test id 411).
 - Favicon dans la charte (carré nuit, trois onglets, « A » blanc) : `theme/a3c/assets/img/favicon.svg` et `favicon-512.png`, installé sur la copie de test (média 412).
+- **Nettoyage des extensions (26/11/2026)** :
+  - **site en ligne** : One Click Demo Import, Top 10 (simple compteur de vues, sans affichage) et SiteGround Central supprimés ;
+  - **copie de test** : SiteGround Central supprimé ;
+  - **restent en ligne jusqu'à la bascule de thème** : Elementor, Elementor Pro, Era Magazine, Redux. Le thème actuel « outdoor » en dépend (page d'accueil, en-tête et pied de page Elementor) : les supprimer maintenant casserait l'affichage.
 
 ## 2. Diagnostic priorisé
 
