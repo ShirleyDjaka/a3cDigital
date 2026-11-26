@@ -99,7 +99,7 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
   - demande test « Test Claude » (id 411) à supprimer ;
   - la copie de test staging6 ne répond plus (502).
 - **Règle (26/11/2026)** : la copie de test **remplacera le site en ligne** (poussée par SiteGround à la bascule). Tout se fait désormais sur la copie. Report effectué : politique de confidentialité à jour, Complianz installé, fuseau horaire Europe/Paris.
-- **Articles Doctoweb (document de l'éditrice du 25/11)** : `/ouvrir-cabinet-dentaire-plan-communication/` publié (Santé > Installation & gestion du cabinet) ; `/identite-visuelle-cabinet-medical-avant-ouverture/` programmé le 09/12/2026 à 9 h (Santé > Communication & déontologie) ; lien vers `/site-dentiste` ajouté dans l'article dentiste existant. Chaque article reçoit des H2, un encadré « L'essentiel », la mention de marque et des liens officiels. Sources : `contenus/articles/`.
+- **Articles Doctoweb (document de l'éditrice du 25/11)** : `/ouvrir-cabinet-dentaire-plan-communication/` publié (Santé > Installation & gestion du cabinet) ; `/identite-visuelle-cabinet-medical-avant-ouverture/` programmé le 01/12/2026 à 6 h (date changée par l’éditrice) (Santé > Communication & déontologie) ; lien vers `/site-dentiste` ajouté dans l'article dentiste existant. Chaque article reçoit des H2, un encadré « L'essentiel », la mention de marque et des liens officiels. Sources : `contenus/articles/`.
 - **Nettoyage des extensions (26/11/2026)** :
   - **site en ligne** : One Click Demo Import, Top 10 (simple compteur de vues, sans affichage) et SiteGround Central supprimés ;
   - **copie de test** : SiteGround Central supprimé ;
