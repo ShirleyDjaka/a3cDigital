@@ -4,13 +4,14 @@
 > site-web-medecins.fr (31 clients) et site-avocat-notaire.fr (9 clients). Volumes SE Ranking, France, novembre 2026
 > (recherches/mois · difficulté sur 100).
 
-**Décision du 26/11/2026 : option A** : chaque article client est accompagné d'un article utile sans lien. Rythme : client le mardi, utile le jeudi, à 6 h, après le 05/01/2027.
+**Décision du 26/11/2026 : option A** : chaque article client est accompagné d'un article utile sans lien. Rythme : client le mardi, utile le jeudi, à 6 h, après le 05/01/2027 ; **accéléré à 4 articles par semaine à partir du 08/02/2027** (lundi client, mardi utile, jeudi client, vendredi utile).
 
 ## Avancement
 
 | Lot | Articles | Statut |
 |---|---|---|
 | 1 | Clients : Noisy-le-Grand Notaires (12/01), ADEO Notaires (19/01), Medicatel (26/01), Saint-Luc Recrutement (02/02). Utiles : facturation électronique TPE (07/01), convention d'honoraires (14/01), CGV obligatoires (21/01), RGPD au cabinet médical (28/01). | Programmé |
+| 2 | Clients : MSP ValSanté (08/02), Les Nouveaux Notaires (11/02), FFMKR 69 (15/02), Office notarial du Fort (18/02). Utiles : compte bancaire professionnel (09/02), fiche Google d'un cabinet (12/02, sans sources), contrat de médecin collaborateur (16/02), page « À propos » (19/02, sans sources). Ids 436 à 443. | Programmé |
 
 Principe : chaque article traite un sujet utile **aux professionnels** (lectorat d'A3C Digital). Le client y est cité
 une fois, de façon factuelle, comme exemple ou comme expert, avec un lien vers son site. Aucun superlatif, aucune

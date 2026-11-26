@@ -5,12 +5,16 @@ monétisé par des articles sponsorisés. La société A3C Digital n'existe plus
 
 Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wireframe, DA, migration). La lire avant toute tâche.
 
-## Où travailler : la copie de test fait foi
+## Où travailler
 
-- **https://staging6.a3cdigital.com/** (copie SiteGround) **remplacera le site en ligne** : le jour de la bascule, elle est poussée en production par SiteGround (fichiers + base de données).
-- Tout nouveau contenu, réglage ou extension se fait **sur la copie de test**. Une modification faite seulement sur a3cdigital.com sera écrasée à la bascule.
-- Sur le site en ligne, seulement les corrections urgentes, **reportées aussi sur la copie de test**.
-- Scripts : `--site https://staging6.a3cdigital.com` (accès API par mot de passe d'application, injecté par l'environnement).
+- La copie de test a été **poussée en production le 26/11/2026** : le nouveau site est **https://a3cdigital.com/** (thème A3C) et la copie staging6 n'existe plus.
+- On travaille désormais directement sur le site en ligne, par l'API REST (mot de passe d'application injecté par l'environnement) : `--site https://a3cdigital.com`.
+- Thème : déployé par l'extension « A3C Déploiement » (`POST /wp-json/a3c/v1/theme`, zip produit par `theme/build.py`). Tout déploiement ou suppression sur le site en ligne requiert l'accord explicite de l'éditrice.
+
+## Calendrier éditorial
+
+- Rythme validé le 26/11/2026 : **4 articles par semaine** à partir du lundi 8 février 2027, en alternance **client / utile** : lundi client, mardi utile, jeudi client, vendredi utile, à 6 h (heure de Paris). Avant cette date : mardi client, jeudi utile.
+- Suivi des articles clients : `docs/plan-articles-clients.md` ; liens commerciaux : `seo/liens-commerciaux.csv`.
 
 ## Contenu du dépôt
 
@@ -26,6 +30,7 @@ Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wirefr
 - **Sources (exigence de l'éditrice, 26/11/2026)** : tout article s'appuie sur de vraies données vérifiées sur des sites officiels (Légifrance, service-public.fr, Urssaf, impots.gouv.fr, economie.gouv.fr, HAS, CNIL, CNB, Ordres professionnels, ANS, Insee, Bpifrance).
   - Chaque chiffre, date ou règle est vérifié à la source avant publication ; en cas de contradiction entre sources officielles, ne pas donner le chiffre et renvoyer vers la source la plus récente.
   - Section « Sources » en fin d'article : **liens cliquables vers les pages exactes**, avec la date de consultation.
+  - **Seulement si le thème le nécessite** (précision de l'éditrice, 26/11/2026) : un article de méthode ou de conseils pratiques qui ne cite ni chiffre, ni règle, ni donnée officielle n'a **pas** de section « Sources » ni de liens de sources.
   - Ne jamais publier un chiffre qui n'a pas été vérifié.
 - Chaque article contient :
   - un H1 unique et des H2 environ tous les 300 mots (jamais d'intertitres en simple gras) ;
