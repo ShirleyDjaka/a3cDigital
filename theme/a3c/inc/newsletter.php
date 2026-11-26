@@ -19,6 +19,20 @@ function a3c_newsletter_rubriques() {
 	);
 }
 
+/** Checklist offerte à l'inscription, selon le profil. */
+function a3c_newsletter_bonus( $rubrique ) {
+	$titres = array(
+		'entrepreneurs' => 'Créer son entreprise : la checklist',
+		'sante'         => 'Ouvrir son cabinet : la checklist',
+		'juridique'     => 'Le site d\'avocat conforme : la checklist',
+	);
+	$rubrique = isset( $titres[ $rubrique ] ) ? $rubrique : 'entrepreneurs';
+	return array(
+		'titre' => $titres[ $rubrique ],
+		'url'   => get_template_directory_uri() . '/assets/pdf/checklist-' . $rubrique . '.pdf',
+	);
+}
+
 /** Statuts d'un abonné. */
 function a3c_newsletter_statuts() {
 	return array(
@@ -172,9 +186,25 @@ add_action(
 			exit;
 		}
 		if ( 'confirmer' === $action ) {
-			update_post_meta( $id, '_a3c_statut', 'confirme' );
-			update_post_meta( $id, '_a3c_date_confirmation', current_time( 'mysql' ) );
-			wp_safe_redirect( add_query_arg( 'newsletter', 'confirmee', $page ) . '#newsletter' );
+			$rubrique = get_post_meta( $id, '_a3c_rubrique', true );
+			if ( 'confirme' !== get_post_meta( $id, '_a3c_statut', true ) ) {
+				update_post_meta( $id, '_a3c_statut', 'confirme' );
+				update_post_meta( $id, '_a3c_date_confirmation', current_time( 'mysql' ) );
+				// E-mail de bienvenue avec la checklist, envoyé une seule fois.
+				$bonus = a3c_newsletter_bonus( $rubrique );
+				wp_mail(
+					get_post_meta( $id, '_a3c_email', true ),
+					'Bienvenue ! Votre checklist A3C Digital',
+					sprintf(
+						"Bonjour,\n\nVotre inscription à la newsletter d'A3C Digital est confirmée. Merci !\n\nComme promis, voici votre checklist « %s » :\n%s\n\nVous recevrez une sélection de nos articles utiles, adaptés à votre profil.\n\nPour vous désinscrire à tout moment :\n%s\n\nA3C Digital\n%s",
+						$bonus['titre'],
+						$bonus['url'],
+						a3c_newsletter_lien( 'desinscrire', $jeton ),
+						home_url( '/' )
+					)
+				);
+			}
+			wp_safe_redirect( add_query_arg( array( 'newsletter' => 'confirmee', 'profil' => $rubrique ), $page ) . '#newsletter' );
 		} else {
 			update_post_meta( $id, '_a3c_statut', 'desinscrit' );
 			update_post_meta( $id, '_a3c_date_desinscription', current_time( 'mysql' ) );
@@ -212,7 +242,7 @@ add_shortcode(
 			array(
 				'variante' => 'encart',
 				'titre'    => 'Recevez nos articles utiles',
-				'texte'    => 'Une sélection d\'articles pratiques, deux fois par mois. Désinscription en un clic.',
+				'texte'    => 'Une sélection d\'articles pratiques, et une checklist offerte dès votre inscription. Désinscription en un clic.',
 			),
 			$atts,
 			'a3c_newsletter'
@@ -222,8 +252,8 @@ add_shortcode(
 		$retour   = is_singular() ? get_permalink() : home_url( trailingslashit( (string) ( $GLOBALS['wp']->request ?? '' ) ) );
 		$etat     = isset( $_GET['newsletter'] ) ? sanitize_key( $_GET['newsletter'] ) : '';
 		$messages = array(
-			'attente'    => array( 'ok', '<strong>Presque terminé !</strong> Nous venons de vous envoyer un e-mail : cliquez sur le lien qu\'il contient pour confirmer votre inscription.' ),
-			'confirmee'  => array( 'ok', '<strong>Inscription confirmée.</strong> Merci, vous recevrez notre prochaine newsletter.' ),
+			'attente'    => array( 'ok', '<strong>Presque terminé !</strong> Nous venons de vous envoyer un e-mail : cliquez sur le lien qu\'il contient pour confirmer votre inscription et recevoir votre checklist.' ),
+			'confirmee'  => array( 'ok', '<strong>Inscription confirmée, merci !</strong> Votre checklist est prête, et nous vous l\'avons aussi envoyée par e-mail.' ),
 			'desinscrit' => array( 'ok', '<strong>Vous êtes désinscrit.</strong> Vous ne recevrez plus la newsletter.' ),
 			'email'      => array( 'erreur', '<strong>Adresse e-mail invalide.</strong> Merci de vérifier votre saisie.' ),
 			'limite'     => array( 'erreur', '<strong>Trop de tentatives.</strong> Merci de réessayer dans une heure.' ),
@@ -242,6 +272,14 @@ add_shortcode(
 		}
 		if ( isset( $messages[ $etat ] ) ) {
 			printf( '<p class="nl-message nl-%s" role="status">%s</p>', esc_attr( $messages[ $etat ][0] ), wp_kses( $messages[ $etat ][1], array( 'strong' => array() ) ) );
+			if ( 'confirmee' === $etat ) {
+				$bonus = a3c_newsletter_bonus( isset( $_GET['profil'] ) ? sanitize_key( $_GET['profil'] ) : '' );
+				printf(
+					'<p class="nl-bonus"><a class="btn btn-plein" href="%s" download>Télécharger « %s » (PDF)</a></p>',
+					esc_url( $bonus['url'] ),
+					esc_html( $bonus['titre'] )
+				);
+			}
 		}
 		if ( ! in_array( $etat, array( 'attente', 'confirmee' ), true ) ) :
 			?>
@@ -368,3 +406,24 @@ add_action(
 		}
 	}
 );
+
+/**
+ * Place l'encart newsletter au milieu de l'article (avant le 3e intertitre, si l'article en compte au moins 5),
+ * sinon à la fin. Le texte annonce la checklist offerte correspondant à la rubrique.
+ */
+function a3c_inserer_encart_newsletter( $contenu, $rubrique ) {
+	$textes = array(
+		'entrepreneurs' => array( 'Vous créez ou dirigez une entreprise ?', 'Recevez gratuitement notre checklist « Créer son entreprise », puis une sélection d\'articles pratiques. Désinscription en un clic.' ),
+		'sante'         => array( 'Vous exercez une profession de santé ?', 'Recevez gratuitement notre checklist « Ouvrir son cabinet », puis une sélection d\'articles pratiques. Désinscription en un clic.' ),
+		'juridique'     => array( 'Vous êtes avocat, notaire ou juriste ?', 'Recevez gratuitement notre checklist « Le site d\'avocat conforme », puis une sélection d\'articles pratiques. Désinscription en un clic.' ),
+	);
+	list( $titre, $texte ) = $textes[ $rubrique ] ?? $textes['entrepreneurs'];
+	$encart = do_shortcode( sprintf( '[a3c_newsletter titre="%s" texte="%s"]', esc_attr( $titre ), esc_attr( $texte ) ) );
+
+	// Intertitres H2 du corps (hors encadré « L'essentiel »).
+	if ( preg_match_all( '#<h2(?![^>]*essentiel-titre)[^>]*>#', $contenu, $m, PREG_OFFSET_CAPTURE ) && count( $m[0] ) >= 5 ) {
+		$position = $m[0][2][1];
+		return substr( $contenu, 0, $position ) . $encart . substr( $contenu, $position );
+	}
+	return $contenu . $encart;
+}

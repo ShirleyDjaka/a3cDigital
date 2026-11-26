@@ -108,7 +108,7 @@ $media_kit       = a3c_reglage( 'media_kit_url' );
 		<div class="conteneur">
 			<div>
 				<h2 id="titre-newsletter">Une sélection d'articles utiles, deux fois par mois</h2>
-				<p>Choisissez votre rubrique, vous ne recevrez que ce qui vous concerne. Désinscription en un clic.</p>
+				<p>Choisissez votre profil : une checklist pratique vous est offerte dès l'inscription, puis vous ne recevez que ce qui vous concerne. Désinscription en un clic.</p>
 			</div>
 			<?php if ( $newsletter_code ) : ?>
 				<div class="form-newsletter"><?php echo do_shortcode( wp_kses_post( $newsletter_code ) ); ?></div>

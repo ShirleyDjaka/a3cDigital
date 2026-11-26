@@ -48,14 +48,8 @@ while ( have_posts() ) :
 			<?php a3c_sommaire(); ?>
 			<article <?php post_class( 'contenu' ); ?>>
 				<?php
-				echo $contenu; // phpcs:ignore WordPress.Security.EscapeOutput -- contenu filtré par the_content.
+				echo a3c_inserer_encart_newsletter( $contenu, $aud['slug'] ?? '' ); // phpcs:ignore WordPress.Security.EscapeOutput -- contenu filtré par the_content.
 				wp_link_pages();
-				$titres_nl = array(
-					'entrepreneurs' => 'Vous dirigez une entreprise ?',
-					'sante'         => 'Vous exercez une profession de santé ?',
-					'juridique'     => 'Vous êtes avocat, notaire ou juriste ?',
-				);
-				echo do_shortcode( sprintf( '[a3c_newsletter titre="%s"]', esc_attr( $titres_nl[ $aud['slug'] ?? '' ] ?? 'Recevez nos articles utiles' ) ) );
 				?>
 
 				<section class="bio" aria-label="À propos de l'auteur">

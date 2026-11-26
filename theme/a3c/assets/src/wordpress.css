@@ -239,3 +239,5 @@ a.onglet-article:hover { text-decoration: underline; }
 .auteur-bio .contenu { max-width: 760px; }
 .rubrique-liste .section-titre { margin-bottom: 24px; }
 @media (max-width: 640px) { .auteur-entete .conteneur { flex-direction: column; align-items: flex-start; } }
+.nl-bonus { margin: 12px 0 0; }
+.newsletter .nl-bonus .btn { background: #fff; color: var(--encre); border-color: #fff; }

@@ -7,7 +7,9 @@
 
 Recevez **une sélection d'articles utiles, deux fois par mois**, choisis selon votre profil : entrepreneur, professionnel de santé, ou avocat, notaire et juriste.
 
-[a3c_newsletter titre="Inscrivez-vous à la newsletter" texte="Indiquez votre e-mail et votre profil, puis confirmez votre inscription grâce au lien que vous recevrez."]
+**En cadeau dès votre inscription**, une checklist pratique d'une page : « Créer son entreprise », « Ouvrir son cabinet » ou « Le site d'avocat conforme », selon votre profil.
+
+[a3c_newsletter titre="Inscrivez-vous à la newsletter" texte="Indiquez votre e-mail et votre profil, puis confirmez votre inscription grâce au lien reçu : votre checklist vous attend."]
 
 ## Ce que vous recevrez
 
