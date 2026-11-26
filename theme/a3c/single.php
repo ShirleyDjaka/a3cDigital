@@ -35,14 +35,8 @@ while ( have_posts() ) :
 					<?php endif; ?>
 					<div class="signature">
 						<span class="initiales" aria-hidden="true"><?php echo esc_html( a3c_initiales( $auteur ) ); ?></span>
-						<p><strong><?php the_author_posts_link(); ?></strong>
-						<?php
-						$fonction = get_the_author_meta( 'a3c_fonction', $auteur );
-						if ( $fonction ) {
-							echo ', ' . esc_html( $fonction );
-						}
-						?>
-						<br><span class="meta"><?php a3c_meta_article(); ?></span></p>
+						<?php $fonction = get_the_author_meta( 'a3c_fonction', $auteur ); ?>
+						<p><strong><?php the_author_posts_link(); ?></strong><?php echo $fonction ? ', ' . esc_html( $fonction ) : ''; ?><br><span class="meta"><?php a3c_meta_article(); ?></span></p>
 					</div>
 				</div>
 			</div></div>

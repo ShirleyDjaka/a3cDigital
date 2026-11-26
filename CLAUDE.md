@@ -5,6 +5,13 @@ monétisé par des articles sponsorisés. La société A3C Digital n'existe plus
 
 Référence complète : `docs/plan-refonte.md` (diagnostic, arborescence, wireframe, DA, migration). La lire avant toute tâche.
 
+## Où travailler : la copie de test fait foi
+
+- **https://staging6.a3cdigital.com/** (copie SiteGround) **remplacera le site en ligne** : le jour de la bascule, elle est poussée en production par SiteGround (fichiers + base de données).
+- Tout nouveau contenu, réglage ou extension se fait **sur la copie de test**. Une modification faite seulement sur a3cdigital.com sera écrasée à la bascule.
+- Sur le site en ligne, seulement les corrections urgentes, **reportées aussi sur la copie de test**.
+- Scripts : `--site https://staging6.a3cdigital.com` (accès API par mot de passe d'application, injecté par l'environnement).
+
 ## Contenu du dépôt
 
 - `archive/wordpress-2025/` : sauvegarde du site d'origine (25 articles et 4 pages en Markdown, `_index.json`). Ne pas modifier : c'est la référence avant refonte.

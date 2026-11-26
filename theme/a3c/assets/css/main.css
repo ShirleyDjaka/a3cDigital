@@ -643,3 +643,7 @@ a:hover { text-decoration-thickness: 2px; }
 .demande-ok { background: var(--sante-feuille); border-left: 6px solid var(--sante); }
 .demande-erreur { background: var(--juridique-feuille); border-left: 6px solid var(--juridique); }
 @media (max-width: 640px) { .form-demande .grille-2 { grid-template-columns: minmax(0, 1fr); } }
+
+/* Onglet d'audience cliquable, sans soulignement */
+a.onglet-article { text-decoration: none; }
+a.onglet-article:hover { text-decoration: underline; }

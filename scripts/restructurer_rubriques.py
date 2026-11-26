@@ -68,6 +68,8 @@ ARTICLES = {
     "allier-communication-digitale-et-deontologie-etude-notariale": ["juridique-communication-deontologie"],
     "les-avantages-dun-bon-referencement-pour-les-avocats": ["developper-son-cabinet"],
     "succession-les-implications-juridiques-et-pratiques-dun-debarras-immobilier": ["juridique"],
+    "ouvrir-cabinet-dentaire-plan-communication": ["installation-gestion-cabinet"],
+    "identite-visuelle-cabinet-medical-avant-ouverture": ["sante-communication-deontologie"],
 }
 
 # Anciennes catégories à supprimer une fois vides
