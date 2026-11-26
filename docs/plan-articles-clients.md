@@ -59,7 +59,7 @@ H2/H3, paragraphes courts, listes, **gras**, conseils concrets, FAQ de 3 à 4 qu
 
 ## Juridique (9)
 
-Spécialités des cabinets d'avocats à confirmer en lisant leurs sites avant rédaction.
+Spécialités confirmées par les fiches de réalisation (26/11/2026) : Stéphanie Bacle (droit du travail, droit de la famille ; Montpellier et Saint-Gély-du-Fesc), Millénaire Avocats (affaires, fiscal, civil, pénal, famille, patrimoine, public, étrangers, travail, santé ; Montpellier), Printemps Avocats (sociétés, travail, fiscal ; Paris 8e).
 
 | # | Client | Site | Sujet proposé | Mot-clé principal | Vol. · diff. | Rubrique |
 |---|---|---|---|---|---|---|
