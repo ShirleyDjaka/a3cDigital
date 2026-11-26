@@ -5,7 +5,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'A3C_VERSION', '1.2.4' );
+define( 'A3C_VERSION', '1.3.0' );
 
 require get_template_directory() . '/inc/audience.php';
 require get_template_directory() . '/inc/article.php';

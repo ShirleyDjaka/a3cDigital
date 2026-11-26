@@ -6,9 +6,7 @@
 defined( 'ABSPATH' ) || exit;
 get_header();
 
-$une       = a3c_article_une();
-$exclure   = $une ? array( $une->ID ) : array();
-$recents   = new WP_Query( array( 'posts_per_page' => 4, 'post__not_in' => $exclure, 'ignore_sticky_posts' => true, 'no_found_rows' => true ) );
+$recents   = new WP_Query( array( 'posts_per_page' => 4, 'ignore_sticky_posts' => true, 'no_found_rows' => true ) );
 $cat_guide = get_category_by_slug( 'guides' );
 $guides    = $cat_guide ? new WP_Query( array( 'cat' => $cat_guide->term_id, 'posts_per_page' => 4, 'no_found_rows' => true ) ) : null;
 $newsletter_code = a3c_reglage( 'newsletter_code' );
@@ -49,32 +47,19 @@ $media_kit       = a3c_reglage( 'media_kit_url' );
 		</div>
 	</section>
 
-	<?php if ( $une ) : ?>
-	<section class="section" aria-labelledby="titre-une">
+	<?php if ( $recents->have_posts() ) : ?>
+	<section class="section section-brume" aria-labelledby="titre-derniers">
 		<div class="conteneur">
-			<h2 class="section-titre" id="titre-une">À la une</h2>
-			<div class="une">
-				<article class="une-principal">
-					<?php a3c_pastille_audience( $une ); ?>
-					<h3><a href="<?php echo esc_url( get_permalink( $une ) ); ?>"><?php echo esc_html( get_the_title( $une ) ); ?></a></h3>
-					<p><?php echo esc_html( get_the_excerpt( $une ) ); ?></p>
-					<p class="meta"><?php a3c_meta_article( $une ); ?></p>
-				</article>
-				<?php if ( $recents->have_posts() ) : ?>
-				<ul class="liste-articles">
-					<?php
-					while ( $recents->have_posts() ) :
-						$recents->the_post();
-						?>
-						<li>
-							<?php a3c_pastille_audience( get_the_ID() ); ?>
-							<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-							<p class="meta"><?php echo (int) a3c_temps_lecture(); ?> min de lecture</p>
-						</li>
-					<?php endwhile; wp_reset_postdata(); ?>
-				</ul>
-				<?php endif; ?>
-			</div>
+			<h2 class="section-titre" id="titre-derniers">Les derniers articles</h2>
+			<ul class="cartes cartes-4">
+				<?php
+				while ( $recents->have_posts() ) :
+					$recents->the_post();
+					get_template_part( 'parts/carte', null, array( 'niveau' => 'h3' ) );
+				endwhile;
+				wp_reset_postdata();
+				?>
+			</ul>
 		</div>
 	</section>
 	<?php endif; ?>
