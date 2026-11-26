@@ -1,0 +1,48 @@
+<title>Maquettes A3C Digital</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  /* Page d'entrée des maquettes : deux liens, rappel du concept des intercalaires */
+  :root {
+    --fond: #FFFFFF; --encre: #16213B; --texte: #2B3448; --gris: #5A6376; --filet: #D8DDE5;
+    --entrepreneurs: #E8A817; --sante: #1E7A5A; --juridique: #B0262E;
+    --titre: "Schibsted Grotesk", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --fond: #121A2E; --encre: #F2F4F8; --texte: #D3D8E2; --gris: #9AA3B5; --filet: #2C3752; color-scheme: dark } }
+  :root[data-theme="dark"] { --fond: #121A2E; --encre: #F2F4F8; --texte: #D3D8E2; --gris: #9AA3B5; --filet: #2C3752; color-scheme: dark }
+  body {
+    background: var(--fond); color: var(--texte); font: 400 17px/1.55 var(--titre);
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  main { max-width: 720px; margin: 0 auto; padding-block: 56px 72px; }
+  h1 { font-weight: 800; font-size: clamp(30px, 6vw, 44px); line-height: 1.08; letter-spacing: -0.03em; color: var(--encre); margin: 0 0 16px; text-wrap: balance; }
+  p { margin: 0 0 16px; max-width: 38em; }
+  .bandes { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 0 0 32px; max-width: 180px; }
+  .bandes span { flex: 1; }
+  ul { list-style: none; padding: 0; margin: 32px 0; display: grid; gap: 12px; }
+  li a {
+    display: block; padding: 20px 22px; border: 1px solid var(--filet); border-radius: 10px;
+    text-decoration: none; color: var(--encre);
+  }
+  li a:hover { border-color: var(--encre); }
+  li a:focus-visible { outline: 3px solid var(--encre); outline-offset: 3px; }
+  li strong { display: block; font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  li span { color: var(--gris); font-size: 15px; }
+  .note { color: var(--gris); font-size: 15px; border-top: 1px solid var(--filet); padding-top: 20px; }
+</style>
+
+<main>
+  <div class="bandes" aria-hidden="true">
+    <span style="background: var(--entrepreneurs)"></span><span style="background: var(--sante)"></span><span style="background: var(--juridique)"></span>
+  </div>
+  <h1>Maquettes de la refonte A3C Digital</h1>
+  <p>Deux pages pour valider la direction artistique avant de construire le thème WordPress. Le motif central : les intercalaires de classeur, une couleur par audience.</p>
+  <ul>
+    <li><a href="accueil.html"><strong>Page d'accueil</strong><span>Hero, intercalaires des trois audiences, à la une, guides, newsletter, annonceurs, FAQ</span></a></li>
+    <li><a href="article.html"><strong>Article</strong><span>« Créer son entreprise en toute légalité : les 10 étapes », avec sommaire, encadrés et signature</span></a></li>
+  </ul>
+  <p class="note">Maquette de travail : textes d'exemple et sources à vérifier avant publication. Les liens internes ne mènent nulle part pour l'instant, sauf entre ces deux pages. Pensez aussi à ouvrir les pages sur votre téléphone.</p>
+</main>
