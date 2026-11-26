@@ -118,6 +118,16 @@ Ces liens pointent vers la home (http et https) : **les redirections http→http
   - **copie de test** : SiteGround Central supprimé ;
   - **restent en ligne jusqu'à la bascule de thème** : Elementor, Elementor Pro, Era Magazine, Redux. Le thème actuel « outdoor » en dépend (page d'accueil, en-tête et pied de page Elementor) : les supprimer maintenant casserait l'affichage.
 
+### Plan de visibilité, 26/11/2026 (validé par l'éditrice, sauf LinkedIn et Metricool)
+
+- Titles optimisés sur des requêtes peu concurrencées (SE Ranking) : contrat de collaboration libérale (320 recherches/mois, difficulté 6), convention d'honoraires avocat, facturation électronique obligatoire.
+- 8 anciens articles réécrits et renommés (redirections 301 vérifiées) : business-1 à 4, entrepreneuriat-4, micro-influenceurs, personal branding, aides financières.
+- Pages publiées : charte éditoriale, à propos ; politique de confidentialité complétée (newsletter).
+- Thème 1.4.0 prêt, **déploiement en attente de l'accord de l'éditrice** : newsletter avec double confirmation (abonnés dans l'administration, export CSV), page auteur indexable, code court `[a3c_articles]`.
+- Après déploiement : publier les 3 guides piliers (`guide-creer-son-entreprise`, `guide-installation-professionnel-sante`, `guide-developper-cabinet-avocat`) et la page newsletter.
+- Reste à faire, avec accord (dépublication) : fusions entrepreneuriat-1 + 2, entrepreneuriat-3 + soft skills, deux articles santé, deux articles viticoles ; réécriture nationale des articles « Montpellier ».
+- À faire par l'éditrice : Search Console (propriété, sitemap, désaveu), Bing Webmaster Tools, biographie détaillée sur le profil auteur.
+
 ## 2. Diagnostic priorisé
 
 | Priorité | Problème | Action |
