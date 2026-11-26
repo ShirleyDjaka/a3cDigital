@@ -50,6 +50,12 @@ while ( have_posts() ) :
 				<?php
 				echo $contenu; // phpcs:ignore WordPress.Security.EscapeOutput -- contenu filtré par the_content.
 				wp_link_pages();
+				$titres_nl = array(
+					'entrepreneurs' => 'Vous dirigez une entreprise ?',
+					'sante'         => 'Vous exercez une profession de santé ?',
+					'juridique'     => 'Vous êtes avocat, notaire ou juriste ?',
+				);
+				echo do_shortcode( sprintf( '[a3c_newsletter titre="%s"]', esc_attr( $titres_nl[ $aud['slug'] ?? '' ] ?? 'Recevez nos articles utiles' ) ) );
 				?>
 
 				<section class="bio" aria-label="À propos de l'auteur">

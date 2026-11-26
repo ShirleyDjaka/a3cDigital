@@ -104,17 +104,19 @@ $media_kit       = a3c_reglage( 'media_kit_url' );
 		</div>
 	</section>
 
-	<?php if ( $newsletter_code ) : ?>
 	<section class="newsletter" aria-labelledby="titre-newsletter">
 		<div class="conteneur">
 			<div>
-				<h2 id="titre-newsletter">Un e-mail tous les 15 jours, trois articles utiles</h2>
+				<h2 id="titre-newsletter">Une sélection d'articles utiles, deux fois par mois</h2>
 				<p>Choisissez votre rubrique, vous ne recevrez que ce qui vous concerne. Désinscription en un clic.</p>
 			</div>
-			<div class="form-newsletter"><?php echo do_shortcode( wp_kses_post( $newsletter_code ) ); ?></div>
+			<?php if ( $newsletter_code ) : ?>
+				<div class="form-newsletter"><?php echo do_shortcode( wp_kses_post( $newsletter_code ) ); ?></div>
+			<?php else : ?>
+				<?php echo do_shortcode( '[a3c_newsletter variante="bandeau"]' ); ?>
+			<?php endif; ?>
 		</div>
 	</section>
-	<?php endif; ?>
 
 	<section class="annonceurs" id="annonceurs" aria-labelledby="titre-annonceurs">
 		<div class="conteneur">

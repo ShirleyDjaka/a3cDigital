@@ -4,7 +4,7 @@
 <!-- status: future -->
 <!-- date_gmt: 2027-01-14T05:00:00 -->
 <!-- excerpt: Depuis la loi du 6 août 2015, la convention d'honoraires écrite est obligatoire entre l'avocat et son client, sauf exceptions. Ce qu'elle doit contenir, les honoraires de résultat et les erreurs à éviter. -->
-<!-- seo_title: Convention d'honoraires de l'avocat : ce qu'il faut savoir -->
+<!-- seo_title: Convention d'honoraires avocat : contenu et obligations -->
 <!-- seo_description: Convention d'honoraires obligatoire depuis 2015 : contenu, exceptions, honoraires de résultat et bonnes pratiques pour les avocats et leurs clients. -->
 
 :::essentiel

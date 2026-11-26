@@ -10,6 +10,7 @@ Syntaxe :
     :::attention ... :::          -> encadré « Attention »
     :::marque Texte :::           -> mention « … est une marque de l'éditrice du site »
     [texte](https://…)            -> lien ; **gras**
+    [a3c_articles ids="1,2"]      -> code court seul sur sa ligne (bloc Gutenberg « shortcode »)
     Ligne vide                    -> nouveau paragraphe
 """
 import html
@@ -62,6 +63,9 @@ def blocs(lignes):
         l = ligne.rstrip()
         if not l.strip():
             vider()
+        elif re.match(r"^\[a3c_\w+[^\]]*\]$", l.strip()):
+            vider()
+            sortie.append(f"<!-- wp:shortcode -->\n{l.strip()}\n<!-- /wp:shortcode -->")
         elif l.startswith("### "):
             vider()
             sortie.append(bloc_titre(l[4:], 3))

@@ -80,7 +80,7 @@ Un prévisionnel n'est pas une promesse : c'est un ensemble d'hypothèses chiffr
 
 ## Et ensuite ?
 
-Le prévisionnel accompagne le choix du statut et les démarches de création, décrites dans notre guide sur [les étapes pour créer son entreprise en toute légalité](/business-3/). Pensez aussi aux [aides et subventions pour les entrepreneurs](/les-aides-financieres-et-subventions-pour-les-entrepreneurs-en-2025/), qui peuvent alléger le plan de financement. Retrouvez tous nos articles dans la rubrique [Financer & investir](/category/entrepreneurs/financer-investir/).
+Le prévisionnel accompagne le choix du statut et les démarches de création, décrites dans notre guide sur [les étapes pour créer son entreprise en toute légalité](/creer-entreprise-etapes-legales/). Pensez aussi aux [aides et subventions pour les entrepreneurs](/aides-financieres-entrepreneurs/), qui peuvent alléger le plan de financement. Retrouvez tous nos articles dans la rubrique [Financer & investir](/category/entrepreneurs/financer-investir/).
 
 ## Sources
 

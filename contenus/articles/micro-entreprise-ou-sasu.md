@@ -80,7 +80,7 @@ Les chiffres de l'Insee invitent à bien préparer ce choix : parmi les micro-en
 
 ## Avant de choisir
 
-Faites le calcul sur vos propres chiffres, avec un [prévisionnel financier](/previsionnel-financier/) qui compare ce qu'il vous reste dans chaque statut. Pour les démarches qui suivent, consultez notre guide sur [les étapes pour créer son entreprise en toute légalité](/business-3/). Et retrouvez nos autres articles dans la rubrique [Créer son entreprise](/category/entrepreneurs/creer-son-entreprise/).
+Faites le calcul sur vos propres chiffres, avec un [prévisionnel financier](/previsionnel-financier/) qui compare ce qu'il vous reste dans chaque statut. Pour les démarches qui suivent, consultez notre guide sur [les étapes pour créer son entreprise en toute légalité](/creer-entreprise-etapes-legales/). Et retrouvez nos autres articles dans la rubrique [Créer son entreprise](/category/entrepreneurs/creer-son-entreprise/).
 
 ## Sources
 

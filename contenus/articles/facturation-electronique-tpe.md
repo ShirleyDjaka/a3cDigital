@@ -4,7 +4,7 @@
 <!-- status: future -->
 <!-- date_gmt: 2027-01-07T05:00:00 -->
 <!-- excerpt: Depuis le 1er septembre 2026, toutes les entreprises doivent pouvoir recevoir des factures électroniques. Les TPE et micro-entreprises devront aussi en émettre au 1er septembre 2027. Calendrier, démarches et erreurs à éviter. -->
-<!-- seo_title: Facturation électronique : ce que les TPE doivent faire -->
+<!-- seo_title: Facturation électronique obligatoire : ce que font les TPE -->
 <!-- seo_description: Facturation électronique : réception obligatoire depuis septembre 2026, émission en 2027 pour les TPE. Calendrier, plateforme agréée et étapes clés. -->
 
 :::essentiel

@@ -6,6 +6,7 @@ Usage : python3 scripts/wp_publier_article.py contenus/articles/mon-article.html
 En-tête du fichier :
     <!-- title: Titre affiché (H1) -->
     <!-- slug: adresse-de-l-article -->
+    <!-- id: 123 -->                                       (facultatif : réécrit l'article 123, même si le slug change)
     <!-- categories: sante-communication-deontologie -->   (slugs séparés par des virgules)
     <!-- tags: partenariat -->                              (facultatif)
     <!-- status: publish -->                                (publish, draft ou future)
@@ -89,7 +90,12 @@ def main(path):
     if meta.get("date_gmt"):
         donnees["date_gmt"] = meta["date_gmt"]
 
-    existant = call("GET", f"wp/v2/posts?slug={urllib.parse.quote(meta['slug'])}&status=publish,future,draft,private&_fields=id")
+    # « id » dans l'en-tête : réécriture d'un article existant (le slug peut changer ;
+    # WordPress garde l'ancien slug et redirige, la redirection est aussi déclarée dans le thème).
+    if meta.get("id"):
+        existant = [{"id": int(meta["id"])}]
+    else:
+        existant = call("GET", f"wp/v2/posts?slug={urllib.parse.quote(meta['slug'])}&status=publish,future,draft,private&_fields=id")
     if existant:
         article = call("POST", f"wp/v2/posts/{existant[0]['id']}?_fields=id,link,status,date", donnees)
         action = "mis à jour"

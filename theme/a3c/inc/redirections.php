@@ -24,6 +24,15 @@ function a3c_redirections() {
 		'/marketing/'                                        => '/category/entrepreneurs/marketing-visibilite/',
 		'/entreprenariat/'                                   => '/category/entrepreneurs/',
 		'/partenariats/'                                     => '/publier-un-article/',
+		// Articles réécrits (anciens slugs numérotés, fautes ou année dans l'URL).
+		'/business-1/'                                       => '/debuter-investissement-erreurs-a-eviter/',
+		'/business-2/'                                       => '/e-commerce-droit-vendre-en-ligne-legalement/',
+		'/business-3/'                                       => '/creer-entreprise-etapes-legales/',
+		'/business-4/'                                       => '/investissement-passif-vs-actif/',
+		'/entrepreneuriat-4/'                                => '/construire-reseau-professionnel/',
+		'/micro-influenceurs-secret-des-marques-qui-cartonnes-2025/' => '/micro-influenceurs-marketing/',
+		'/le-personal-branding-est-il-entrain-de-remplacer-le-cv/'   => '/personal-branding-vs-cv/',
+		'/les-aides-financieres-et-subventions-pour-les-entrepreneurs-en-2025/' => '/aides-financieres-entrepreneurs/',
 	);
 }
 

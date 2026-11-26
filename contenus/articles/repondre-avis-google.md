@@ -59,7 +59,7 @@ Pour un médecin, un dentiste, un avocat ou un notaire, la réponse doit respect
 
 ## Faire de la fiche Google un atout
 
-Les réponses aux avis ne sont qu'une partie du travail : photos réelles, horaires à jour, description claire et informations cohérentes avec votre site comptent tout autant. Une agence comme [Djaka](https://djaka.fr/) peut vous accompagner sur l'ensemble de votre visibilité en ligne. Pour aller plus loin, lisez aussi notre article sur [la façon dont un dentiste utilise le SEO local](/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/) et celui sur [les micro-influenceurs](/micro-influenceurs-secret-des-marques-qui-cartonnes-2025/). Tous nos articles sont dans la rubrique [Marketing & visibilité](/category/entrepreneurs/marketing-visibilite/).
+Les réponses aux avis ne sont qu'une partie du travail : photos réelles, horaires à jour, description claire et informations cohérentes avec votre site comptent tout autant. Une agence comme [Djaka](https://djaka.fr/) peut vous accompagner sur l'ensemble de votre visibilité en ligne. Pour aller plus loin, lisez aussi notre article sur [la façon dont un dentiste utilise le SEO local](/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/) et celui sur [les micro-influenceurs](/micro-influenceurs-marketing/). Tous nos articles sont dans la rubrique [Marketing & visibilité](/category/entrepreneurs/marketing-visibilite/).
 
 :::marque Djaka est une marque de l'éditrice du site. :::
 

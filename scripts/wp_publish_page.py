@@ -38,6 +38,10 @@ def main(path):
     raw = Path(path).read_text(encoding="utf-8")
     meta = dict(re.findall(r"<!--\s*(\w+):\s*(.*?)\s*-->", raw.split("\n\n", 1)[0]))
     content = re.sub(r"^(<!--\s*\w+:.*?-->\s*)+", "", raw, flags=re.S).strip()
+    if path.endswith(".md"):
+        sys.path.insert(0, str(Path(__file__).parent))
+        from md_vers_blocs import convertir
+        content = convertir(content)
     payload = {"title": meta["title"], "slug": meta["slug"], "content": content, "excerpt": meta.get("excerpt", ""),
                "status": meta.get("status", "draft"), "comment_status": "closed", "ping_status": "closed"}
 

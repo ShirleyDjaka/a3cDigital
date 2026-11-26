@@ -1,11 +1,11 @@
-<!-- title: Médecin collaborateur libéral : ce que doit prévoir le contrat -->
+<!-- title: Contrat de collaboration libérale du médecin : ce qu'il doit prévoir -->
 <!-- slug: contrat-medecin-collaborateur -->
 <!-- categories: installation-gestion-cabinet -->
 <!-- status: future -->
 <!-- date_gmt: 2027-02-16T05:00:00 -->
 <!-- excerpt: La collaboration libérale permet à un jeune médecin de s'installer progressivement et à un titulaire de partager son activité. Ce que la loi impose dans le contrat, les clauses à négocier et les démarches auprès de l'Ordre. -->
-<!-- seo_title: Médecin collaborateur libéral : le contrat expliqué -->
-<!-- seo_description: Contrat de médecin collaborateur libéral : écrit obligatoire, durée, redevance, patientèle propre, assurance et transmission du contrat à l'Ordre. -->
+<!-- seo_title: Contrat de collaboration libérale du médecin : le guide -->
+<!-- seo_description: Contrat de collaboration libérale du médecin : écrit obligatoire, durée, redevance, patientèle propre, assurance et transmission du contrat à l'Ordre. -->
 
 :::essentiel
 - Le contrat de collaboration libérale doit être **écrit, à peine de nullité** (article 18 de la loi du 2 août 2005).
@@ -16,7 +16,7 @@
 
 Vous êtes jeune médecin et vous souhaitez vous installer sans reprendre immédiatement un cabinet ? Ou vous êtes titulaire et vous voulez partager votre activité ? La **collaboration libérale** répond à ces deux situations.
 
-Encore faut-il que le contrat soit bien rédigé. Voici ce que la loi impose, les clauses à négocier et les démarches à prévoir.
+Encore faut-il que le **contrat de collaboration libérale** soit bien rédigé. Voici ce que la loi impose, les clauses à négocier et les démarches à prévoir.
 
 ## Ce qu'est la collaboration libérale
 
@@ -28,7 +28,7 @@ Le médecin collaborateur libéral exerce **dans le cabinet d'un confrère titul
 
 Le code de déontologie médicale, à son article 87, prévoit que le médecin peut s'attacher le concours d'un médecin collaborateur libéral, dans les conditions de l'article 18 de la loi du 2 août 2005.
 
-## Ce que la loi impose dans le contrat
+## Ce que la loi impose dans le contrat de collaboration libérale
 
 ### Un contrat écrit
 

@@ -13,7 +13,7 @@ $affiche = min( $total, $page * (int) $wp_query->get( 'posts_per_page' ) );
 	<?php
 	while ( have_posts() ) :
 		the_post();
-		get_template_part( 'parts/carte' );
+		get_template_part( 'parts/carte', null, array( 'niveau' => $args['niveau'] ?? 'h2' ) );
 	endwhile;
 	?>
 </ul>

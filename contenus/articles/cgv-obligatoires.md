@@ -109,7 +109,7 @@ Oui. Les nouvelles CGV s'appliquent aux commandes passées après leur mise à j
 
 Entre professionnels, les CGV ne sont pas obligatoires, mais **elles doivent être communiquées à qui les demande** dès qu'elles existent. Avec les particuliers, **l'information précontractuelle est obligatoire**, et des CGV claires sont le moyen le plus sûr de la donner. Prenez une heure pour rédiger les vôtres à partir de votre activité réelle, puis faites-les relire.
 
-Pour aller plus loin, lisez notre guide sur [la vente en ligne et le droit](/business-2/), notre article sur [la facturation électronique](/facturation-electronique-tpe/), et la rubrique [Obligations & juridique](/category/entrepreneurs/obligations-juridique/).
+Pour aller plus loin, lisez notre guide sur [la vente en ligne et le droit](/e-commerce-droit-vendre-en-ligne-legalement/), notre article sur [la facturation électronique](/facturation-electronique-tpe/), et la rubrique [Obligations & juridique](/category/entrepreneurs/obligations-juridique/).
 
 ## Sources
 
