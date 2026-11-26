@@ -92,3 +92,33 @@ function a3c_deploiement_installer_theme( WP_REST_Request $request ) {
 		'actif'    => get_stylesheet(),
 	);
 }
+
+/**
+ * Copies de test SiteGround (staging…) : jamais indexées par les moteurs.
+ */
+function a3c_deploiement_est_staging() {
+	return 0 === strpos( (string) wp_parse_url( home_url(), PHP_URL_HOST ), 'staging' );
+}
+
+if ( a3c_deploiement_est_staging() ) {
+	add_action(
+		'send_headers',
+		function () {
+			header( 'X-Robots-Tag: noindex, nofollow', true );
+		}
+	);
+	add_filter(
+		'wp_robots',
+		function ( $robots ) {
+			return array( 'noindex' => true, 'nofollow' => true );
+		},
+		99
+	);
+	add_filter(
+		'rank_math/frontend/robots',
+		function ( $robots ) {
+			return array( 'index' => 'noindex', 'follow' => 'nofollow' );
+		},
+		99
+	);
+}
