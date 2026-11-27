@@ -14,25 +14,25 @@
 - Depuis le **24 avril 2024**, un arrêt maladie non professionnel ouvre droit à **2 jours ouvrables** par mois, dans la limite de **24 jours** par période de référence.
 :::
 
-Juin arrive, vos salariés posent leurs dates d'été et vous devez arbitrer entre les demandes. Combien de jours chacun a-t-il acquis ? Pouvez-vous imposer l'ordre des départs ? Comment calculer l'indemnité ? Les **congés payés** sont l'une des obligations les plus courantes de l'**employeur**, et l'une des plus source d'erreurs.
+Juin arrive, vos salariés posent leurs dates d'été et vous devez arbitrer entre les demandes. Combien de jours chacun a-t-il acquis ? Pouvez-vous imposer l'ordre des départs ? Les **congés payés** sont une obligation quotidienne de l'**employeur**, et une source fréquente d'erreurs.
 
-Les règles ont en outre évolué avec la loi du 22 avril 2024, qui permet d'acquérir des congés pendant un arrêt maladie. Voici les points essentiels à connaître, du calcul des droits à leur report, pour gérer sereinement les congés de votre équipe.
+La loi du 22 avril 2024 a en outre permis d'acquérir des congés pendant un arrêt maladie. Voici les règles essentielles, du calcul des droits à leur report.
 
 ## Comment le salarié acquiert ses congés payés
 
 ### Le principe : 2,5 jours par mois
 
-Tout salarié a droit à des congés payés à la charge de l'employeur, quel que soit son contrat. Il acquiert **2,5 jours ouvrables par mois de travail effectif**, soit **30 jours ouvrables**, c'est-à-dire cinq semaines, pour une année complète.
+Tout salarié a droit à des congés payés à la charge de l'employeur. Il acquiert **2,5 jours ouvrables par mois de travail effectif**, soit **30 jours ouvrables**, c'est-à-dire cinq semaines, pour une année complète.
 
-Les salariés en CDD bénéficient des mêmes droits. Votre convention collective peut prévoir des jours supplémentaires : vérifiez-la systématiquement.
+Votre convention collective peut prévoir des jours supplémentaires : vérifiez-la.
 
 ### La période de référence
 
-Les droits s'acquièrent sur une **période de référence**. À défaut d'accord d'entreprise ou de branche, elle court du **1er juin de l'année précédente au 31 mai de l'année en cours**. Un accord peut retenir une autre période, par exemple l'année civile, et certains secteurs ont leurs propres règles.
+Les droits s'acquièrent sur une **période de référence**. À défaut d'accord d'entreprise ou de branche, elle court du **1er juin de l'année précédente au 31 mai de l'année en cours**. Un accord peut retenir une autre période, par exemple l'année civile.
 
 ### Les absences assimilées à du travail effectif
 
-Certaines absences comptent comme du travail effectif pour le calcul des congés, comme les périodes d'accident du travail ou de maladie professionnelle. Le Code du travail numérique publie la liste des absences prises en compte : consultez-la avant de calculer les droits d'un salarié souvent absent.
+Certaines absences comptent comme du travail effectif pour le calcul des congés, comme les périodes d'accident du travail ou de maladie professionnelle. Le Code du travail numérique en publie la liste.
 
 ## Organiser la prise des congés
 
@@ -40,7 +40,7 @@ Certaines absences comptent comme du travail effectif pour le calcul des congés
 
 Le salarié doit prendre un congé d'**au moins 12 jours ouvrables continus** entre le **1er mai et le 31 octobre**. Au-delà de 12 jours, et dans la limite de 24 jours ouvrables, le congé principal peut être **fractionné** par l'employeur avec l'accord du salarié.
 
-Lorsque des jours sont pris en dehors de la période légale, le salarié peut avoir droit à des jours supplémentaires, dits **jours de fractionnement**. Leurs conditions, qui peuvent être aménagées par accord collectif, figurent sur la fiche officielle du service public.
+Des jours pris en dehors de cette période peuvent ouvrir droit à des **jours de fractionnement**, dont les conditions figurent sur la fiche du service public.
 
 ### L'ordre des départs
 
@@ -55,25 +55,25 @@ Lorsque des jours sont pris en dehors de la période légale, le salarié peut a
 L'ordre des départs est porté à la connaissance de chaque salarié, **par tout moyen**, au moins **un mois à l'avance**. Sauf circonstances exceptionnelles, vous ne pouvez pas modifier l'ordre et les dates de départ moins d'un mois avant la date prévue.
 
 :::attention
-Fixez les dates d'été tôt au printemps et confirmez-les par écrit à chaque salarié. Un planning partagé évite les conflits et les oublis.
+Fixez les dates d'été dès le printemps et confirmez-les par écrit à chaque salarié.
 :::
 
 ## Calculer l'indemnité de congés payés
 
-Pendant ses congés, le salarié ne perçoit pas son salaire mais une **indemnité de congés payés**. Elle se calcule selon deux méthodes :
+Pendant ses congés, le salarié perçoit une **indemnité de congés payés**, calculée selon deux méthodes :
 
 1. la règle du **dixième** : 10 % de la rémunération brute perçue pendant la période de référence ;
 2. le **maintien de salaire** : la somme que le salarié aurait touchée s'il avait travaillé.
 
 Vous devez comparer les deux et verser **le montant le plus favorable** au salarié. Les dates de congés et le montant de l'indemnité figurent sur le **bulletin de paie**. Si le contrat prend fin avant que les congés soient pris, une **indemnité compensatrice** est due.
 
-Votre logiciel de paie fait généralement ce calcul, mais contrôlez-le pour les salariés dont la rémunération a varié, et provisionnez ces sommes : notre article sur les [réflexes de trésorerie](/gerer-tresorerie-reflexes/) vous y aide.
+Contrôlez le calcul du logiciel de paie pour les salariés dont la rémunération a varié, et provisionnez ces sommes, comme l'explique notre article sur les [réflexes de trésorerie](/gerer-tresorerie-reflexes/).
 
 ## Que deviennent les congés non pris ?
 
 ### Le principe : pas de report automatique
 
-Selon le service public, il n'existe pas, en principe, de **droit au report** : les congés non pris à la fin de la période de prise sont perdus. Un report reste possible en cas d'**accord** entre l'employeur et le salarié, d'usage dans l'entreprise ou de disposition conventionnelle.
+Selon le service public, il n'existe pas, en principe, de **droit au report** : les congés non pris à la fin de la période de prise sont perdus, sauf **accord** avec le salarié, usage ou disposition conventionnelle.
 
 ### Les cas de report prévus
 
@@ -94,25 +94,25 @@ Dans le **mois qui suit la reprise** après un arrêt maladie, vous devez inform
 
 ### Le report de 15 mois
 
-Le salarié qui n'a pas pu prendre ses congés pour cause de maladie ou d'accident bénéficie d'une **période de report de 15 mois**. Elle court, en principe, à partir de la date à laquelle vous l'avez informé de ses droits. Un accord collectif peut prévoir une durée plus longue. Les arrêts de longue durée obéissent à des règles spécifiques, détaillées sur le Code du travail numérique.
+Le salarié qui n'a pas pu prendre ses congés pour cause de maladie ou d'accident bénéficie d'une **période de report de 15 mois**, qui court en principe à partir de votre information. Un accord collectif peut prévoir plus long. Les arrêts de longue durée suivent des règles spécifiques, détaillées sur le Code du travail numérique.
 
 ## Questions fréquentes
 
-### Le bulletin de paie suffit-il pour informer un salarié après un arrêt ?
+### Un salarié en CDD acquiert-il des congés payés ?
 
-Oui, il peut servir de support, à condition que l'information donne une date certaine de réception. Elle doit indiquer le nombre de jours disponibles et la date limite pour les prendre.
+Oui, dans les mêmes conditions que les autres salariés. S'il ne les a pas pris à la fin du contrat, une indemnité compensatrice lui est due.
 
 ### L'employeur peut-il refuser des dates demandées ?
 
-Oui. C'est l'employeur qui fixe l'ordre des départs, selon les critères légaux ou conventionnels. Il doit en revanche respecter le délai d'information d'un mois.
+Oui. L'employeur fixe l'ordre des départs, selon les critères légaux ou conventionnels, en respectant le délai d'information d'un mois.
 
 ### Faut-il recalculer les congés des arrêts antérieurs à 2024 ?
 
-Des règles transitoires s'appliquent aux arrêts antérieurs au 24 avril 2024, avec des délais pour agir. Vérifiez la situation de chaque salarié concerné sur les fiches officielles.
+Des règles transitoires, avec des délais pour agir, visent les arrêts antérieurs au 24 avril 2024. Vérifiez-les sur les fiches officielles.
 
 ## En résumé
 
-Pour bien gérer les **congés payés**, l'**employeur** doit suivre l'acquisition de 2,5 jours par mois, organiser la période de prise et l'ordre des départs en informant les salariés un mois à l'avance, verser l'indemnité la plus favorable et appliquer les règles issues de la loi de 2024 en cas d'arrêt maladie. Relisez votre convention collective et préparez dès maintenant un modèle d'information pour vos salariés qui reprennent après un arrêt.
+Pour gérer les **congés payés**, l'**employeur** suit l'acquisition de 2,5 jours par mois, fixe la période de prise et l'ordre des départs un mois à l'avance, verse l'indemnité la plus favorable et applique les règles de 2024 en cas d'arrêt maladie. Relisez votre convention collective et préparez dès maintenant un modèle d'information pour les salariés qui reprennent après un arrêt.
 
 Pour aller plus loin, consultez notre [guide pour créer son entreprise](/guide-creer-son-entreprise/), notre article sur l'[embauche d'un premier salarié](/embaucher-premier-salarie/), celui sur la [rupture conventionnelle côté employeur](/rupture-conventionnelle-employeur/), et la rubrique [Obligations & juridique](/category/entrepreneurs/obligations-juridique/).
 

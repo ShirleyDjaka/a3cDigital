@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-06-25T04:00:00 -->
 <!-- excerpt: Site vitrine, site de cabinet ou blog d'entreprise : tout site professionnel doit identifier son éditeur. Identité, immatriculation, hébergeur, directeur de la publication, professions réglementées, confidentialité et cookies : la liste à vérifier. -->
 <!-- seo_title: Mentions légales site internet : la liste complète en 2027 -->
-<!-- seo_description: Mentions légales site internet : identité de l'éditeur, RCS ou RNE, TVA, hébergeur, directeur de la publication, professions réglementées, cookies et sanctions. -->
+<!-- seo_description: Mentions légales site internet : identité de l'éditeur, RCS ou RNE, TVA, hébergeur, directeur de la publication, professions réglementées et cookies. -->
 
 :::essentiel
 - Tout **site professionnel**, même un simple site vitrine, doit publier des **mentions légales** identifiant son éditeur et son hébergeur.

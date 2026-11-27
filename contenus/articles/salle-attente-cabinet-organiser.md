@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-06-21T04:00:00 -->
 <!-- excerpt: L'accueil et la salle d'attente sont la première image que les patients gardent de votre cabinet. Flux, confidentialité, affichage, confort, retards, enfants et accessibilité : la méthode pour un accueil fluide et rassurant. -->
 <!-- seo_title: Salle d'attente du cabinet : organiser un accueil réussi -->
-<!-- seo_description: Salle d'attente du cabinet : organiser les flux, protéger la confidentialité à l'accueil, soigner l'affichage et le confort, gérer les retards et les enfants. -->
+<!-- seo_description: Salle d'attente du cabinet : organiser les flux, protéger la confidentialité à l'accueil, soigner affichage et confort, gérer les retards et les enfants. -->
 
 :::essentiel
 - Pensez d'abord aux **flux** : entrée, accueil, attente et sortie doivent s'enchaîner sans croisements inutiles.
@@ -14,9 +14,9 @@
 - Annoncez les **retards** dès qu'ils dépassent l'habitude : un patient informé patiente plus sereinement.
 :::
 
-Un patient arrive en avance, ne sait pas s'il doit se présenter, entend la conversation téléphonique de la secrétaire et attend sans savoir combien de temps. Avant même la consultation, son impression du cabinet est faite. L'**accueil** et la **salle d'attente** comptent davantage qu'on ne le pense.
+Un patient arrive, ne sait pas s'il doit se présenter, entend la conversation téléphonique de la secrétaire et attend sans savoir combien de temps. Avant même la consultation, son impression du cabinet est faite.
 
-Bien organisés, ils fluidifient la journée de toute l'équipe et réduisent les tensions. Voici une méthode simple, étape par étape, pour **organiser l'accueil et la salle d'attente de votre cabinet**, que vous vous installiez ou que vous souhaitiez améliorer un lieu existant.
+Bien organisés, l'**accueil** et la **salle d'attente** fluidifient la journée de l'équipe et réduisent les tensions. Voici une méthode pour les **organiser**, que vous vous installiez ou amélioriez un lieu existant.
 
 ## Observer les flux avant de réorganiser
 
@@ -31,7 +31,7 @@ Commencez par **observer** une journée type, du point de vue du patient. Notez 
 
 ### Séparer l'entrée et la sortie quand c'est possible
 
-Dans un cabinet de groupe ou une structure plus grande, une **sortie distincte** ou un passage par l'accueil au retour évite les croisements. Dans un petit cabinet, un simple repositionnement du mobilier suffit souvent à libérer le passage.
+Dans une structure plus grande, une **sortie distincte** évite les croisements. Dans un petit cabinet, déplacer le mobilier suffit souvent à libérer le passage.
 
 ## Protéger la confidentialité à l'accueil
 
@@ -80,7 +80,7 @@ Le confort ne demande pas de gros investissements :
 
 ### L'ambiance
 
-Privilégiez une **décoration** sobre et des couleurs apaisantes. Une musique douce peut couvrir les conversations et renforcer la discrétion. Évitez en revanche la télévision allumée en continu, souvent subie plutôt qu'appréciée. Pour une cohérence d'ensemble, inspirez-vous de notre article sur l'[identité visuelle du cabinet médical](/identite-visuelle-cabinet-medical-avant-ouverture/).
+Privilégiez une **décoration** sobre et des couleurs apaisantes. Une musique douce peut couvrir les conversations et renforcer la discrétion. Pour une cohérence d'ensemble, inspirez-vous de notre article sur l'[identité visuelle du cabinet médical](/identite-visuelle-cabinet-medical-avant-ouverture/).
 
 ### L'entretien
 
@@ -109,7 +109,7 @@ Si vous recevez des familles, un **espace enfants** visible depuis les sièges d
 
 ### Les accompagnants
 
-Prévoyez assez de sièges pour les **accompagnants**, et indiquez clairement s'ils peuvent entrer en consultation. En cas d'affluence, l'équipe peut proposer aux accompagnants d'attendre à l'extérieur en les prévenant par téléphone.
+Prévoyez assez de sièges pour les **accompagnants**, et indiquez clairement s'ils peuvent entrer en consultation.
 
 ## Penser l'accessibilité pour tous
 

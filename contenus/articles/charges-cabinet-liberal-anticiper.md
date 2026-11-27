@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-06-28T04:00:00 -->
 <!-- excerpt: Local, équipement, logiciel, secrétariat, assurances, cotisations, comptabilité, formation, impôts : les charges d'un cabinet libéral sont nombreuses et parfois décalées dans le temps. La méthode pour les recenser, construire votre budget et protéger votre trésorerie. -->
 <!-- seo_title: Charges d'un cabinet libéral : les postes à anticiper -->
-<!-- seo_description: Charges d'un cabinet libéral : local, équipement, logiciel, secrétariat, assurances, cotisations, comptabilité et impôts. Budget et trésorerie : la méthode. -->
+<!-- seo_description: Charges d'un cabinet libéral : local, équipement, logiciel, secrétariat, assurances, cotisations, comptabilité, impôts. Budget et trésorerie : la méthode. -->
 
 :::essentiel
 - Recensez **tous les postes de charges** avant l'installation : local, équipement, logiciel, secrétariat, assurances, cotisations, comptabilité, formation et impôts.

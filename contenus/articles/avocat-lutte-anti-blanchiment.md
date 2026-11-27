@@ -14,15 +14,15 @@
 - Les maniements de fonds passent par la **CARPA**, et l'**Ordre** contrôle le respect de ces obligations.
 :::
 
-Un nouveau client vous demande d'assister la cession d'un fonds de commerce, payée en partie par une société étrangère dont il ne sait pas dire qui la détient. Faut-il accepter le dossier, poser des questions, déclarer ? Pour un avocat, la **lutte anti-blanchiment** n'est pas une affaire de banquiers : elle fait partie de vos obligations professionnelles.
+Un nouveau client vous demande d'assister la cession d'un fonds de commerce, payée en partie par une société étrangère dont il ignore qui la détient. Faut-il accepter, questionner, déclarer ? Pour un avocat, la **lutte anti-blanchiment** fait partie des obligations professionnelles.
 
-Le dispositif est exigeant, mais il est conçu pour préserver le **secret professionnel**. Voici les points essentiels à connaître pour organiser votre cabinet : activités concernées, devoir de vigilance, déclaration de soupçon, rôle de la CARPA, contrôles et formation.
+Le dispositif est exigeant, mais conçu pour préserver le **secret professionnel**. Voici l'essentiel pour organiser votre cabinet.
 
 ## Les activités concernées
 
 ### Un assujettissement limité à certaines missions
 
-Le code monétaire et financier range les avocats parmi les professions assujetties à la LCB-FT. Mais ils ne le sont que pour certaines activités, définies à l'article **L561-3**. Sont notamment visées les situations où l'avocat :
+Le code monétaire et financier range les avocats parmi les professions assujetties, mais seulement pour les activités définies à l'article **L561-3**, notamment lorsque l'avocat :
 
 - **participe**, au nom et pour le compte de son client, à une **transaction financière ou immobilière** ;
 - agit en qualité de **fiduciaire** ;
@@ -47,11 +47,11 @@ Avant d'entrer en relation d'affaires pour une activité concernée, vous devez 
 
 ### Une vigilance continue
 
-La vigilance ne s'arrête pas à l'ouverture du dossier. Pendant la relation, mettez à jour les informations sur le client et le bénéficiaire effectif, et soyez attentif aux opérations **incohérentes** avec ce que vous savez de lui. Selon le guide du CNB, les informations recueillies sur le bénéficiaire effectif se conservent **cinq ans** après la fin de la relation.
+Pendant la relation, mettez à jour les informations sur le client et le bénéficiaire effectif, et soyez attentif aux opérations **incohérentes** avec son profil. Selon le guide du CNB, les informations recueillies sur le bénéficiaire effectif se conservent **cinq ans** après la fin de la relation.
 
 ### S'appuyer sur des procédures internes
 
-Formalisez ces étapes dans une **procédure interne** : questionnaire d'entrée en relation, liste des pièces, grille d'évaluation du risque, archivage. Le CNB et l'Ordre de Paris proposent des modèles. Votre [premier rendez-vous client](/premier-rendez-vous-client-avocat/) et votre [convention d'honoraires](/convention-honoraires-avocat/) sont des moments naturels pour recueillir ces informations.
+Formalisez ces étapes dans une **procédure interne** : questionnaire d'entrée en relation, liste des pièces, évaluation du risque, archivage. Votre [premier rendez-vous client](/premier-rendez-vous-client-avocat/) et votre [convention d'honoraires](/convention-honoraires-avocat/) sont des moments naturels pour recueillir ces informations.
 
 ## La déclaration de soupçon
 
@@ -67,10 +67,10 @@ Selon le CNB, depuis le **1er février 2025**, ces déclarations sont **dématé
 
 ### Confidentialité et protection
 
-Il est interdit de révéler au client ou à un tiers l'existence et le contenu d'une déclaration. En contrepartie, une déclaration faite de **bonne foi** protège le déclarant contre les poursuites civiles, pénales et disciplinaires.
+Il est interdit de révéler au client ou à un tiers l'existence et le contenu d'une déclaration. Faite de **bonne foi**, elle protège le déclarant contre les poursuites civiles, pénales et disciplinaires.
 
 :::attention
-Ne prévenez jamais le client de votre déclaration, même indirectement. En cas de doute sur la marche à suivre, contactez le référent LCB-FT de votre Ordre.
+Ne prévenez jamais le client de votre déclaration, même indirectement. En cas de doute, contactez votre Ordre.
 :::
 
 ## Les maniements de fonds via la CARPA
@@ -85,19 +85,19 @@ La CARPA vérifie notamment la **provenance** et la **destination** des fonds, l
 
 ## Les contrôles par l'Ordre
 
-Les **ordres** sont chargés de contrôler, sur pièces et sur place, le respect par les avocats de leurs obligations LCB-FT. Les contrôleurs vérifient en particulier l'existence de **procédures internes** et leur mise en œuvre réelle. Un manquement peut entraîner des **poursuites disciplinaires**.
+Le **conseil de l'ordre** est l'autorité de contrôle des avocats en matière de LCB-FT, en application de l'article L561-36 du code monétaire et financier. Selon le CNB, les ordres contrôlent **sur pièces et sur place** le respect de ces obligations par chaque avocat, par exemple l'existence de **procédures internes** au cabinet. Un grave défaut de vigilance ou une carence dans ces procédures peut conduire le bâtonnier à engager des **poursuites disciplinaires**.
 
-Préparez-vous en tenant à jour un **dossier de conformité** : procédure interne, cartographie des risques du cabinet, preuves de formation, fiches clients. La protection de ces documents rejoint vos [réflexes de cybersécurité](/cybersecurite-cabinet-reflexes/).
+Tenez à jour un **dossier de conformité** : procédure interne, cartographie des risques, preuves de formation, fiches clients. Protégez-le avec vos [réflexes de cybersécurité](/cybersecurite-cabinet-reflexes/).
 
 ## La formation de l'avocat et de son équipe
 
-La vigilance repose sur des personnes formées. Le CNB propose un **module de formation en ligne** consacré à la LCB-FT, accessible aux avocats. Formez aussi vos **collaborateurs et assistants** : ce sont souvent eux qui reçoivent les pièces d'identité ou constatent une anomalie dans un virement. Désignez un **référent** au sein du cabinet et organisez un point régulier sur les dossiers sensibles.
+Le CNB propose un **module de formation en ligne** consacré à la LCB-FT. Formez aussi vos **collaborateurs et assistants** : ce sont souvent eux qui reçoivent les pièces d'identité ou repèrent un virement anormal. Désignez un **référent** au cabinet et faites régulièrement le point sur les dossiers sensibles.
 
 ## Questions fréquentes
 
 ### Tous les dossiers d'un avocat sont-ils concernés ?
 
-Non. Seules les activités listées à l'article L561-3 du code monétaire et financier entrent dans le champ de la LCB-FT. Le contentieux relève de l'exemption de déclaration liée aux procédures juridictionnelles.
+Non. Seules les activités listées à l'article L561-3 du code monétaire et financier entrent dans le champ de la LCB-FT.
 
 ### L'avocat peut-il déclarer directement à Tracfin ?
 
@@ -105,11 +105,11 @@ Non, sauf lorsqu'il agit comme fiduciaire. La déclaration passe par le bâtonni
 
 ### Que faire si le client refuse de fournir ses justificatifs ?
 
-Si vous ne pouvez pas l'identifier, ni identifier le bénéficiaire effectif, vous ne devez pas entrer en relation d'affaires ni réaliser l'opération. Consultez le guide du CNB pour les suites à donner.
+Pour une activité concernée, si vous ne pouvez pas l'identifier ou obtenir des informations sur l'objet de la relation, vous ne devez ni l'établir ni la poursuivre, ni exécuter l'opération. Des exceptions visent la procédure juridictionnelle et la consultation juridique : voyez le guide du CNB.
 
 ## En résumé
 
-Pour l'**avocat**, la **lutte anti-blanchiment** repose sur quatre piliers : connaître les activités concernées, identifier le client et le bénéficiaire effectif, déclarer un soupçon par l'intermédiaire du bâtonnier, et faire transiter les fonds par la CARPA. L'Ordre contrôle ce dispositif. Relisez dès cette semaine votre procédure interne avec le guide pratique du CNB.
+Pour l'**avocat**, la **lutte anti-blanchiment** repose sur quatre piliers : connaître les activités concernées, identifier le client et le bénéficiaire effectif, déclarer un soupçon via le bâtonnier, et faire transiter les fonds par la CARPA, sous le contrôle de l'Ordre. Relisez dès cette semaine votre procédure interne avec le guide pratique du CNB.
 
 Pour aller plus loin, consultez notre [guide pour développer son cabinet d'avocat](/guide-developper-cabinet-avocat/), notre article sur les [règles de publicité des avocats](/publicite-avocats-regles/), et la rubrique [Communication & déontologie](/category/juridique/juridique-communication-deontologie/).
 
