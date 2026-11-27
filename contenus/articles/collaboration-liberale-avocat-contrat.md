@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-08-17T04:00:00 -->
 <!-- excerpt: Contrat écrit, clientèle personnelle, rétrocession, repos, parentalité, rupture : la collaboration libérale entre avocats obéit à des règles précises. Ce que le cabinet et le collaborateur doivent prévoir pour signer un contrat solide et éviter la requalification. -->
 <!-- seo_title: Collaborateur libéral avocat : le contrat en 2027 -->
-<!-- seo_description: Collaborateur libéral avocat : contrat écrit, clientèle personnelle, rétrocession minimale, maternité, paternité, délai de prévenance et rupture du contrat. -->
+<!-- seo_description: Collaborateur libéral avocat : contrat écrit, clientèle personnelle, rétrocession minimale, maternité, paternité, délai de prévenance et rupture. -->
 
 :::essentiel
 - Le contrat de **collaboration libérale** doit être **écrit**, à peine de nullité, et préciser durée, rémunération, conditions d'exercice et modalités de rupture.
@@ -14,7 +14,7 @@
 - La rupture suppose un **délai de prévenance** fixé par le RIN, qui augmente avec l'ancienneté, sauf **manquement grave flagrant**.
 :::
 
-Recruter un collaborateur est souvent la première étape de la croissance d'un cabinet. Pour le jeune avocat, c'est la porte d'entrée dans la profession. Dans les deux cas, le **contrat de collaboration libérale** fixe les règles du jeu : rémunération, temps disponible pour ses propres dossiers, congés, conditions de départ.
+Pour le cabinet, recruter un collaborateur est une étape de croissance ; pour le jeune avocat, c'est la porte d'entrée dans la profession. Dans les deux cas, le **contrat de collaboration libérale** fixe les règles du jeu : rémunération, temps disponible pour ses propres dossiers, congés, conditions de départ.
 
 Ce contrat n'est pas libre : il obéit à la loi du 2 août 2005 et à l'article 14 du règlement intérieur national (RIN) de la profession d'avocat. Voici les points à maîtriser, que vous soyez **cabinet** ou **collaborateur libéral avocat**.
 
@@ -39,7 +39,7 @@ Le contrat doit, **à peine de nullité**, être établi **par écrit**. La loi 
 - les **conditions d'exercice** de l'activité, et notamment les conditions dans lesquelles le collaborateur peut satisfaire les besoins de sa **clientèle personnelle** ;
 - les **conditions et modalités de sa rupture**, dont le délai de préavis.
 
-Le CNB met à disposition un **modèle de contrat** et un guide de rédaction. Partir de ce modèle évite les oublis, et l'adapter à votre organisation montre au candidat que le cabinet a réfléchi au poste. Notre [guide pour développer son cabinet d'avocat](/guide-developper-cabinet-avocat/) replace ce recrutement dans votre stratégie de croissance.
+Le CNB met à disposition un **modèle de contrat** et un guide de rédaction : partir de ce modèle évite les oublis. Notre [guide pour développer son cabinet d'avocat](/guide-developper-cabinet-avocat/) replace ce recrutement dans votre stratégie de croissance.
 
 :::attention
 Un collaborateur qui n'a ni le temps ni les moyens matériels de traiter ses propres dossiers n'est pas un collaborateur libéral. La Cour de cassation requalifie alors le contrat en contrat de travail.
@@ -59,7 +59,7 @@ En pratique, le cabinet met à disposition du collaborateur :
 
 ### Les bons réflexes
 
-Fixez par écrit la manière dont le collaborateur traite ses dossiers personnels et dont il gère les éventuels **conflits d'intérêts** avec les clients du cabinet. Un échange annuel sur l'activité personnelle permet de vérifier que le cadre fonctionne. Pour le collaborateur qui démarre, notre article sur l'[installation de l'avocat](/installation-avocat-premieres-demarches/) détaille les premières démarches.
+Fixez par écrit la manière dont le collaborateur traite ses dossiers personnels et gère les éventuels **conflits d'intérêts** avec les clients du cabinet. Pour le collaborateur qui démarre, notre article sur l'[installation de l'avocat](/installation-avocat-premieres-demarches/) détaille les premières démarches.
 
 ## Rétrocession et repos rémunérés
 
@@ -93,13 +93,13 @@ Chaque partie peut mettre fin au contrat, mais en respectant un **délai de pré
 - **huit jours** en cas de rupture pendant la **période d'essai**, si le contrat en prévoit une ;
 - aucun délai en cas de **manquement grave flagrant** aux règles professionnelles.
 
-Pendant le délai de prévenance, la rétrocession habituelle reste due et le collaborateur peut prendre ses repos non pris. Organisez la **transmission des dossiers** avec méthode et informez les clients dans le respect du secret professionnel. Un départ préparé préserve la relation entre confrères, qui se retrouveront souvent au palais.
+Pendant le délai de prévenance, la rétrocession habituelle reste due et le collaborateur peut prendre ses repos non pris. Organisez la **transmission des dossiers** avec méthode et informez les clients dans le respect du secret professionnel.
 
 ## Questions fréquentes
 
 ### Un contrat de collaboration oral est-il valable ?
 
-Non. La loi impose un écrit à peine de nullité. Sans contrat écrit, la relation est fragile et le risque de requalification augmente.
+Non. La loi impose un écrit à peine de nullité.
 
 ### Le cabinet peut-il interdire au collaborateur d'avoir ses propres clients ?
 

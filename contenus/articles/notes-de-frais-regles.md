@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-08-06T04:00:00 -->
 <!-- excerpt: Repas en déplacement, train, hôtel, kilomètres : une note de frais mal gérée peut coûter un redressement Urssaf. Frais réels ou allocations forfaitaires, justificatifs, exonération de cotisations et cas du dirigeant : les règles à appliquer dans une petite entreprise. -->
 <!-- seo_title: Note de frais : règles de remboursement pour l'employeur -->
-<!-- seo_description: Note de frais : remboursement au réel ou au forfait, justificatifs à conserver, exonération de cotisations, cas du dirigeant et procédure à mettre en place. -->
+<!-- seo_description: Note de frais : remboursement au réel ou au forfait, justificatifs à conserver, exonération de cotisations, cas du dirigeant et procédure interne simple. -->
 
 :::essentiel
 - Les **frais professionnels** sont des dépenses que le salarié engage pour son activité ; remboursés dans les règles, ils sont **exclus de l'assiette** des cotisations et de la CSG-CRDS.
