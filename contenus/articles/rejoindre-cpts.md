@@ -59,7 +59,7 @@ Pour être financée, la CPTS signe un **contrat** avec l'**ARS** et la **caisse
 
 ### Un financement en plusieurs volets
 
-Selon l'Assurance maladie, le financement comprend une part destinée au **fonctionnement** de la communauté (coordination, outils, temps consacré par les professionnels) et une part liée à chaque **mission**. Pour les missions, une partie est **fixe** et une partie **variable**, calculée selon l'atteinte des indicateurs. Les montants dépendent de la **taille** de la CPTS, appréciée selon la population couverte.
+Selon l'Assurance maladie, le financement comprend une part destinée au **fonctionnement** de la communauté (coordination, logistique, outils) et une part liée à chaque **mission**. Pour les missions, une partie est **fixe** et une partie **variable**, calculée selon l'atteinte des indicateurs. Les montants dépendent de la **taille** de la CPTS, appréciée selon la population couverte.
 
 Nous ne reproduisons pas ces montants ici : ils ont évolué avec les avenants. Consultez l'accord en vigueur sur ameli.fr ou interrogez la CPTS de votre territoire.
 
@@ -67,7 +67,7 @@ Nous ne reproduisons pas ces montants ici : ils ont évolué avec les avenants. 
 
 ### Trouver la CPTS de son territoire
 
-L'annuaire de **Santé.fr** recense les CPTS par département. Votre **CPAM** et votre **ARS** peuvent aussi vous orienter, de même que les unions régionales de professionnels de santé.
+L'annuaire de **Santé.fr** recense les CPTS par département. Votre **CPAM** et votre **ARS** peuvent aussi vous orienter vers la communauté de votre secteur ou vers un projet en cours de constitution.
 
 ### Adhérer et s'impliquer
 
