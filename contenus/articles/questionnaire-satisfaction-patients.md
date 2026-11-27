@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-10-18T04:00:00 -->
 <!-- excerpt: Vos patients ont un avis sur l'accueil, l'attente ou la prise de rendez-vous, mais le formulent rarement. Questions à poser, anonymat, moments de collecte, analyse, plan d'action et retour à l'équipe : la méthode pour mesurer l'expérience patient au cabinet. -->
 <!-- seo_title: Questionnaire de satisfaction patients : la méthode -->
-<!-- seo_description: Questionnaire de satisfaction patients : questions courtes, anonymat, bons moments de collecte, analyse des réponses, actions concrètes et retour à l'équipe. -->
+<!-- seo_description: Questionnaire de satisfaction patients : questions courtes, anonymat, moments de collecte, analyse des réponses, actions concrètes et retour à l'équipe. -->
 
 :::essentiel
 - Un **questionnaire de satisfaction** porte sur l'**organisation** du cabinet : accueil, rendez-vous, attente, information, locaux. Jamais sur le diagnostic ou le traitement.
@@ -14,7 +14,7 @@
 - Le questionnaire n'a d'intérêt que s'il débouche sur **deux ou trois actions** partagées avec l'**équipe** et annoncées aux patients.
 :::
 
-Un patient mécontent de l'accueil le dit rarement au praticien. Il en parle à son entourage, laisse un avis en ligne ou ne revient pas. À l'inverse, ce qui fonctionne bien au cabinet reste souvent invisible, faute d'avoir été demandé.
+Un patient mécontent de l'accueil le dit rarement au praticien : il en parle autour de lui ou ne revient pas. Et ce qui fonctionne bien reste invisible, faute d'avoir été demandé.
 
 Le **questionnaire de satisfaction patients** permet de sortir des impressions. Bien conçu, il prend peu de temps à remplir et donne des pistes concrètes pour améliorer l'organisation. Voici une méthode simple, de la rédaction des questions jusqu'au retour à l'équipe.
 
@@ -71,7 +71,7 @@ Si vous envisagez malgré tout de recueillir des données permettant d'identifie
 
 ### Une période limitée
 
-Plutôt qu'un questionnaire permanent que plus personne ne remarque, organisez une **campagne** sur quelques semaines, une ou deux fois par an. Évitez les périodes atypiques, comme une épidémie saisonnière ou un remplacement, sauf si c'est justement ce que vous voulez mesurer.
+Plutôt qu'un questionnaire permanent que plus personne ne remarque, organisez une **campagne** sur quelques semaines, une ou deux fois par an. Évitez les périodes atypiques, comme un remplacement.
 
 ### Le bon canal
 
@@ -79,7 +79,7 @@ Plutôt qu'un questionnaire permanent que plus personne ne remarque, organisez u
 - **après le rendez-vous** : un lien envoyé par message, si votre outil de prise de rendez-vous le permet ;
 - **à l'accueil** : une phrase de la secrétaire pour inviter à répondre, sans insister.
 
-Combiner deux canaux permet de toucher des patients différents, notamment ceux qui sont peu à l'aise avec le numérique. Notre article sur la [salle d'attente du cabinet](/salle-attente-cabinet-organiser/) donne des idées pour rendre l'affichage lisible.
+Combiner deux canaux touche des patients différents. Notre article sur la [salle d'attente du cabinet](/salle-attente-cabinet-organiser/) donne des idées pour rendre l'affichage lisible.
 
 ## Analyser les réponses
 
@@ -89,7 +89,7 @@ Commencez par un **tableau simple** : pour chaque question, la répartition des 
 
 ### Rester prudent dans l'interprétation
 
-Avec peu de réponses, un seul avis peut déformer un résultat. Ne tirez pas de conclusion d'un commentaire isolé, mais prenez au sérieux un sujet qui revient plusieurs fois. Comparez aussi les résultats avec ce que vous savez déjà : les [réclamations des patients](/reclamations-patients-cabinet/) reçues dans l'année et les remarques faites à l'accueil.
+Avec peu de réponses, un seul avis peut déformer un résultat. Ne tirez pas de conclusion d'un commentaire isolé, mais prenez au sérieux un sujet qui revient plusieurs fois. Croisez aussi les résultats avec les [réclamations des patients](/reclamations-patients-cabinet/) reçues dans l'année.
 
 ## Passer à l'action
 
@@ -110,7 +110,7 @@ Pour chaque action, notez **qui** s'en charge et **pour quand**. Programmez dès
 
 ### Associer l'équipe
 
-Présentez les résultats en réunion, en commençant par ce qui fonctionne. Les secrétaires et assistants sont en première ligne : un questionnaire ne doit jamais devenir un outil de reproche individuel. Demandez-leur leur lecture des résultats ; ils connaissent souvent la cause d'un irritant.
+Présentez les résultats en réunion, en commençant par ce qui fonctionne. Les secrétaires et assistants sont en première ligne : un questionnaire ne doit jamais devenir un outil de reproche individuel. Demandez-leur leur lecture des résultats.
 
 ### Informer les patients
 

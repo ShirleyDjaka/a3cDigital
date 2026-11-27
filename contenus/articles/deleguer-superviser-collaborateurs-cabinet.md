@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-10-19T04:00:00 -->
 <!-- excerpt: Confier un dossier à un collaborateur, un juriste ou un assistant fait gagner du temps, à condition de savoir quoi déléguer et comment suivre le travail. Choix des tâches, consignes écrites, points d'étape, relecture, responsabilité et montée en compétence : la méthode pour avocats et notaires. -->
 <!-- seo_title: Déléguer au cabinet d'avocat ou de notaire : la méthode -->
-<!-- seo_description: Déléguer au cabinet : choisir les tâches à confier, rédiger des consignes écrites, fixer des points d'étape, relire et faire monter vos équipes en compétence. -->
+<!-- seo_description: Déléguer au cabinet : choisir les tâches à confier, rédiger des consignes écrites, fixer des points d'étape, relire et faire monter l'équipe en compétence. -->
 
 :::essentiel
 - **Déléguez** ce qui ne demande pas votre signature ou votre jugement, et gardez ce qui engage directement le client.

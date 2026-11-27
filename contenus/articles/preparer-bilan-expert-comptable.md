@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-10-22T04:00:00 -->
 <!-- excerpt: Un bilan bien préparé coûte moins cher, arrive plus vite et vous apprend davantage sur votre entreprise. Pièces à rassembler, inventaire, rapprochements bancaires, factures non parvenues, calendrier et questions à poser : la méthode pour préparer la clôture avec votre expert-comptable. -->
 <!-- seo_title: Préparer son bilan avec l'expert-comptable : la méthode -->
-<!-- seo_description: Préparer son bilan : pièces à réunir, inventaire, rapprochements bancaires, factures non parvenues, calendrier de clôture et questions à poser à l'expert-comptable. -->
+<!-- seo_description: Préparer son bilan : pièces à réunir, inventaire, rapprochements bancaires, factures non parvenues, calendrier et questions à poser à l'expert-comptable. -->
 
 :::essentiel
 - Le **bilan** se prépare **avant** la date de clôture : un rétroplanning partagé avec votre expert-comptable évite la course de dernière minute.

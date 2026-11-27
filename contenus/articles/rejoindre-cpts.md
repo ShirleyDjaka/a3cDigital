@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-10-25T04:00:00 -->
 <!-- excerpt: Accès à un médecin traitant, soins non programmés, parcours, prévention : la CPTS organise la coordination des professionnels de santé à l'échelle d'un territoire. Définition légale, missions, financement par l'accord conventionnel interprofessionnel, adhésion d'un libéral et différence avec une maison de santé. -->
 <!-- seo_title: CPTS : missions, financement et comment la rejoindre -->
-<!-- seo_description: CPTS : définition du code de la santé publique, missions socles, financement par l'accord interprofessionnel, adhésion d'un libéral et différence avec une MSP. -->
+<!-- seo_description: CPTS : définition légale, missions socles, financement par l'accord conventionnel interprofessionnel, adhésion d'un libéral et différence avec une MSP. -->
 
 :::essentiel
 - Une **CPTS** (communauté professionnelle territoriale de santé) regroupe des professionnels de santé et d'autres acteurs d'un **territoire** autour d'un **projet de santé** transmis à l'ARS. Elle est définie à l'**article L1434-12** du code de la santé publique.
@@ -28,7 +28,7 @@ La communauté réunit des **professionnels de santé**, regroupés le cas éch�
 
 ### Le projet de santé
 
-Les membres formalisent un **projet de santé** qu'ils transmettent à l'**agence régionale de santé (ARS)**. Ce projet précise notamment le **territoire d'action** de la communauté. Ce sont les professionnels eux-mêmes qui définissent ce territoire, en fonction des habitudes de travail et des flux de patients.
+Les membres formalisent un **projet de santé** qu'ils transmettent à l'**agence régionale de santé (ARS)**. Ce projet précise notamment le **territoire d'action** de la communauté.
 
 La CPTS prend la forme d'une **association**. Consultez la version en vigueur des articles L1434-12 et suivants sur Légifrance : ces dispositions ont été modifiées à plusieurs reprises.
 
@@ -78,7 +78,7 @@ L'adhésion se fait auprès de l'association, selon ses **statuts**. Avant de vo
 - comment le **temps** consacré par les membres aux projets est-il organisé ?
 - quels **outils** de coordination sont utilisés : messagerie sécurisée, agenda partagé, annuaire ?
 
-Votre implication peut être modeste au départ : participer à une réunion, répondre à une enquête, accepter des patients orientés dans le cadre des soins non programmés. Elle peut aussi aller jusqu'à piloter une mission.
+Votre implication peut être modeste au départ, comme participer à une réunion, ou aller jusqu'au pilotage d'une mission.
 
 ### Ce que vous y gagnez
 
