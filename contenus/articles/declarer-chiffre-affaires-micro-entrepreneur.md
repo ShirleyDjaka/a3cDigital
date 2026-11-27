@@ -129,7 +129,7 @@ Pour aller plus loin, consultez notre [guide pour créer son entreprise](/guide-
 - [Autoentrepreneur.urssaf.fr, « Déclarer et payer mes cotisations »](https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques/declarer-et-payer-mes-cotisation.html)
 - [Autoentrepreneur.urssaf.fr, « Déterminer mon chiffre d'affaires »](https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques/determiner-mon-chiffre-daffaires.html)
 - [Autoentrepreneur.urssaf.fr, « Questions fréquentes »](https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/questions-frequentes.html)
-- [Entreprendre.service-public.gouv.fr, « Micro-entrepreneur : quand déclarer son chiffre d'affaires ? »](https://entreprendre.service-public.gouv.fr/vosdroits/F23257)
+- [Entreprendre.service-public.gouv.fr, fiche sur la déclaration du chiffre d'affaires du micro-entrepreneur](https://entreprendre.service-public.gouv.fr/vosdroits/F23257)
 - [Impots.gouv.fr, conditions d'option pour le versement libératoire de l'impôt](https://www.impots.gouv.fr/professionnel/questions/en-tant-que-micro-entrepreneur-sous-quelles-conditions-puis-je-opter-pour-l)
 - [Urssaf.fr, « Le droit à l'erreur »](https://www.urssaf.fr/accueil/droit-a-erreur.html)
 

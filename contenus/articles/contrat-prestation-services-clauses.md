@@ -117,7 +117,7 @@ Pour aller plus loin, consultez notre [guide pour créer son entreprise](/guide-
 - [Légifrance, article L131-3 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278958)
 - [Légifrance, article L8221-6 du code du travail](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031104496/)
 - [Ministère de l'Économie (DGCCRF), « Délais de paiement : les règles à connaître »](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/delais-de-paiement-les-regles-connaitre)
-- [Entreprendre.service-public.gouv.fr, « Délais de paiement entre professionnels et pénalités de retard »](https://entreprendre.service-public.gouv.fr/vosdroits/F23211)
+- [Entreprendre.service-public.gouv.fr, fiche sur les délais de paiement entre professionnels et les pénalités de retard](https://entreprendre.service-public.gouv.fr/vosdroits/F23211)
 - [Ministère de l'Économie (DGCCRF), « Le contrat : un accord entre des parties bien informées au préalable »](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/le-contrat-un-accord-entre-des-parties-bien-informees-au-prealable)
 
 Sources consultées le 27 novembre 2026.
