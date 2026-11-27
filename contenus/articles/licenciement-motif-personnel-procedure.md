@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-10-08T04:00:00 -->
 <!-- excerpt: Une erreur de délai ou une lettre mal rédigée suffit à fragiliser un licenciement, même justifié. Convocation, entretien préalable, lettre, préavis et documents de fin de contrat : les étapes de la procédure pour motif personnel, côté employeur. -->
 <!-- seo_title: Procédure de licenciement : les étapes et délais -->
-<!-- seo_description: Procédure de licenciement pour motif personnel : convocation, entretien préalable, délais, lettre et modèles officiels, préavis et documents de fin de contrat. -->
+<!-- seo_description: Procédure de licenciement pour motif personnel : convocation, entretien préalable, délais, lettre et modèles, préavis et documents de fin de contrat. -->
 
 :::essentiel
 - Un licenciement pour motif personnel exige une **cause réelle et sérieuse** et le respect d'une **procédure** fixée par le code du travail.
