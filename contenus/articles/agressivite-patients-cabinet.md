@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-08-16T04:00:00 -->
 <!-- excerpt: Insultes à l'accueil, menaces au téléphone, dégradations : les professionnels de santé libéraux et leurs équipes ne sont pas épargnés par les incivilités. Prévention, conduite à tenir, dépôt de plainte, déclaration à l'Ordre et apports de la loi de 2025 : le mode d'emploi pour protéger le cabinet. -->
 <!-- seo_title: Violences au cabinet médical : prévenir et porter plainte -->
-<!-- seo_description: Incivilités et violences au cabinet : prévention, conduite à tenir, plainte, déclaration à l'Ordre, protocole santé-sécurité-justice et loi du 9 juillet 2025. -->
+<!-- seo_description: Violences au cabinet : prévention, conduite à tenir, plainte, déclaration à l'Ordre, protocole santé-sécurité-justice et loi du 9 juillet 2025. -->
 
 :::essentiel
 - La **prévention** passe par l'accueil, l'aménagement des locaux et des **procédures connues de toute l'équipe**.
@@ -14,7 +14,7 @@
 - La **loi n° 2025-623 du 9 juillet 2025** renforce la protection pénale des professionnels de santé et de leurs équipes, et facilite le dépôt de plainte.
 :::
 
-Un patient mécontent d'attendre hausse le ton à l'accueil, puis insulte la secrétaire devant la salle d'attente. Un autre menace au téléphone parce qu'aucun rendez-vous n'est disponible avant dix jours. Ces scènes, longtemps vécues comme « faisant partie du métier », ne doivent pas être banalisées.
+Un patient mécontent d'attendre insulte la secrétaire devant la salle d'attente. Un autre menace au téléphone faute de rendez-vous disponible. Ces scènes ne doivent pas être banalisées.
 
 Les **incivilités et violences au cabinet** touchent les professionnels de santé libéraux comme leurs équipes. Voici comment les prévenir, réagir sur le moment, puis faire valoir vos droits. Cet article porte sur l'organisation du cabinet et la sécurité de l'équipe, non sur la prise en charge médicale des patients.
 
@@ -33,7 +33,7 @@ Notre article sur l'[organisation de l'accueil et de la salle d'attente](/salle-
 
 ### Former l'équipe
 
-La secrétaire est souvent en première ligne. Prévoyez une sensibilisation à la **gestion des situations tendues** : écoute, ton de voix, reformulation, savoir passer le relais. Une équipe qui se sent soutenue réagit plus sereinement.
+La secrétaire est souvent en première ligne. Prévoyez une sensibilisation à la **gestion des situations tendues** : écoute, ton de voix, reformulation, savoir passer le relais.
 
 ## Aménager les locaux
 
@@ -56,7 +56,7 @@ Une procédure écrite évite l'improvisation. Elle précise :
 4. la **conduite après l'incident** : notes écrites, témoins, plainte, déclaration à l'Ordre ;
 5. le **soutien** proposé à la personne concernée.
 
-Affichez l'essentiel dans un endroit discret, accessible à l'équipe, et faites-la relire chaque année. Notre article sur le [protocole d'accueil des appels urgents](/appels-urgents-cabinet-protocole/) suit la même logique.
+Affichez l'essentiel dans un endroit discret et relisez-la chaque année. Notre article sur le [protocole d'accueil des appels urgents](/appels-urgents-cabinet-protocole/) suit la même logique.
 
 ## Réagir sur le moment
 
@@ -110,7 +110,7 @@ La déclaration ne remplace pas la plainte. Elle permet à l'Ordre de vous **acc
 
 ## Après l'incident : soutenir l'équipe
 
-Une agression laisse des traces, même lorsqu'elle semble mineure. Prenez le temps d'un **échange** avec la personne concernée, proposez-lui un **soutien**, et faites le point en équipe sur ce qui pourrait être amélioré. Si le patient doit être revu, organisez les conditions de ce nouveau rendez-vous. Pour les conflits qui relèvent d'un mécontentement plutôt que d'une agression, notre méthode de [traitement des réclamations](/reclamations-patients-cabinet/) peut aider.
+Une agression laisse des traces, même lorsqu'elle semble mineure. Prenez le temps d'un **échange** avec la personne concernée, proposez-lui un **soutien**, et faites le point en équipe sur ce qui pourrait être amélioré. Pour les conflits qui relèvent d'un mécontentement plutôt que d'une agression, notre méthode de [traitement des réclamations](/reclamations-patients-cabinet/) peut aider.
 
 ## Questions fréquentes
 
