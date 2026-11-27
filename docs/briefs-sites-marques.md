@@ -43,5 +43,5 @@ Analyse du 26/11/2026 (volumes SE Ranking, France, novembre 2026 : recherches/mo
   et renvoient, une fois par article au plus, vers ces pages de marque, quand elles seront en ligne.
 - Deux anciens articles d'A3C visent des requêtes commerciales des marques et seront à réécrire sous un angle
   informationnel, avec un lien vers la page de la marque :
-  - `/les-avantages-dun-bon-referencement-pour-les-avocats/` : **décidé le 26/11/2026**, redirection 301 vers l'article « Référencement avocat » d'E-Juriste dès sa publication (accord de l'éditrice déjà donné) ;
+  - `/les-avantages-dun-bon-referencement-pour-les-avocats/` : **fait le 27/11/2026**, redirection 301 vers https://site-avocat-notaire.fr/guide-referencement-avocat et article mis à la corbeille (thème 1.4.3) ;
   - `/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/` : **fait le 26/11/2026**, redirection 301 vers https://site-web-medecins.fr/site-dentiste et article mis à la corbeille (thème 1.4.2).

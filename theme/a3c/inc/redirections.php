@@ -35,6 +35,7 @@ function a3c_redirections() {
 		'/les-aides-financieres-et-subventions-pour-les-entrepreneurs-en-2025/' => '/aides-financieres-entrepreneurs/',
 		// Contenus transférés vers un site de marque de l'éditrice (sujet commercial de la marque).
 		'/dentiste-a-montpellier-utilise-seo-pour-attirer-nouveaux-patients/' => 'https://site-web-medecins.fr/site-dentiste',
+		'/les-avantages-dun-bon-referencement-pour-les-avocats/' => 'https://site-avocat-notaire.fr/guide-referencement-avocat',
 	);
 }
 

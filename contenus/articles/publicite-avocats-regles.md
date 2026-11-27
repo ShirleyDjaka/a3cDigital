@@ -45,7 +45,7 @@ La sollicitation personnalisée est aussi soumise aux règles générales sur la
 
 ### Le site internet du cabinet
 
-C'est le support le plus libre et le plus utile : présentation du cabinet, des avocats, des domaines d'intervention, des honoraires et de la prise de rendez-vous. Veillez à ce que chaque domaine affiché corresponde à une pratique réelle, et soignez les mentions obligatoires. Notre article sur [les avantages d'un bon référencement pour les avocats](/les-avantages-dun-bon-referencement-pour-les-avocats/) détaille comment rendre ce site visible.
+C'est le support le plus libre et le plus utile : présentation du cabinet, des avocats, des domaines d'intervention, des honoraires et de la prise de rendez-vous. Veillez à ce que chaque domaine affiché corresponde à une pratique réelle, et soignez les mentions obligatoires. Notre [guide pour développer son cabinet d'avocat](/guide-developper-cabinet-avocat/) détaille comment rendre ce site visible.
 
 ### Les réseaux sociaux
 

@@ -66,7 +66,7 @@ Pour la création du site, des agences dédiées aux professions du droit connai
 
 :::marque E-Juriste (site-avocat-notaire.fr) est une marque de l'éditrice du site. :::
 
-[a3c_articles ids="154,443,439" titre="Pour être trouvé en ligne"]
+[a3c_articles ids="443,439" titre="Pour être trouvé en ligne"]
 
 ## Étape 5 : communiquer dans le respect des règles
 

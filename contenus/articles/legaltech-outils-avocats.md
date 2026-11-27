@@ -57,7 +57,7 @@ Testez sur une période limitée, avec un ou deux collaborateurs, avant de gén�
 
 ## Legaltech et visibilité du cabinet
 
-La transformation numérique concerne aussi la façon dont les clients trouvent un avocat. Un site clair, à jour et bien référencé reste le premier point de contact. Des agences spécialisées comme [E-Juriste](https://site-avocat-notaire.fr/) accompagnent les cabinets d'avocats et les études notariales sur ce terrain, dans le respect des règles de la profession. Sur ce sujet, lisez aussi notre article sur [les avantages d'un bon référencement pour les avocats](/les-avantages-dun-bon-referencement-pour-les-avocats/) et celui consacré à [la communication digitale des études notariales](/allier-communication-digitale-et-deontologie-etude-notariale/).
+La transformation numérique concerne aussi la façon dont les clients trouvent un avocat. Un site clair, à jour et bien référencé reste le premier point de contact. Des agences spécialisées comme [E-Juriste](https://site-avocat-notaire.fr/) accompagnent les cabinets d'avocats et les études notariales sur ce terrain, dans le respect des règles de la profession. Sur ce sujet, lisez aussi notre [guide pour développer son cabinet d'avocat](/guide-developper-cabinet-avocat/) et l'article consacré à [la communication digitale des études notariales](/allier-communication-digitale-et-deontologie-etude-notariale/).
 
 ## En résumé
 
