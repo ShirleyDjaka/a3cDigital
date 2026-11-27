@@ -5,7 +5,7 @@
 <!-- date_gmt: 2027-08-06T04:00:00 -->
 <!-- excerpt: Repas en déplacement, train, hôtel, kilomètres : une note de frais mal gérée peut coûter un redressement Urssaf. Frais réels ou allocations forfaitaires, justificatifs, exonération de cotisations et cas du dirigeant : les règles à appliquer dans une petite entreprise. -->
 <!-- seo_title: Note de frais : règles de remboursement pour l'employeur -->
-<!-- seo_description: Note de frais : remboursement au réel ou au forfait, justificatifs à conserver, exonération de cotisations, cas du dirigeant et procédure simple à mettre en place. -->
+<!-- seo_description: Note de frais : remboursement au réel ou au forfait, justificatifs à conserver, exonération de cotisations, cas du dirigeant et procédure à mettre en place. -->
 
 :::essentiel
 - Les **frais professionnels** sont des dépenses que le salarié engage pour son activité ; remboursés dans les règles, ils sont **exclus de l'assiette** des cotisations et de la CSG-CRDS.
@@ -56,11 +56,11 @@ Pour un remboursement au réel, chaque dépense doit être appuyée par une piè
 
 - **factures** d'hôtel, de restaurant ou de location ;
 - **billets** de train ou d'avion, tickets de péage et de stationnement ;
-- pour les frais kilométriques, un relevé indiquant **date, trajet, motif et distance**, avec la carte grise du véhicule utilisé.
+- pour les frais kilométriques, un relevé indiquant **date, trajet, motif et distance**, et les références du véhicule utilisé.
 
 ### Ce qui doit apparaître sur la note
 
-Une note de frais utile indique au minimum le **nom du salarié**, la **date**, l'**objet** du déplacement ou de la dépense, le **montant** et, pour un repas d'affaires, le nom des **personnes invitées**. Conservez les justificatifs avec les pièces de paie : c'est à l'employeur de les produire en cas de contrôle.
+Une note de frais utile indique au minimum le **nom du salarié**, la **date**, l'**objet** du déplacement ou de la dépense, le **montant** et, pour un repas d'affaires, le nom des **personnes invitées**. Conservez les justificatifs avec les pièces de paie : en cas de contrôle, vous devez pouvoir les présenter.
 
 ## Mettre en place une procédure simple
 
@@ -78,7 +78,7 @@ Remboursez **rapidement** : un salarié qui avance des frais finance votre trés
 
 ### Dirigeant assimilé salarié
 
-Le président de SAS ou le gérant minoritaire de SARL relève du **régime général**, comme un salarié. Ses frais professionnels peuvent être remboursés, mais l'Urssaf et l'administration fiscale examinent avec attention les **remboursements au forfait** des mandataires sociaux. Par prudence, privilégiez le **réel sur justificatifs**.
+Le président de SAS ou le gérant minoritaire de SARL relève du **régime général**, comme un salarié. Ses frais professionnels peuvent être remboursés, mais les règles applicables aux **allocations forfaitaires** des mandataires sociaux sont techniques. Par prudence, privilégiez le **réel sur justificatifs**.
 
 ### Dirigeant non salarié
 
@@ -98,9 +98,9 @@ En cas de contrôle, une note de frais mal justifiée peut être réintégrée d
 
 ## Questions fréquentes
 
-### Un salarié peut-il refuser d'avancer des frais ?
+### Un repas d'affaires est-il un frais professionnel ?
 
-Rien n'oblige l'employeur à faire avancer les frais : vous pouvez prévoir une carte professionnelle ou des réservations directes par l'entreprise, ce qui simplifie aussi le suivi.
+Oui, s'il est dûment justifié et engagé pour les besoins de l'activité, sauf abus manifeste. Notez sur la note le nom des invités et l'objet du rendez-vous.
 
 ### Faut-il conserver les justificatifs si l'on rembourse au forfait ?
 
