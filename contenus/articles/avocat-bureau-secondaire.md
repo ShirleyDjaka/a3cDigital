@@ -38,10 +38,6 @@ Attention aux sources anciennes : la version antérieure du texte prévoyait un 
 
 L'autorisation ne peut être refusée que pour des motifs tirés des **conditions d'exercice** de la profession dans le bureau secondaire. Elle peut être retirée pour les mêmes motifs. Le décret du 27 novembre 1991, dans sa section consacrée au domicile professionnel, organise ces règles.
 
-### Hors de l'Union européenne
-
-Pour un bureau secondaire dans un pays hors de l'Union européenne, le RIN prévoit une autorisation préalable du conseil de l'ordre du barreau d'origine, qui doit statuer **dans les trois mois** ; à défaut, l'autorisation est réputée accordée.
-
 ## Préparer un dossier solide
 
 ### Ce que le barreau d'accueil vérifie
@@ -91,7 +87,7 @@ Le bureau secondaire doit fonctionner comme une extension réelle du cabinet : m
 
 ## Faire connaître votre bureau secondaire
 
-Le RIN autorise l'avocat à **mentionner son bureau secondaire** sur ses documents à condition d'**y exercer effectivement**. Les mêmes règles valent pour votre site, vos annuaires et votre fiche d'établissement en ligne.
+Le RIN autorise l'avocat à **mentionner son bureau secondaire** sur son papier à lettres à condition d'**y exercer effectivement**. Appliquez la même prudence à votre site, à vos annuaires et à votre fiche d'établissement en ligne.
 
 Respectez les règles de la [publicité des avocats](/publicite-avocats-regles/) : informations exactes, adresse réelle, horaires de présence honnêtes. Annoncez l'ouverture à vos prescripteurs locaux : notre article sur le [réseau de prescripteurs](/reseau-prescripteurs-avocat/) vous aide à structurer cette démarche.
 
